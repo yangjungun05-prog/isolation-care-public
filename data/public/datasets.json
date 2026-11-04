@@ -1,0 +1,527 @@
+{
+ "about": "취약 돌보미 비서가 쓰는 공개 자료 목록(원문 자료 서가, 10-14). 이용 조건 · 받는 곳은 big-contest research/downloads/SOURCES.md · docs/02_데이터/자료_이용조건_점검_2026-09-29.md에 적힌 그대로 옮김. 받는 곳 주소가 기록에 없으면 포털 번호만 적는다. 대회 제공 자료는 목록에도 넣지 않는다",
+ "share": "동별 숫자는 취약 돌보미가 정리한 표(CSV)로 건넬 수 있다(출처 줄 포함). 원본 파일은 받는 곳에서 직접 받는다",
+ "items": [
+  {
+   "id": "jumin",
+   "name": "주민등록 인구통계(행정동별 연령별 인구 · 세대원수별 세대수 · 1인세대)",
+   "by": "행정안전부",
+   "basis": "가장 새 판과 1년 전 판(달마다)",
+   "license": "이용허락범위 제한 없음(공공데이터포털 15097972 · 15097973)",
+   "url": "https://jumin.mois.go.kr/ageStatMonth.do",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "solo_seniors",
+    "youth",
+    "priority",
+    "dong_overview"
+   ],
+   "what": "주민 수, 65세 이상 · 80세 이상 1인세대, 청년(19~34세) 인구 · 1인세대"
+  },
+  {
+   "id": "census",
+   "name": "인구총조사(등록센서스 2025 · 2024) · 독거노인가구비율(KOSIS e-지방지표 DT_1YL12701)",
+   "by": "통계청(국가데이터처)",
+   "basis": "2017 ~ 2025(해마다)",
+   "license": "KOSIS 국내통계: 출처 표시 후 상업 이용 됨",
+   "url": "https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL12701",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "solo_seniors",
+    "priority"
+   ],
+   "what": "강남구 · 춘천시 전체의 실제로 혼자 사는 65세 이상(65세 이상 1인 가구). 취약 돌보미는 이것을 동마다 주민등록 1인세대 비중으로 나눠 어림한다"
+  },
+  {
+   "id": "seoul_lonely",
+   "name": "서울시 독거노인 현황(연령별/동별, 서울통계 DT_201004_F030013)",
+   "by": "서울특별시",
+   "basis": "2015 ~ 2025(해마다)",
+   "license": "공공누리 1유형(출처 표시, 상업 이용 · 변경 가능)",
+   "url": "https://stat.eseoul.go.kr/statHtml/statHtml.do?orgId=201&tblId=DT_201004_F030013",
+   "regions": [
+    "강남구"
+   ],
+   "topics": [
+    "seoul_lonely",
+    "livelihood",
+    "diagnosis"
+   ],
+   "what": "동별 독거노인 수, 기초생활수급권자 · 저소득 · 일반, 80세 이상"
+  },
+  {
+   "id": "seoul_life",
+   "name": "서울 시민생활 데이터(관심집단 OA-22266 · 통신정보 OA-22267)",
+   "by": "서울특별시 · SKT",
+   "basis": "2024-01 ~ 2025-12(달마다)",
+   "license": "공공누리 1유형(출처 표시, 상업 이용 · 변경 가능)",
+   "url": "https://data.seoul.go.kr/dataList/OA-22266/F/1/datasetView.do",
+   "regions": [
+    "강남구"
+   ],
+   "topics": [
+    "diagnosis"
+   ],
+   "what": "외출 · 연락이 모두 적은 어르신 비율 등(진단 신호)"
+  },
+  {
+   "id": "bldg",
+   "name": "건축물대장 표제부(건축HUB 건축물대장정보, 공공데이터포털 15134735)",
+   "by": "국토교통부",
+   "basis": "2026-10 받음(API)",
+   "license": "이용허락범위 제한 없음",
+   "url": "https://www.data.go.kr/data/15134735/openapi.do",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "housing",
+    "dong_overview"
+   ],
+   "what": "주거 가구 수, 30년 넘은 계단 집(승강기 없는 3~5층), 지하층이 있는 오래된 저층 주거"
+  },
+  {
+   "id": "gangnam_halls",
+   "name": "서울특별시 강남구 경로당 현황(공공데이터포털 15041837)",
+   "by": "서울특별시 강남구",
+   "basis": "2022-11-22",
+   "license": "이용허락범위 제한 없음",
+   "url": "https://www.data.go.kr/data/15041837/fileData.do",
+   "regions": [
+    "강남구"
+   ],
+   "topics": [
+    "senior_hall"
+   ],
+   "what": "경로당 수 · 넓이, 65세 이상 100명당 넓이"
+  },
+  {
+   "id": "seoul_halls",
+   "name": "서울시 경로당 현황(서울 열린데이터광장 OA-15052)",
+   "by": "서울특별시",
+   "basis": "2025-06-30",
+   "license": "공공누리 1유형(출처 표시, 상업 이용 · 변경 가능)",
+   "url": "https://data.seoul.go.kr/dataList/OA-15052/S/1/datasetView.do",
+   "regions": [
+    "강남구"
+   ],
+   "topics": [
+    "places"
+   ],
+   "what": "경로당 이름 · 주소"
+  },
+  {
+   "id": "halls_std",
+   "name": "전국마을회관및경로당 표준데이터(공공데이터포털 15114136)",
+   "by": "전국 지자체(공공데이터포털 표준데이터)",
+   "basis": "2025-07-09",
+   "license": "이용허락범위 제한 없음(공공데이터포털 메타데이터, 10-15 확인)",
+   "url": "https://www.data.go.kr/data/15114136/standard.do",
+   "regions": [
+    "춘천시"
+   ],
+   "topics": [
+    "places",
+    "bus"
+   ],
+   "what": "경로당 · 마을회관 이름 · 주소 · 전화 · 좌표"
+  },
+  {
+   "id": "meals_std",
+   "name": "전국무료급식소 표준데이터(공공데이터포털 15013107)",
+   "by": "전국 지자체(공공데이터포털 표준데이터)",
+   "basis": "2026-09-21 받음",
+   "license": "이용허락범위 제한 없음(공공데이터포털 메타데이터, 10-15 확인)",
+   "url": "https://www.data.go.kr/data/15013107/standard.do",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "places"
+   ],
+   "what": "무료급식소 이름 · 요일 · 시간 · 대상 · 주소 · 전화"
+  },
+  {
+   "id": "hira",
+   "name": "전국 병의원 및 약국 현황(공공데이터포털 15051059)",
+   "by": "건강보험심사평가원",
+   "basis": "2025-12",
+   "license": "공공누리 1유형",
+   "url": "https://www.data.go.kr/data/15051059/fileData.do",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "places"
+   ],
+   "what": "보건소 · 보건지소 · 보건진료소"
+  },
+  {
+   "id": "shops",
+   "name": "상가(상권)정보(공공데이터포털 15083033)",
+   "by": "소상공인시장진흥공단",
+   "basis": "가장 새 판(분기마다)",
+   "license": "이용허락범위 제한 없음",
+   "url": "https://www.data.go.kr/data/15083033/fileData.do",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "places",
+    "diagnosis"
+   ],
+   "what": "약국 · 의원 수와 이름, 가장 가까운 곳까지 거리"
+  },
+  {
+   "id": "ltc",
+   "name": "장기요양기관 검색 · 시설별 상세(공공데이터포털 15059029 · 15058856)",
+   "by": "국민건강보험공단",
+   "basis": "2026-10-06 받음(API)",
+   "license": "이용허락범위 제한 없음",
+   "url": "https://www.data.go.kr/data/15058856/openapi.do",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "places",
+    "solo_seniors"
+   ],
+   "what": "재가 장기요양기관 종류별 수, 입소 시설 정원 · 현원 · 대기"
+  },
+  {
+   "id": "cc_senior_centers",
+   "name": "춘천시 노인복지관(공공데이터포털 15074350)",
+   "by": "강원특별자치도 춘천시",
+   "basis": "2025-11-01",
+   "license": "이용허락범위 제한 없음",
+   "url": "https://www.data.go.kr/data/15074350/fileData.do",
+   "regions": [
+    "춘천시"
+   ],
+   "topics": [
+    "places",
+    "support"
+   ],
+   "what": "노인복지관 이름 · 주소 · 전화"
+  },
+  {
+   "id": "cc_offices",
+   "name": "춘천시 행정복지센터(공공데이터포털 15076325)",
+   "by": "강원특별자치도 춘천시",
+   "basis": "2026-03-04",
+   "license": "이용허락범위 제한 없음",
+   "url": "https://www.data.go.kr/data/15076325/fileData.do",
+   "regions": [
+    "춘천시"
+   ],
+   "topics": [
+    "support"
+   ],
+   "what": "행정복지센터 주소 · 전화"
+  },
+  {
+   "id": "care_orgs",
+   "name": "노인돌봄서비스 기관 현황(공공데이터포털 15004317)",
+   "by": "보건복지부",
+   "basis": "2024-04-23",
+   "license": "이용허락범위 제한 없음",
+   "url": "https://www.data.go.kr/data/15004317/fileData.do",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "support"
+   ],
+   "what": "노인맞춤돌봄 수행기관 이름 · 주소 · 응급안전안심 수행 여부"
+  },
+  {
+   "id": "welfare_services",
+   "name": "중앙부처 복지서비스(복지로, 공공데이터포털 15090532) · 응급안전안심서비스 운영기관(15098764)",
+   "by": "공공데이터포털 API(중앙부처 복지서비스 · 응급안전안심서비스 운영기관)",
+   "basis": "2026-09 ~ 10 받음(API)",
+   "license": "이용허락범위 제한 없음",
+   "url": "",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "support"
+   ],
+   "what": "응급안전안심 · 노인맞춤돌봄 · 안부살핌 우편 등 서비스 내용과 신청 창구"
+  },
+  {
+   "id": "cc_solo",
+   "name": "춘천시 읍면동별 1인 가구수(공공데이터포털 15100468)",
+   "by": "강원특별자치도 춘천시",
+   "basis": "2010 · 2015 · 2020 ~ 2025",
+   "license": "이용허락범위 제한 없음",
+   "url": "https://www.data.go.kr/data/15100468/fileData.do",
+   "regions": [
+    "춘천시"
+   ],
+   "topics": [
+    "solo_seniors"
+   ],
+   "what": "읍면동별 1인 가구 수(모든 나이)"
+  },
+  {
+   "id": "cc_livelihood",
+   "name": "춘천시 기초생활보장 수급권자 구분별 총괄(공공데이터포털 15113534)",
+   "by": "강원특별자치도 춘천시",
+   "basis": "2024(해마다)",
+   "license": "이용허락범위 제한 없음",
+   "url": "https://www.data.go.kr/data/15113534/fileData.do",
+   "regions": [
+    "춘천시"
+   ],
+   "topics": [
+    "livelihood"
+   ],
+   "what": "읍면동별 기초생활수급자 수 · 가구 수"
+  },
+  {
+   "id": "cc_empty",
+   "name": "춘천시 빈집 현황(공공데이터포털 15106576)",
+   "by": "강원특별자치도 춘천시",
+   "basis": "2025-10-31",
+   "license": "이용허락범위 제한 없음",
+   "url": "https://www.data.go.kr/data/15106576/fileData.do",
+   "regions": [
+    "춘천시"
+   ],
+   "topics": [
+    "livelihood"
+   ],
+   "what": "읍면동별 빈집 수"
+  },
+  {
+   "id": "bus",
+   "name": "TAGO 버스노선정보(공공데이터포털 15098529) · 춘천시 버스정류장 노선정보(15060075)",
+   "by": "국토교통부 · 강원특별자치도 춘천시",
+   "basis": "2026-03-26",
+   "license": "이용허락범위 제한 없음",
+   "url": "https://www.data.go.kr/data/15060075/fileData.do",
+   "regions": [
+    "춘천시"
+   ],
+   "topics": [
+    "bus"
+   ],
+   "what": "면 · 마을을 지나는 노선, 마을버스 하루 횟수(어림), 마을에서 정류장까지 거리"
+  },
+  {
+   "id": "asos",
+   "name": "기상청 지상관측(ASOS) 일자료(공공데이터포털 15059093)",
+   "by": "기상청",
+   "basis": "2025-07-01부터 날마다",
+   "license": "공공누리 1유형",
+   "url": "",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "dong_overview"
+   ],
+   "what": "날마다 최저 · 최고기온, 비, 새로 쌓인 눈(서울 · 춘천 관측소)"
+  },
+  {
+   "id": "holidays",
+   "name": "특일 정보(공공데이터포털 15012690)",
+   "by": "한국천문연구원",
+   "basis": "2025 · 2026",
+   "license": "이용허락범위 제한 없음",
+   "url": "https://www.data.go.kr/data/15012690/openapi.do",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [],
+   "what": "공휴일(오늘 챙길 일 카드의 긴 연휴)"
+  },
+  {
+   "id": "youth_survey",
+   "name": "청년의 삶 실태조사 2024 결과 보도자료",
+   "by": "국무조정실",
+   "basis": "2025-03-11 발표",
+   "license": "공공누리 1유형(보도자료 글)",
+   "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156678299",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "youth"
+   ],
+   "what": "전국 '거의 집에만 있는 청년'(임신 · 출산 · 장애 제외) 5.2%와 1인 가구 청년 23.8%. 취약 돌보미는 시도 비율과 함께 구 전체 어림의 범위를 내고, 동마다 나이 구성 · 청년 1인세대 몫으로 나눈다"
+  },
+  {
+   "id": "youth_kosis",
+   "name": "청년의 삶 실태조사 2024 — 평소 외출 빈도 · 은둔 생활을 하게 된 이유 · 교류하는 사람 · 지속 기간(KOSIS DT_170002_F015 ~ F018)",
+   "by": "국무조정실(국가승인통계 170002) · KOSIS",
+   "basis": "2024 조사",
+   "license": "KOSIS 국내통계: 출처 표시 후 상업 이용 됨(통계 수치 · 의미를 바꾸지 않음, 10-25 다시 확인)",
+   "url": "https://kosis.kr/statHtml/statHtml.do?orgId=170&tblId=DT_170002_F016",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "youth"
+   ],
+   "what": "시도 · 나이별 '거의 집에만 있는 청년' 비율과 그중 임신 · 출산 · 장애 때문인 몫. 취약 돌보미는 이것으로 구 전체 어림을 낸 뒤 동마다 나눈다"
+  },
+  {
+   "id": "youth_isolation_raw",
+   "name": "고립 · 은둔 청년 실태조사 원자료(2023, 공공데이터포털 15156074)",
+   "by": "보건복지부",
+   "basis": "2023 조사",
+   "license": "이용허락범위 제한 없음(공공데이터포털, 10-25 확인)",
+   "url": "https://www.data.go.kr/data/15156074/fileData.do",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "youth"
+   ],
+   "what": "은둔 청년 중 혼자 사는 비율(25.3%). 취약 돌보미는 동마다 청년 1인세대가 많은 곳에 어림을 조금 더 나눌 때 쓴다(응답자가 스스로 참여한 조사라 비율 자체는 쓰지 않음)"
+  },
+  {
+   "id": "nmc_pharmacy",
+   "name": "전국 약국 정보 · 요일별 운영 시간(공공데이터포털 15000576)",
+   "by": "국립중앙의료원",
+   "basis": "2026-10-16 받음",
+   "license": "이용허락범위 제한 없음",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "places"
+   ],
+   "what": "약국 이름 · 주소 · 전화 · 요일별 운영 시간(그날 문 여는 약국), 마을에서 그날 문 연 약국까지 거리"
+  },
+  {
+   "id": "bldg_floor",
+   "name": "건축물대장 층별개요(건축HUB 건축물대장정보, 공공데이터포털 15134735)",
+   "by": "국토교통부",
+   "basis": "2026-10 받음(API)",
+   "license": "이용허락범위 제한 없음",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "housing",
+    "outlook"
+   ],
+   "what": "지하층에 집이 있는 건물 수"
+  },
+  {
+   "id": "landslide",
+   "name": "강원특별자치도 산사태취약지역 현황(공공데이터포털 15160161)",
+   "by": "강원특별자치도",
+   "basis": "2026-04-01",
+   "license": "이용허락범위 제한 없음",
+   "regions": [
+    "춘천시"
+   ],
+   "topics": [
+    "outlook"
+   ],
+   "what": "산사태취약지역 수(땅 겹)"
+  },
+  {
+   "id": "steep",
+   "name": "급경사지 현황(공공데이터포털 15083292)",
+   "by": "행정안전부",
+   "basis": "2026-06-30",
+   "license": "이용허락범위 제한 없음",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "outlook"
+   ],
+   "what": "급경사지 수(땅 겹)"
+  },
+  {
+   "id": "flood",
+   "name": "서울시 침수흔적도(서울 열린데이터광장 OA-15636)",
+   "by": "서울특별시",
+   "basis": "2010 ~ 2025",
+   "license": "공공누리 1유형",
+   "regions": [
+    "강남구"
+   ],
+   "topics": [
+    "outlook"
+   ],
+   "what": "침수 흔적 수와 흔적이 나온 해(땅 겹)"
+  },
+  {
+   "id": "seoul_living",
+   "name": "서울 생활인구(KT, 서울 열린데이터광장 OA-23016 행정동별 내국인 250m)",
+   "by": "서울특별시 · KT",
+   "basis": "2026-01 ~ 2026-09(달마다)",
+   "license": "공공누리 1유형",
+   "regions": [
+    "강남구"
+   ],
+   "topics": [
+    "priority"
+   ],
+   "what": "60세 이상 여성이 낮에 동네에서 보이는 정도(취약 돌보미 동 순위)",
+   "url": "https://data.seoul.go.kr/dataList/OA-23016/S/1/datasetView.do"
+  },
+  {
+   "id": "kma_fcst",
+   "name": "기상청 단기예보(공공데이터포털 15084084) · 기상특보 현황(15000415)",
+   "by": "기상청",
+   "basis": "그날 발표(진짜 오늘)",
+   "license": "공공누리 1유형",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "outlook"
+   ],
+   "what": "오늘 ~ 모레 날씨(앞으로 날씨 겹) · 특보"
+  },
+  {
+   "id": "salpim",
+   "name": "취약 돌보미가 위 자료로 계산한 것",
+   "by": "취약 돌보미",
+   "basis": "자료마다 가장 새 판",
+   "license": "원자료 출처를 함께 밝혀 건넨다",
+   "url": "",
+   "regions": [
+    "강남구",
+    "춘천시"
+   ],
+   "topics": [
+    "priority",
+    "diagnosis",
+    "solo_seniors",
+    "youth"
+   ],
+   "what": "먼저 볼 동(동 순위), 진단(겹친 신호), 실제로 혼자 사는 어르신 어림, 거의 집에만 있는 청년 어림"
+  }
+ ]
+}

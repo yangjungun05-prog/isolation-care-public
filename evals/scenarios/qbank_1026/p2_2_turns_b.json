@@ -1,0 +1,51 @@
+{
+ "name": "qbank_p2_2_turns_b",
+ "frozen": "2026-10-26 PC 저녁, 팀장이 준 예상 질문(다른 세션이 만든 56개)을 그대로 옮김. 정답 칸 없음(답을 읽고 봄). ctx는 앞 맥락을 만드는 턴",
+ "profile": {
+  "member_region": "춘천시"
+ },
+ "turns": [
+  {
+   "say": "춘천에서 먼저 볼 동 1위가 어디예요?",
+   "qid": "ctx",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "북산면 진단은 어때요?",
+   "qid": "ctx",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "아까는 북산면이 1위라고 했잖아요. 근데 지금은 '겹친 걱정이 낮다'고 하면 앞뒤가 안 맞는 것 같은데요?",
+   "qid": "P2-07",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  }
+ ]
+}

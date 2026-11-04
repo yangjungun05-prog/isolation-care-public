@@ -1,0 +1,66 @@
+{
+ "name": "qbank_p1_3_youth",
+ "frozen": "2026-10-26 PC 저녁, 팀장이 준 예상 질문(다른 세션이 만든 56개)을 그대로 옮김. 정답 칸 없음(답을 읽고 봄). ctx는 앞 맥락을 만드는 턴",
+ "profile": {
+  "member_region": "춘천시",
+  "member_dong": "효자2동"
+ },
+ "turns": [
+  {
+   "say": "춘천에서 혼자 사는 청년(19~34세)이 많은 동은 어디예요?",
+   "qid": "P1-11",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "'거의 집에만 있는 청년 어림'은 어떻게 계산한 거예요?",
+   "qid": "P1-12",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "그 어림을 사업계획서나 공문에 그대로 써도 되나요?",
+   "qid": "P1-13",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "고립 청년을 연결할 수 있는 기관이나 창구는 어디예요?",
+   "qid": "P1-14",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  }
+ ]
+}

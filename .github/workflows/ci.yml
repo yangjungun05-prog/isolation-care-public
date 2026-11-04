@@ -1,0 +1,23 @@
+name: ci
+
+# 【기능】 PR 을 올릴 때와 main 에 들어갈 때 검사를 돌린다
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      # 【판단】 검사 컴퓨터에는 .env 가 없어서 settings 를 불러오는 순간 멈춘다.
+      #        접속은 안 하니 주소 모양만 넣어 둔다
+      DATABASE_URL: postgresql+psycopg://salpim:salpim@localhost:5432/salpim
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.2.0
+      # 【문법】 --locked = uv.lock 과 pyproject.toml 이 안 맞으면 멈춰라 → lock 파일을 빼먹은 PR 을 잡는다
+      - run: uv sync --locked
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run pytest

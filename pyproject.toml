@@ -1,0 +1,55 @@
+[project]
+name = "bigcontest14-isolation-agent"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.20.0",
+    "anthropic>=1.13.0",
+    "fastapi>=0.142.1",
+    "fpdf2>=2.8.9",
+    "holidays>=0.106",
+    "httpx>=0.28.1",
+    "langchain-google-genai>=4.4.0",
+    "langgraph>=1.2.12",
+    "lightgbm>=4.7.0",
+    "numpy>=2.5.3",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.6",
+    "psycopg[binary]>=3.3.6",
+    "pyarrow>=25.0.1",
+    "pydantic-settings>=2.15.0",
+    "python-pptx>=1.0.2",
+    "scikit-learn>=1.9.1",
+    "sqlalchemy>=2.1.1",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "notebook>=7.6.3",
+    "pip>=26.2.1",
+    "pytest>=9.1.1",
+    "ruff>=0.16.9",
+]
+
+# 【기능】 ruff 가 코드를 검사·정리할 때 쓰는 규칙
+[tool.ruff]
+# 【판단】 기본 88자는 한국어 주석이 자꾸 꺾여서 100자로 늘림
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+# 【문법】 E=기본 문법 모양, F=안 쓰는 import 같은 실수, I=import 순서, UP=옛날 문법, B=버그 나기 쉬운 패턴
+select = ["E", "F", "I", "UP", "B"]
+
+# 【기능】 pytest 설정
+[tool.pytest.ini_options]
+# 【문법】 pythonpath 에 "." 을 넣으면 테스트에서 from src.common... 으로 가져올 수 있다
+pythonpath = ["."]
+testpaths = ["tests"]
+# 【판단】 AI 비서(src/assistant)의 진짜 Claude API 를 부르는 시험은 돈이 들어 기본에서 뺀다. 돌릴 때만 -m live
+markers = ["live: 진짜 Claude API 를 부른다(ANTHROPIC_API_KEY 필요, 돈이 든다)"]
+addopts = "-m 'not live'"

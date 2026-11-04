@@ -1,0 +1,65 @@
+{
+ "name": "qbank_p2_2_turns_a",
+ "frozen": "2026-10-26 PC 저녁, 팀장이 준 예상 질문(다른 세션이 만든 56개)을 그대로 옮김. 정답 칸 없음(답을 읽고 봄). ctx는 앞 맥락을 만드는 턴",
+ "profile": {
+  "member_region": "강남구"
+ },
+ "turns": [
+  {
+   "say": "수서동 혼자 사는 어르신 몇 분이에요?",
+   "qid": "ctx",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "아까 그 동이랑 세곡동 중에 응급안전 장비를 먼저 놓을 곳은 어디예요? 아까 말한 숫자 기준으로요.",
+   "qid": "P2-05",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "그럼 그 숫자에서 시설에 입소하신 분은 빠진 거예요? 빠졌으면 실제로 집에 혼자 계신 분은 몇 명쯤이에요?",
+   "qid": "P2-06",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "처음에 물은 거로 돌아가서, 표로 다시 정리해 주고 엑셀로도 주세요.",
+   "qid": "P2-08",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  }
+ ]
+}

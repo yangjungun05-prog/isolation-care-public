@@ -1,0 +1,15 @@
+{
+ "name": "desk_writing_8",
+ "frozen": "2026-10-26 PC 저녁, desk_new_21 O03('보고서 문장 좀 다듬어 줘'를 쓰는 법 질문으로 봄)을 고치기 전에 정답 칸을 적고 커밋함. 고침은 이 시험지로 따로 잰다",
+ "about": "W = 사용자가 가져온 글을 고치 · 줄이 · 옮기는 일반 글 작업 → 범위 밖(또는 못 알아들음), U = 이 비서를 어떻게 쓰나 · 무엇을 하나 → 쓰는 법(답), M = 우리 자료로 문서 · 정리를 만들어 달라 → 답",
+ "cases": [
+  {"id": "W01", "say": "이 문장 좀 자연스럽게 고쳐 줄래?", "given": {}, "expect": {"kind": ["out_of_scope", "unclear"]}, "why": "글 고치기"},
+  {"id": "W02", "say": "회의록 요약해 줘", "given": {}, "expect": {"kind": ["out_of_scope", "unclear"]}, "why": "가져온 글 줄이기"},
+  {"id": "W03", "say": "공문 맞춤법 좀 봐 줘", "given": {}, "expect": {"kind": ["out_of_scope", "unclear"]}, "why": "맞춤법"},
+  {"id": "W04", "say": "이거 영어로 번역해 줄 수 있어?", "given": {}, "expect": {"kind": ["out_of_scope", "unclear"]}, "why": "번역"},
+  {"id": "U01", "say": "이 비서 어떻게 써요?", "given": {}, "expect": {"kind": ["answer"], "topics": ["usage"]}, "why": "쓰는 법"},
+  {"id": "U02", "say": "여기서 뭘 물어볼 수 있어요?", "given": {}, "expect": {"kind": ["answer"], "topics": ["usage"]}, "why": "할 수 있는 것"},
+  {"id": "M01", "say": "수서동 상황을 결재용 문서로 만들어 줘", "given": {"profile": {"member_region": "강남구"}}, "expect": {"kind": ["answer", "ask_slot"], "dongs": ["수서동"]}, "why": "우리 자료로 문서"},
+  {"id": "M02", "say": "북산면 혼자 사는 어르신 현황을 보고용으로 정리해 줘", "given": {"profile": {"member_region": "춘천시"}}, "expect": {"kind": ["answer", "ask_slot"], "dongs": ["북산면"]}, "why": "우리 자료 정리"}
+ ]
+}

@@ -1,0 +1,374 @@
+{
+ "name": "desk_scope_20",
+ "frozen": "2026-10-21",
+ "about": "자료에 있는데 장서 목록 설명에는 없던 말 20문제 — 범위 밖으로 보내지 않고 가장 가까운 주제로 가는지(10-21 팀장 '범위 바깥이다(있는데 없다고 대화함) 왜 생기나'). 모두 answer + 주제",
+ "cases": [
+  {
+   "id": "S01",
+   "say": "사북면에 슬레이트 지붕 집이 몇 채나 됩니까",
+   "given": {},
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "housing"
+    ],
+    "dongs": [
+     "사북면"
+    ]
+   },
+   "why": "지붕(10-21 이장 T6 범위 밖)"
+  },
+  {
+   "id": "S02",
+   "say": "지암리 눈에 약한 지붕 집은 몇 채요",
+   "given": {
+    "slots": {
+     "region": "춘천시",
+     "dongs": [
+      "사북면"
+     ]
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "housing"
+    ]
+   },
+   "why": "마을별 집"
+  },
+  {
+   "id": "S03",
+   "say": "신북읍 마을버스 첫차가 몇 시예요",
+   "given": {},
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "bus"
+    ],
+    "dongs": [
+     "신북읍"
+    ]
+   },
+   "why": "첫차 · 막차"
+  },
+  {
+   "id": "S04",
+   "say": "다음 긴 연휴가 언제예요",
+   "given": {
+    "slots": {
+     "region": "춘천시",
+     "dongs": [
+      "효자2동"
+     ]
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook"
+    ]
+   },
+   "why": "달력"
+  },
+  {
+   "id": "S05",
+   "say": "내년 설 연휴 날짜 알려 주세요",
+   "given": {
+    "slots": {
+     "region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook"
+    ]
+   },
+   "why": "달력 2027"
+  },
+  {
+   "id": "S06",
+   "say": "북산면 빈집이 몇 채예요",
+   "given": {},
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "livelihood",
+     "housing"
+    ],
+    "dongs": [
+     "북산면"
+    ]
+   },
+   "why": "빈집"
+  },
+  {
+   "id": "S07",
+   "say": "신북읍 약국 오늘 몇 시까지 해요",
+   "given": {},
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "places"
+    ],
+    "dongs": [
+     "신북읍"
+    ]
+   },
+   "why": "약국 요일별 시간"
+  },
+  {
+   "id": "S08",
+   "say": "수서동 요양시설 정원이 몇 명이에요",
+   "given": {},
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "solo_seniors",
+     "dong_overview"
+    ],
+    "dongs": [
+     "수서동"
+    ]
+   },
+   "why": "요양시설 정원"
+  },
+  {
+   "id": "S09",
+   "say": "개포3동 1995년 이전에 지은 집 많아요?",
+   "given": {},
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "housing"
+    ],
+    "dongs": [
+     "개포3동"
+    ]
+   },
+   "why": "1995년 이전 집"
+  },
+  {
+   "id": "S10",
+   "say": "천전1리 경로당에서 정류장까지 얼마나 멀어요",
+   "given": {
+    "slots": {
+     "region": "춘천시",
+     "dongs": [
+      "신북읍"
+     ]
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "bus"
+    ]
+   },
+   "why": "마을 → 정류장 거리"
+  },
+  {
+   "id": "S11",
+   "say": "강남구 어르신 진단에서 보는 신호 8가지가 뭐예요",
+   "given": {
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "수서동"
+     ]
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "diagnosis",
+     "sources"
+    ]
+   },
+   "why": "진단 신호 이름"
+  },
+  {
+   "id": "S12",
+   "say": "수서동이 2위인 까닭이 뭐예요 자원 공백이 뭔데요",
+   "given": {},
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "priority",
+     "diagnosis",
+     "sources"
+    ],
+    "dongs": [
+     "수서동"
+    ]
+   },
+   "why": "순위 까닭"
+  },
+  {
+   "id": "S13",
+   "say": "지난 사흘 춘천에 비 얼마나 왔어요",
+   "given": {},
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "dong_overview",
+     "outlook"
+    ],
+    "region": "춘천시"
+   },
+   "why": "지난 날씨"
+  },
+  {
+   "id": "S14",
+   "say": "효자2동 거의 집에만 있는 청년은 몇 명으로 봐요",
+   "given": {},
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "youth"
+    ],
+    "dongs": [
+     "효자2동"
+    ]
+   },
+   "why": "어림"
+  },
+  {
+   "id": "S15",
+   "say": "북산면 실제로 혼자 사는 어르신은 몇 명으로 어림해요",
+   "given": {},
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "solo_seniors"
+    ],
+    "dongs": [
+     "북산면"
+    ]
+   },
+   "why": "실제 1인 가구 어림"
+  },
+  {
+   "id": "S16",
+   "say": "응급안전안심서비스 신청은 어디서 해요",
+   "given": {
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "수서동"
+     ]
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "support"
+    ]
+   },
+   "why": "신청 창구"
+  },
+  {
+   "id": "S17",
+   "say": "밤에 연락할 수 있는 24시간 상담 번호 있어요?",
+   "given": {
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "수서동"
+     ]
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "support"
+    ]
+   },
+   "why": "위기 상담 전화"
+  },
+  {
+   "id": "S18",
+   "say": "사북면 마을 중에 버스가 제일 드문 데가 어디예요",
+   "given": {},
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "bus"
+    ],
+    "dongs": [
+     "사북면"
+    ]
+   },
+   "why": "버스 드문 마을"
+  },
+  {
+   "id": "S19",
+   "say": "역삼1동 청년 중 25~29세는 몇 명이에요",
+   "given": {},
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "youth"
+    ],
+    "dongs": [
+     "역삼1동"
+    ]
+   },
+   "why": "나이대"
+  },
+  {
+   "id": "S20",
+   "say": "강남구 22개 동 위험 구간이랑 자원 공백 표로 주세요",
+   "given": {},
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "priority"
+    ],
+    "region": "강남구"
+   },
+   "why": "순위 재료 표"
+  }
+ ]
+}

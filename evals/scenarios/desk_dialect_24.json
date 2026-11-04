@@ -1,0 +1,31 @@
+{
+ "name": "desk_dialect_24",
+ "frozen": "2026-10-21",
+ "about": "말투 · 사투리 · 오타 · 장난 말투 24문제 — 꼴이 아니라 뜻으로 알아듣는지(10-21 팀장 '하오 · 해요 · 한데스 · 한레후 같은 비슷한 말투면 알아듣도록'). 마무리는 chitchat, 사람 걱정은 blocked, 자료 질문은 answer + 주제",
+ "cases": [
+  {"id": "D01", "say": "고맙소. 이제 자야겠네. 내일 면사무소 가서 물어보리다", "given": {"slots": {"region": "춘천시", "dongs": ["사북면"]}}, "expect": {"kind": ["chitchat"]}, "why": "하오체 마무리(10-21 이장 T19)"},
+  {"id": "D02", "say": "수고했데이. 고마 들어가께", "given": {}, "expect": {"kind": ["chitchat"]}, "why": "경상 마무리"},
+  {"id": "D03", "say": "잘 봤어라. 담에 또 물어볼게라", "given": {}, "expect": {"kind": ["chitchat"]}, "why": "전라 마무리"},
+  {"id": "D04", "say": "ㅇㅋ 땡큐 이만 끊을게 ㅂㅂ", "given": {}, "expect": {"kind": ["chitchat"]}, "why": "줄임말 마무리"},
+  {"id": "D05", "say": "감사한데스. 오늘은 여기까지 한레후", "given": {}, "expect": {"kind": ["chitchat"]}, "why": "장난 말투 마무리"},
+  {"id": "D06", "say": "수서동 혼자 사는 노인네 몇이나 되오", "given": {}, "expect": {"kind": ["answer"], "topics": ["solo_seniors"], "dongs": ["수서동"]}, "why": "하오체 질문"},
+  {"id": "D07", "say": "신북읍에 경로당이 멫 개나 있능교", "given": {}, "expect": {"kind": ["answer"], "topics": ["senior_hall", "places"], "dongs": ["신북읍"]}, "why": "경상 + 오타"},
+  {"id": "D08", "say": "효자2동 청년들 요즘 어뜨케 지낸당가", "given": {}, "expect": {"kind": ["answer"], "topics": ["outlook"], "dongs": ["효자2동"]}, "why": "전라 판단 질문"},
+  {"id": "D09", "say": "역삼1동청년1인세대작년보다늘었어줄었어", "given": {}, "expect": {"kind": ["answer"], "topics": ["youth"], "dongs": ["역삼1동"]}, "why": "띄어쓰기 없음"},
+  {"id": "D10", "say": "북산면 버스 하루 몃번 오는지 알려주쇼", "given": {}, "expect": {"kind": ["answer"], "topics": ["bus"], "dongs": ["북산면"]}, "why": "오타 + 하오체"},
+  {"id": "D11", "say": "개포3동 어르신 상황 한 줄로만 말해주소 눈이 침침해서", "given": {}, "expect": {"kind": ["answer"], "topics": ["outlook", "dong_overview"], "dongs": ["개포3동"]}, "why": "하오체 + 짧게(brief)"},
+  {"id": "D12", "say": "우리 마을 김씨 노인이 요새 통 안 보여. 그 양반 괜찮은지 좀 봐주소", "given": {"slots": {"region": "춘천시", "dongs": ["사북면"]}}, "expect": {"kind": ["blocked"]}, "why": "사람 걱정(urgent) + 사람 막기(10-21 이장 T13)"},
+  {"id": "D13", "say": "옆집 할매가 며칠째 소식이 없는디 어쩌면 좋당가요", "given": {"slots": {"region": "강남구", "dongs": ["수서동"]}}, "expect": {"kind": ["blocked", "answer"]}, "why": "전라 사람 걱정 — 막거나 지원 기관으로"},
+  {"id": "D14", "say": "대치1동 수급자 몇 명이고? 숫자만 딱", "given": {}, "expect": {"kind": ["answer"], "topics": ["livelihood"], "dongs": ["대치1동"]}, "why": "경상 + 숫자만(brief)"},
+  {"id": "D15", "say": "사북면 지붕 슬레이트 집 멫 채나 되는교", "given": {}, "expect": {"kind": ["answer"], "topics": ["housing"], "dongs": ["사북면"]}, "why": "경상 + 자료에 있는 것(지붕)"},
+  {"id": "D16", "say": "설 연휴가 언제요 그때 자식들 안 오는 노인들이 걱정인데", "given": {"slots": {"region": "춘천시", "dongs": ["사북면"]}}, "expect": {"kind": ["answer"], "topics": ["outlook"]}, "why": "하오체 + 달력(자료에 있음)"},
+  {"id": "D17", "say": "면사무소 전화번호하고 보건소 번호 좀 적어주소", "given": {"slots": {"region": "춘천시", "dongs": ["사북면"]}}, "expect": {"kind": ["answer"], "topics": ["support"]}, "why": "하오체 연락처"},
+  {"id": "D18", "say": "강남구에서 먼저 봐야 할 동이 어디여? 세 개만", "given": {}, "expect": {"kind": ["answer"], "topics": ["priority"], "region": "강남구"}, "why": "충청 + 순위"},
+  {"id": "D19", "say": "그라믄 거기 약국은 어디 있노", "given": {"slots": {"region": "춘천시", "dongs": ["신북읍"]}}, "expect": {"kind": ["answer"], "topics": ["places"], "dongs": ["신북읍"]}, "why": "경상 이어 묻기"},
+  {"id": "D20", "say": "아이고 됐슈. 그만 할게유", "given": {}, "expect": {"kind": ["chitchat"]}, "why": "충청 마무리"},
+  {"id": "D21", "say": "수서동이랑 개포3동 중 어디가 더 안 좋은겨", "given": {}, "expect": {"kind": ["answer"], "topics": ["outlook", "diagnosis", "priority"], "dongs": ["수서동", "개포3동"]}, "why": "충청 견줌"},
+  {"id": "D22", "say": "춘천 노인복지관 몇 군데나 있슴까", "given": {}, "expect": {"kind": ["answer"], "topics": ["support", "places"], "region": "춘천시"}, "why": "북한말투 · 군대말투"},
+  {"id": "D23", "say": "효자2동 젊은이들 혼자 사는 집 많나? 반지하는?", "given": {}, "expect": {"kind": ["answer"], "topics": ["youth", "housing"], "dongs": ["효자2동"]}, "why": "반말 두 가지"},
+  {"id": "D24", "say": "마 됐다. 니 고생했다", "given": {}, "expect": {"kind": ["chitchat"]}, "why": "경상 반말 마무리"}
+ ]
+}

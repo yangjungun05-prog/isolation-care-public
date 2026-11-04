@@ -1,0 +1,80 @@
+{
+ "name": "qbank_p1_1_dong",
+ "frozen": "2026-10-26 PC 저녁, 팀장이 준 예상 질문(다른 세션이 만든 56개)을 그대로 옮김. 정답 칸 없음(답을 읽고 봄). ctx는 앞 맥락을 만드는 턴",
+ "profile": {
+  "member_region": "강남구",
+  "member_dong": "수서동"
+ },
+ "turns": [
+  {
+   "say": "우리 동에 혼자 사는 어르신이 몇 분이에요?",
+   "qid": "P1-01",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "그중에 80세 이상만 따로 알려줄 수 있어요?",
+   "qid": "P1-02",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "작년이랑 비교해서 혼자 사는 어르신이 늘었어요, 줄었어요?",
+   "qid": "P1-03",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "우리 동은 강남에서 몇 번째로 먼저 봐야 하는 동이에요? 이유도 알려 주세요.",
+   "qid": "P1-04",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "개포3동이랑 개포1동을 견주면 뭐가 달라요?",
+   "qid": "P1-05",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "name": "qbank_p1_2_visit",
+ "frozen": "2026-10-26 PC 저녁, 팀장이 준 예상 질문(다른 세션이 만든 56개)을 그대로 옮김. 정답 칸 없음(답을 읽고 봄). ctx는 앞 맥락을 만드는 턴",
+ "profile": {
+  "member_region": "강남구",
+  "member_dong": "수서동"
+ },
+ "turns": [
+  {
+   "say": "이번 주에는 어느 동부터 가는 게 좋을까요?",
+   "qid": "P1-06",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "오늘 챙길 일이 뭐예요?",
+   "qid": "P1-07",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "한파 특보가 나왔는데, 추위에 먼저 봐야 할 동은 어디예요?",
+   "qid": "P1-08",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "그제 비가 많이 왔는데 지하층 집이 많은 동이 어디예요?",
+   "qid": "P1-09",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "다음 긴 연휴에 혼자 지낼 어르신이 많을 만한 동은요?",
+   "qid": "P1-10",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,475 @@
+{
+ "name": "desk_correct_18",
+ "frozen": "2026-10-27 PC 저녁, 돌리기 전에 얼림. PR #29 인수인계(Codex 10-27)의 남은 일: desk_polarity_22에서 kind만 unclear였던 짧은 고쳐 말하기 6개를 맥락 없음 · 앞 주제 있음 · 되묻기 중 셋으로 나눠 봄",
+ "about": "동 칸이 고친 동 하나인지 + kind가 답 · 동 되묻기인지(못 알아들음이면 틀림)",
+ "cases": [
+  {
+   "id": "N04-bare",
+   "say": "역삼1동 아닌 역삼2동 얘기야",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "역삼1동"
+     ]
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "역삼2동"
+    ]
+   },
+   "why": "맥락 없음(desk_polarity_22 그대로, 앞 동만 칸에)"
+  },
+  {
+   "id": "N04-topic",
+   "say": "역삼1동 아닌 역삼2동 얘기야",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "역삼1동"
+     ]
+    },
+    "topics": [
+     "solo_seniors"
+    ],
+    "last_question": "역삼1동에서 혼자 사는 65세 이상 어르신은 2,000명대예요(주민등록 2026-09)."
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "역삼2동"
+    ]
+   },
+   "why": "앞 턴에 그 동(틀린 동)으로 혼자 사는 어르신을 답한 뒤 고쳐 말함"
+  },
+  {
+   "id": "N04-pending",
+   "say": "역삼1동 아닌 역삼2동 얘기야",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "pending": "dong",
+    "pending_topics": [
+     "solo_seniors"
+    ],
+    "last_question": "어느 동을 볼까요? 강남구에서는 예를 들어 수서동, 개포3동, 세곡동처럼 동 이름으로 말씀해 주세요."
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "역삼2동"
+    ]
+   },
+   "why": "비서가 '어느 동?'을 되묻는 중에 고쳐 말함"
+  },
+  {
+   "id": "N05-bare",
+   "say": "개포3동 말고요, 개포4동이요",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "개포3동"
+     ]
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "개포4동"
+    ]
+   },
+   "why": "맥락 없음(desk_polarity_22 그대로, 앞 동만 칸에)"
+  },
+  {
+   "id": "N05-topic",
+   "say": "개포3동 말고요, 개포4동이요",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "개포3동"
+     ]
+    },
+    "topics": [
+     "solo_seniors"
+    ],
+    "last_question": "개포3동에서 혼자 사는 65세 이상 어르신은 2,000명대예요(주민등록 2026-09)."
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "개포4동"
+    ]
+   },
+   "why": "앞 턴에 그 동(틀린 동)으로 혼자 사는 어르신을 답한 뒤 고쳐 말함"
+  },
+  {
+   "id": "N05-pending",
+   "say": "개포3동 말고요, 개포4동이요",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "pending": "dong",
+    "pending_topics": [
+     "solo_seniors"
+    ],
+    "last_question": "어느 동을 볼까요? 강남구에서는 예를 들어 수서동, 개포3동, 세곡동처럼 동 이름으로 말씀해 주세요."
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "개포4동"
+    ]
+   },
+   "why": "비서가 '어느 동?'을 되묻는 중에 고쳐 말함"
+  },
+  {
+   "id": "N10-bare",
+   "say": "역삼1동이 아니라고 했잖아요, 역삼2동",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "역삼1동"
+     ]
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "역삼2동"
+    ]
+   },
+   "why": "맥락 없음(desk_polarity_22 그대로, 앞 동만 칸에)"
+  },
+  {
+   "id": "N10-topic",
+   "say": "역삼1동이 아니라고 했잖아요, 역삼2동",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "역삼1동"
+     ]
+    },
+    "topics": [
+     "solo_seniors"
+    ],
+    "last_question": "역삼1동에서 혼자 사는 65세 이상 어르신은 2,000명대예요(주민등록 2026-09)."
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "역삼2동"
+    ]
+   },
+   "why": "앞 턴에 그 동(틀린 동)으로 혼자 사는 어르신을 답한 뒤 고쳐 말함"
+  },
+  {
+   "id": "N10-pending",
+   "say": "역삼1동이 아니라고 했잖아요, 역삼2동",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "pending": "dong",
+    "pending_topics": [
+     "solo_seniors"
+    ],
+    "last_question": "어느 동을 볼까요? 강남구에서는 예를 들어 수서동, 개포3동, 세곡동처럼 동 이름으로 말씀해 주세요."
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "역삼2동"
+    ]
+   },
+   "why": "비서가 '어느 동?'을 되묻는 중에 고쳐 말함"
+  },
+  {
+   "id": "N11-bare",
+   "say": "개포3동 맞아? 아니 개포2동 말한 거야",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "개포3동"
+     ]
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "개포2동"
+    ]
+   },
+   "why": "맥락 없음(desk_polarity_22 그대로, 앞 동만 칸에)"
+  },
+  {
+   "id": "N11-topic",
+   "say": "개포3동 맞아? 아니 개포2동 말한 거야",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "개포3동"
+     ]
+    },
+    "topics": [
+     "solo_seniors"
+    ],
+    "last_question": "개포3동에서 혼자 사는 65세 이상 어르신은 2,000명대예요(주민등록 2026-09)."
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "개포2동"
+    ]
+   },
+   "why": "앞 턴에 그 동(틀린 동)으로 혼자 사는 어르신을 답한 뒤 고쳐 말함"
+  },
+  {
+   "id": "N11-pending",
+   "say": "개포3동 맞아? 아니 개포2동 말한 거야",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "pending": "dong",
+    "pending_topics": [
+     "solo_seniors"
+    ],
+    "last_question": "어느 동을 볼까요? 강남구에서는 예를 들어 수서동, 개포3동, 세곡동처럼 동 이름으로 말씀해 주세요."
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "개포2동"
+    ]
+   },
+   "why": "비서가 '어느 동?'을 되묻는 중에 고쳐 말함"
+  },
+  {
+   "id": "N12-bare",
+   "say": "도곡1동인가.. 아니 도곡2동 어르신",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "도곡1동"
+     ]
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "도곡2동"
+    ]
+   },
+   "why": "맥락 없음(desk_polarity_22 그대로, 앞 동만 칸에)"
+  },
+  {
+   "id": "N12-topic",
+   "say": "도곡1동인가.. 아니 도곡2동 어르신",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "도곡1동"
+     ]
+    },
+    "topics": [
+     "solo_seniors"
+    ],
+    "last_question": "도곡1동에서 혼자 사는 65세 이상 어르신은 2,000명대예요(주민등록 2026-09)."
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "도곡2동"
+    ]
+   },
+   "why": "앞 턴에 그 동(틀린 동)으로 혼자 사는 어르신을 답한 뒤 고쳐 말함"
+  },
+  {
+   "id": "N12-pending",
+   "say": "도곡1동인가.. 아니 도곡2동 어르신",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "pending": "dong",
+    "pending_topics": [
+     "solo_seniors"
+    ],
+    "last_question": "어느 동을 볼까요? 강남구에서는 예를 들어 수서동, 개포3동, 세곡동처럼 동 이름으로 말씀해 주세요."
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "도곡2동"
+    ]
+   },
+   "why": "비서가 '어느 동?'을 되묻는 중에 고쳐 말함"
+  },
+  {
+   "id": "K06-bare",
+   "say": "대치4동요",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "수서동"
+     ]
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "대치4동"
+    ]
+   },
+   "why": "맥락 없음(desk_polarity_22 그대로, 앞 동만 칸에)"
+  },
+  {
+   "id": "K06-topic",
+   "say": "대치4동요",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "수서동"
+     ]
+    },
+    "topics": [
+     "solo_seniors"
+    ],
+    "last_question": "수서동에서 혼자 사는 65세 이상 어르신은 2,000명대예요(주민등록 2026-09)."
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "대치4동"
+    ]
+   },
+   "why": "앞 턴에 그 동(틀린 동)으로 혼자 사는 어르신을 답한 뒤 고쳐 말함"
+  },
+  {
+   "id": "K06-pending",
+   "say": "대치4동요",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "pending": "dong",
+    "pending_topics": [
+     "solo_seniors"
+    ],
+    "last_question": "어느 동을 볼까요? 강남구에서는 예를 들어 수서동, 개포3동, 세곡동처럼 동 이름으로 말씀해 주세요."
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "대치4동"
+    ]
+   },
+   "why": "비서가 '어느 동?'을 되묻는 중에 고쳐 말함"
+  }
+ ]
+}

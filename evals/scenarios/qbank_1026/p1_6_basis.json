@@ -1,0 +1,79 @@
+{
+ "name": "qbank_p1_6_basis",
+ "frozen": "2026-10-26 PC 저녁, 팀장이 준 예상 질문(다른 세션이 만든 56개)을 그대로 옮김. 정답 칸 없음(답을 읽고 봄). ctx는 앞 맥락을 만드는 턴",
+ "profile": {
+  "member_region": "강남구"
+ },
+ "turns": [
+  {
+   "say": "수서동 혼자 사는 어르신 몇 분이에요?",
+   "qid": "ctx",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "그 숫자는 어디서 나왔고 기준일이 언제예요?",
+   "qid": "P1-24",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "서울시 독거노인 현황이랑 주민등록 숫자가 왜 달라요?",
+   "qid": "P1-25",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "'진단 높음'이나 '겹친 걱정'은 무슨 뜻이에요? '먼저 볼 동'이랑은 뭐가 달라요?",
+   "qid": "P1-26",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "이 자료를 홍보물에 써도 되나요? (출처와 이용 조건)",
+   "qid": "P1-27",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  }
+ ]
+}

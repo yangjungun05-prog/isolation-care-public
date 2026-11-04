@@ -1,0 +1,93 @@
+{
+ "name": "qbank_p2_3_basis",
+ "frozen": "2026-10-26 PC 저녁, 팀장이 준 예상 질문(다른 세션이 만든 56개)을 그대로 옮김. 정답 칸 없음(답을 읽고 봄). ctx는 앞 맥락을 만드는 턴",
+ "profile": {
+  "member_region": "춘천시"
+ },
+ "turns": [
+  {
+   "say": "북산면 혼자 사는 어르신 비율 알려줘요.",
+   "qid": "ctx",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "북산면 혼자 사는 어르신 몫이 몇 %라고 했죠? 분모는 전체 인구예요, 65세 이상이에요? 기준일은요?",
+   "qid": "P2-09",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "서울시 독거노인 현황이랑 주민등록 1인세대 숫자가 다른데, 보고서에는 어느 쪽을 써야 하고 각주는 뭐라고 달아야 해요?",
+   "qid": "P2-10",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "효자2동 청년 상황 알려 줘요.",
+   "qid": "ctx",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "은둔 청년 어림의 범위가 왜 이렇게 넓어요? 아래쪽 숫자랑 위쪽 숫자 중에 공문에는 어떤 걸 써야 해요?",
+   "qid": "P2-11",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "같은 질문을 다르게 물어볼게요. 북산면 65세 이상 1인세대가 몇 세대예요?",
+   "qid": "P2-12",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  }
+ ]
+}

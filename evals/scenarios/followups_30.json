@@ -1,0 +1,346 @@
+{
+ "name": "followups_30",
+ "frozen": "2026-10-27 PC, 돌리기 전에 얼림. 10-27 '이어서 물어보기' 단추 문장(extras._for_dong · _for_region)이 그 단추를 만든 주제로 답하는지(엉뚱한 주제 · 되묻기 · 못 알아들음이면 틀림). 강남 수서동 · 춘천 북산면 · 두 지역",
+ "profile": {
+  "member_region": "강남구",
+  "member_dong": null
+ },
+ "turns": [
+  {
+   "say": "수서동은 왜 이 순위야?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "diagnosis",
+    "priority",
+    "dong_overview"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "수서동 혼자 사는 어르신 몇 명이야?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors",
+    "seoul_lonely"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "수서동 80세 이상 혼자 사는 분은?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors",
+    "seoul_lonely"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "수서동 청년은?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "수서동 경로당이랑 보건소 알려 줘",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "places",
+    "senior_hall",
+    "support"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "수서동 오래된 계단 집이나 지하층 집 많아?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "housing"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "수서동 어르신들 요즘 괜찮을까?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "outlook"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "수서동 상황 PDF로 만들어 줘",
+   "kind": [
+    "answer",
+    "file",
+    "doc",
+    "settings"
+   ],
+   "topic": [
+    "dong_doc"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "강남에서 먼저 볼 동은?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "priority"
+   ]
+  },
+  {
+   "say": "개포3동은 왜 1위야?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "diagnosis",
+    "priority",
+    "dong_overview"
+   ]
+  },
+  {
+   "say": "강남에서 혼자 사는 어르신 많은 동은?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors",
+    "seoul_lonely"
+   ]
+  },
+  {
+   "say": "강남에서 혼자 사는 청년 많은 동은?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ]
+  },
+  {
+   "say": "강남 응급안전안심서비스 신청은 어디서 해?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "support"
+   ]
+  },
+  {
+   "say": "뭘 물어볼 수 있어?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "usage"
+   ]
+  },
+  {
+   "say": "북산면은 왜 이 순위야?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "diagnosis",
+    "priority",
+    "dong_overview"
+   ],
+   "dongs": [
+    "북산면"
+   ]
+  },
+  {
+   "say": "북산면 혼자 사는 어르신 몇 명이야?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors",
+    "seoul_lonely"
+   ],
+   "dongs": [
+    "북산면"
+   ]
+  },
+  {
+   "say": "북산면 80세 이상 혼자 사는 분은?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors",
+    "seoul_lonely"
+   ],
+   "dongs": [
+    "북산면"
+   ]
+  },
+  {
+   "say": "북산면 청년은?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "북산면"
+   ]
+  },
+  {
+   "say": "북산면 버스는 하루 몇 번 다녀?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "bus"
+   ],
+   "dongs": [
+    "북산면"
+   ]
+  },
+  {
+   "say": "북산면 경로당이랑 보건소 알려 줘",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "places",
+    "senior_hall",
+    "support"
+   ],
+   "dongs": [
+    "북산면"
+   ]
+  },
+  {
+   "say": "북산면 오래된 계단 집이나 지하층 집 많아?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "housing"
+   ],
+   "dongs": [
+    "북산면"
+   ]
+  },
+  {
+   "say": "북산면 어르신들 요즘 괜찮을까?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "outlook"
+   ],
+   "dongs": [
+    "북산면"
+   ]
+  },
+  {
+   "say": "북산면 상황 PDF로 만들어 줘",
+   "kind": [
+    "answer",
+    "file",
+    "doc",
+    "settings"
+   ],
+   "topic": [
+    "dong_doc"
+   ],
+   "dongs": [
+    "북산면"
+   ]
+  },
+  {
+   "say": "춘천에서 먼저 볼 동은?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "priority"
+   ]
+  },
+  {
+   "say": "효자2동은 왜 1위야?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "diagnosis",
+    "priority",
+    "dong_overview"
+   ]
+  },
+  {
+   "say": "춘천에서 혼자 사는 어르신 많은 동은?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors",
+    "seoul_lonely"
+   ]
+  },
+  {
+   "say": "춘천에서 혼자 사는 청년 많은 동은?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ]
+  },
+  {
+   "say": "춘천 응급안전안심서비스 신청은 어디서 해?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "support"
+   ]
+  },
+  {
+   "say": "뭘 물어볼 수 있어?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "usage"
+   ]
+  }
+ ]
+}

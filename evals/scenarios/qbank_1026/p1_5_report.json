@@ -1,0 +1,65 @@
+{
+ "name": "qbank_p1_5_report",
+ "frozen": "2026-10-26 PC 저녁, 팀장이 준 예상 질문(다른 세션이 만든 56개)을 그대로 옮김. 정답 칸 없음(답을 읽고 봄). ctx는 앞 맥락을 만드는 턴",
+ "profile": {
+  "member_region": "강남구"
+ },
+ "turns": [
+  {
+   "say": "강남에서 먼저 볼 동 상위 5곳을 표로 주세요.",
+   "qid": "P1-20",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "동별 65세 이상 1인세대 수를 엑셀(CSV)로 받을 수 있어요?",
+   "qid": "P1-21",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "개포3동 상황을 사례회의용 문서(PDF · PPTX)로 만들어 줘요.",
+   "qid": "P1-22",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "구청장 보고에 쓸 문장으로 한 줄 요약해 줄래요?",
+   "qid": "P1-23",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  }
+ ]
+}

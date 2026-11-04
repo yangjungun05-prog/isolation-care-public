@@ -1,0 +1,10096 @@
+{
+ "built": "2026-10-20",
+ "source": "TAGO 버스노선정보(국토교통부) · 춘천시 버스정류장 노선정보(2026-03-26)",
+ "notes": [
+  "마을버스 하루 횟수는 TAGO 첫차 · 막차 · 배차 간격으로 어림한 것(가는 차 · 오는 차를 더해 공식 시간표보다 한두 번 많을 수 있음)",
+  "시내버스는 배차 간격 자료가 없어 하루 횟수를 모름",
+  "마을(경로당 · 마을회관)에서 가장 가까운 정류장까지는 직선거리",
+  "겨울 운휴 · 희망택시는 이용 조건이 적힌 자료가 없어 담지 않음"
+ ],
+ "low_freq_all": {
+  "남면": [
+   "남면2-1(2회)"
+  ],
+  "남산면": [
+   "남산1-1(2회)",
+   "남산2-1(2회)"
+  ],
+  "동내면": [
+   "동내2-1(2회)"
+  ],
+  "동산면": [
+   "동산3(1회)",
+   "동산5(3회)"
+  ],
+  "북산면": [
+   "북산2(2회)"
+  ],
+  "사북면": [
+   "사북2(3회)",
+   "사북3(3회)",
+   "사북3-1(3회)"
+  ],
+  "서면": [
+   "서면1-1(2회)",
+   "서면2-1(3회)"
+  ]
+ },
+ "dongs": {
+  "효자2동": {
+   "stops": 21,
+   "routes": [
+    {
+     "no": "동내1",
+     "per_day": 9,
+     "stops_here": 7,
+     "first": "06:10",
+     "last": "20:35",
+     "starts": [
+      "06:10",
+      "07:10",
+      "09:15"
+     ]
+    },
+    {
+     "no": "동내2",
+     "per_day": 8,
+     "stops_here": 2,
+     "first": "06:25",
+     "last": "17:25",
+     "starts": [
+      "06:25",
+      "08:00",
+      "14:00"
+     ]
+    },
+    {
+     "no": "동내4",
+     "per_day": 8,
+     "stops_here": 6,
+     "first": "06:15",
+     "last": "21:40",
+     "starts": [
+      "06:15",
+      "06:45",
+      "08:55",
+      "16:35",
+      "19:50",
+      "21:40"
+     ]
+    },
+    {
+     "no": "동내3-1",
+     "per_day": 7,
+     "stops_here": 5,
+     "first": "13:00",
+     "last": "20:40",
+     "starts": [
+      "13:00",
+      "16:25",
+      "20:40"
+     ]
+    },
+    {
+     "no": "동내3",
+     "per_day": 6,
+     "stops_here": 6,
+     "first": "06:10",
+     "last": "10:50",
+     "starts": [
+      "06:10",
+      "06:45",
+      "07:50",
+      "09:20"
+     ]
+    },
+    {
+     "no": "동산1",
+     "per_day": 5,
+     "stops_here": 5,
+     "first": "06:25",
+     "last": "21:40",
+     "starts": [
+      "06:25",
+      "13:05",
+      "15:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "동산2",
+     "per_day": 5,
+     "stops_here": 5,
+     "first": "06:00",
+     "last": "20:40",
+     "starts": [
+      "06:00",
+      "08:05",
+      "20:40"
+     ]
+    },
+    {
+     "no": "동산4",
+     "per_day": 4,
+     "stops_here": 5,
+     "first": "07:30",
+     "last": "20:40",
+     "starts": [
+      "07:30",
+      "09:30",
+      "11:45"
+     ]
+    },
+    {
+     "no": "동산5",
+     "per_day": 3,
+     "stops_here": 5,
+     "first": "07:00",
+     "last": "14:30",
+     "starts": [
+      "07:00",
+      "09:20",
+      "14:30"
+     ]
+    },
+    {
+     "no": "동내2-1",
+     "per_day": 2,
+     "stops_here": 5,
+     "first": "20:25",
+     "last": "21:40",
+     "starts": [
+      "20:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "동산3",
+     "per_day": 1,
+     "stops_here": 5,
+     "first": "14:20",
+     "last": "14:20",
+     "starts": [
+      "14:20"
+     ]
+    },
+    {
+     "no": "1",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "10",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "10-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "10-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "100",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "100-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "101",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "101-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "11",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "11-1",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "12",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "15",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "15-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "16",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "18",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "2",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "200",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "4-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "400",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "6",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "7",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "7-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "7-2",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "7-S",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "901",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "902",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "905",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "906",
+     "per_day": null,
+     "stops_here": 2
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "춘천청소년수련관",
+     "routes": 18
+    },
+    {
+     "name": "중부지구대",
+     "routes": 18
+    },
+    {
+     "name": "춘천지방법원",
+     "routes": 17
+    },
+    {
+     "name": "병무청앞",
+     "routes": 16
+    },
+    {
+     "name": "양우A",
+     "routes": 16
+    }
+   ],
+   "low_freq": [],
+   "villages": []
+  },
+  "북산면": {
+   "stops": 25,
+   "routes": [
+    {
+     "no": "신동1-1",
+     "per_day": 13,
+     "stops_here": 2,
+     "first": "06:05",
+     "last": "20:30",
+     "starts": [
+      "06:05",
+      "07:40",
+      "11:00"
+     ]
+    },
+    {
+     "no": "북산1",
+     "per_day": 7,
+     "stops_here": 23,
+     "first": "05:50",
+     "last": "20:20",
+     "starts": [
+      "05:50",
+      "08:10",
+      "14:20",
+      "20:20"
+     ]
+    },
+    {
+     "no": "북산2",
+     "per_day": 2,
+     "stops_here": 23,
+     "first": "08:40",
+     "last": "16:55",
+     "starts": [
+      "08:40",
+      "16:55"
+     ]
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "배나무골입구",
+     "routes": 2
+    },
+    {
+     "name": "소양호권역홍보관",
+     "routes": 2
+    },
+    {
+     "name": "백치고개정상",
+     "routes": 2
+    },
+    {
+     "name": "북산면행복센터",
+     "routes": 2
+    },
+    {
+     "name": "북산치안센터",
+     "routes": 2
+    }
+   ],
+   "low_freq": [
+    "북산2(2회)"
+   ],
+   "villages": [
+    {
+     "hub": "물로리 경로당",
+     "stop": "떡갈매기",
+     "km": 8.21,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "조교1리 경로당",
+     "stop": "오항리종점",
+     "km": 7.42,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "대곡리 마을회관",
+     "stop": "오항리종점",
+     "km": 4.99,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "청평2리 경로당",
+     "stop": "소양강댐정상",
+     "km": 3.52,
+     "route": "11-1",
+     "per_day": null
+    },
+    {
+     "hub": "부귀리 마을회관",
+     "stop": "오항1리3반",
+     "km": 3.03,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "부귀리 경로당",
+     "stop": "청평사종점",
+     "km": 2.99,
+     "route": "신동1-1",
+     "per_day": 13
+    },
+    {
+     "hub": "청평1리 경로당",
+     "stop": "청평사종점",
+     "km": 0.29,
+     "route": "신동1-1",
+     "per_day": 13
+    },
+    {
+     "hub": "오항2리 경로당",
+     "stop": "오항2리",
+     "km": 0.2,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "추곡2리 경로당",
+     "stop": "추곡(낚시터)",
+     "km": 0.17,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "추곡1리 경로당",
+     "stop": "추곡초교",
+     "km": 0.04,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "오항1리 경로당",
+     "stop": "북산면행복센터",
+     "km": 0.01,
+     "route": "북산1",
+     "per_day": 7
+    }
+   ]
+  },
+  "사북면": {
+   "stops": 64,
+   "routes": [
+    {
+     "no": "북산1",
+     "per_day": 7,
+     "stops_here": 33,
+     "first": "05:50",
+     "last": "20:20",
+     "starts": [
+      "05:50",
+      "08:10",
+      "14:20",
+      "20:20"
+     ]
+    },
+    {
+     "no": "사북1",
+     "per_day": 6,
+     "stops_here": 21,
+     "first": "06:00",
+     "last": "20:30",
+     "starts": [
+      "06:00",
+      "08:15",
+      "20:30"
+     ]
+    },
+    {
+     "no": "사북2-1",
+     "per_day": 4,
+     "stops_here": 11,
+     "first": "06:10",
+     "last": "20:10",
+     "starts": [
+      "06:10"
+     ]
+    },
+    {
+     "no": "사북2",
+     "per_day": 3,
+     "stops_here": 29,
+     "first": "08:10",
+     "last": "17:20",
+     "starts": [
+      "08:10",
+      "17:20"
+     ]
+    },
+    {
+     "no": "사북3",
+     "per_day": 3,
+     "stops_here": 11,
+     "first": "06:45",
+     "last": "10:55",
+     "starts": [
+      "06:45"
+     ]
+    },
+    {
+     "no": "사북3-1",
+     "per_day": 3,
+     "stops_here": 33,
+     "first": "13:45",
+     "last": "19:00",
+     "starts": [
+      "13:45"
+     ]
+    },
+    {
+     "no": "906",
+     "per_day": null,
+     "stops_here": 38
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "오월유원지",
+     "routes": 4
+    },
+    {
+     "name": "(구)고탄농협",
+     "routes": 3
+    },
+    {
+     "name": "고성2리",
+     "routes": 3
+    },
+    {
+     "name": "가족쉼터",
+     "routes": 3
+    },
+    {
+     "name": "고성2리선돌입구",
+     "routes": 3
+    }
+   ],
+   "low_freq": [
+    "사북2(3회)",
+    "사북3(3회)",
+    "사북3-1(3회)"
+   ],
+   "villages": [
+    {
+     "hub": "가일리 경로당",
+     "stop": "송암5반",
+     "km": 2.19,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "지촌2리 경로당",
+     "stop": "지촌2리",
+     "km": 0.37,
+     "route": "사북1",
+     "per_day": 6
+    },
+    {
+     "hub": "원평리 경로당",
+     "stop": "원평마을",
+     "km": 0.36,
+     "route": "사북1",
+     "per_day": 6
+    },
+    {
+     "hub": "인람리 경로당",
+     "stop": "인람리(하우스)",
+     "km": 0.18,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "신포2리 마을회관",
+     "stop": "신포리",
+     "km": 0.18,
+     "route": "사북1",
+     "per_day": 6
+    },
+    {
+     "hub": "지촌1리 경로당",
+     "stop": "사북우체국",
+     "km": 0.17,
+     "route": "사북1",
+     "per_day": 6
+    },
+    {
+     "hub": "신포1리 경로당",
+     "stop": "신포중학교",
+     "km": 0.15,
+     "route": "사북1",
+     "per_day": 6
+    },
+    {
+     "hub": "신포2리 경로당",
+     "stop": "신포리",
+     "km": 0.14,
+     "route": "사북1",
+     "per_day": 6
+    },
+    {
+     "hub": "고탄늘푸른경로당",
+     "stop": "고탄리",
+     "km": 0.13,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "오탄2리 경로당",
+     "stop": "대추나무골",
+     "km": 0.1,
+     "route": "사북1",
+     "per_day": 6
+    },
+    {
+     "hub": "오탄1리 경로당",
+     "stop": "오탄1리",
+     "km": 0.08,
+     "route": "사북1",
+     "per_day": 6
+    },
+    {
+     "hub": "고성2리 경로당",
+     "stop": "고성2리용화산입구",
+     "km": 0.08,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "지암리 경로당",
+     "stop": "지암산천마을",
+     "km": 0.07,
+     "route": "사북2-1",
+     "per_day": 4
+    },
+    {
+     "hub": "고탄리 경로당",
+     "stop": "(구)고탄농협",
+     "km": 0.05,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "고탄리 마을회관",
+     "stop": "(구)고탄농협",
+     "km": 0.04,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "송암리 경로당",
+     "stop": "송암리",
+     "km": 0.04,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "오탄3리 경로당",
+     "stop": "오탄3리종점",
+     "km": 0.02,
+     "route": "사북1",
+     "per_day": 6
+    },
+    {
+     "hub": "지촌3리 경로당",
+     "stop": "지촌3리",
+     "km": 0.02,
+     "route": "사북1",
+     "per_day": 6
+    },
+    {
+     "hub": "고성1리 경로당",
+     "stop": "고성1리마을회관",
+     "km": 0.01,
+     "route": "북산1",
+     "per_day": 7
+    }
+   ]
+  },
+  "남면": {
+   "stops": 47,
+   "routes": [
+    {
+     "no": "남면1",
+     "per_day": 7,
+     "stops_here": 33,
+     "first": "06:15",
+     "last": "20:40",
+     "starts": [
+      "06:15",
+      "08:00",
+      "14:10",
+      "20:40"
+     ]
+    },
+    {
+     "no": "남산1",
+     "per_day": 6,
+     "stops_here": 22,
+     "first": "06:30",
+     "last": "19:45",
+     "starts": [
+      "06:30",
+      "08:10",
+      "11:55",
+      "14:05"
+     ]
+    },
+    {
+     "no": "남면3",
+     "per_day": 5,
+     "stops_here": 38,
+     "first": "06:30",
+     "last": "19:50",
+     "starts": [
+      "06:30",
+      "08:45",
+      "11:35",
+      "19:50"
+     ]
+    },
+    {
+     "no": "남면2",
+     "per_day": 4,
+     "stops_here": 22,
+     "first": "09:50",
+     "last": "20:00",
+     "starts": [
+      "09:50"
+     ]
+    },
+    {
+     "no": "남산2",
+     "per_day": 4,
+     "stops_here": 5,
+     "first": "09:00",
+     "last": "20:35",
+     "starts": [
+      "09:00",
+      "20:35"
+     ]
+    },
+    {
+     "no": "남면2-1",
+     "per_day": 2,
+     "stops_here": 17,
+     "first": "06:45",
+     "last": "13:40",
+     "starts": [
+      "06:45"
+     ]
+    },
+    {
+     "no": "남산1-1",
+     "per_day": 2,
+     "stops_here": 4,
+     "first": "09:15",
+     "last": "10:50",
+     "starts": [
+      "09:15",
+      "10:50"
+     ]
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 24
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 2
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "가재골",
+     "routes": 6
+    },
+    {
+     "name": "남면행정복지센터",
+     "routes": 6
+    },
+    {
+     "name": "발산1리1반",
+     "routes": 6
+    },
+    {
+     "name": "발산1리",
+     "routes": 6
+    },
+    {
+     "name": "발산2리4반",
+     "routes": 6
+    }
+   ],
+   "low_freq": [
+    "남면2-1(2회)"
+   ],
+   "villages": [
+    {
+     "hub": "박암리 마을회관",
+     "stop": "윗박암길",
+     "km": 0.21,
+     "route": "남면1",
+     "per_day": 7
+    },
+    {
+     "hub": "박암리 경로당",
+     "stop": "윗박암길",
+     "km": 0.17,
+     "route": "남면1",
+     "per_day": 7
+    },
+    {
+     "hub": "발산1리 경로당",
+     "stop": "남면행정복지센터",
+     "km": 0.12,
+     "route": "남면1",
+     "per_day": 7
+    },
+    {
+     "hub": "가정3리 경로당",
+     "stop": "가정리종점",
+     "km": 0.1,
+     "route": "남면1",
+     "per_day": 7
+    },
+    {
+     "hub": "관천리 경로당",
+     "stop": "관천리종점",
+     "km": 0.08,
+     "route": "남면1",
+     "per_day": 7
+    },
+    {
+     "hub": "후동1리 경로당",
+     "stop": "후동",
+     "km": 0.07,
+     "route": "남면1",
+     "per_day": 7
+    },
+    {
+     "hub": "가정1리 마을회관",
+     "stop": "가정중학교",
+     "km": 0.07,
+     "route": "남면1",
+     "per_day": 7
+    },
+    {
+     "hub": "발산2리 경로당",
+     "stop": "발산2리",
+     "km": 0.06,
+     "route": "남면1",
+     "per_day": 7
+    },
+    {
+     "hub": "후동2리 경로당",
+     "stop": "후동2리마을회관",
+     "km": 0.05,
+     "route": "남산1",
+     "per_day": 6
+    },
+    {
+     "hub": "추곡리 경로당",
+     "stop": "추곡리2반",
+     "km": 0.04,
+     "route": "남면3",
+     "per_day": 5
+    },
+    {
+     "hub": "가정1,2리 경로당",
+     "stop": "의암류인석유적지",
+     "km": 0.03,
+     "route": "남면1",
+     "per_day": 7
+    },
+    {
+     "hub": "가정2리 마을회관",
+     "stop": "가정2리",
+     "km": 0.02,
+     "route": "남면1",
+     "per_day": 7
+    },
+    {
+     "hub": "한덕리 경로당",
+     "stop": "한덕리마을회관",
+     "km": 0.02,
+     "route": "남면3",
+     "per_day": 5
+    }
+   ]
+  },
+  "조운동": {
+   "stops": 5,
+   "routes": [
+    {
+     "no": "동면3",
+     "per_day": 12,
+     "stops_here": 4,
+     "first": "06:50",
+     "last": "21:00",
+     "starts": [
+      "06:50",
+      "21:00"
+     ]
+    },
+    {
+     "no": "동내1",
+     "per_day": 9,
+     "stops_here": 4,
+     "first": "06:10",
+     "last": "20:35",
+     "starts": [
+      "06:10",
+      "07:10",
+      "09:15"
+     ]
+    },
+    {
+     "no": "동내2",
+     "per_day": 8,
+     "stops_here": 4,
+     "first": "06:25",
+     "last": "17:25",
+     "starts": [
+      "06:25",
+      "08:00",
+      "14:00"
+     ]
+    },
+    {
+     "no": "동면2",
+     "per_day": 7,
+     "stops_here": 4,
+     "first": "06:00",
+     "last": "20:20",
+     "starts": [
+      "06:00",
+      "07:40",
+      "20:20"
+     ]
+    },
+    {
+     "no": "동면1",
+     "per_day": 6,
+     "stops_here": 4,
+     "first": "06:05",
+     "last": "20:50",
+     "starts": [
+      "06:05",
+      "08:20",
+      "11:15",
+      "14:55",
+      "17:35",
+      "20:50"
+     ]
+    },
+    {
+     "no": "동산1",
+     "per_day": 5,
+     "stops_here": 3,
+     "first": "06:25",
+     "last": "21:40",
+     "starts": [
+      "06:25",
+      "13:05",
+      "15:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "1",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "1-13",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "10",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "13",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "13-S",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "14",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "15",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "15-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "16",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "2",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "200-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "200-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "3-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "300",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "4",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "4-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "400",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "6",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7-1",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7-2",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "8-1",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "8-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "9",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "901",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "902",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "905",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "906",
+     "per_day": null,
+     "stops_here": 4
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "동부시장",
+     "routes": 36
+    },
+    {
+     "name": "육림고개",
+     "routes": 31
+    },
+    {
+     "name": "시청입구",
+     "routes": 28
+    },
+    {
+     "name": "M백화점",
+     "routes": 26
+    },
+    {
+     "name": "춘천시청",
+     "routes": 1
+    }
+   ],
+   "low_freq": [],
+   "villages": []
+  },
+  "후평3동": {
+   "stops": 18,
+   "routes": [
+    {
+     "no": "동내1",
+     "per_day": 9,
+     "stops_here": 3,
+     "first": "06:10",
+     "last": "20:35",
+     "starts": [
+      "06:10",
+      "07:10",
+      "09:15"
+     ]
+    },
+    {
+     "no": "동내2",
+     "per_day": 8,
+     "stops_here": 3,
+     "first": "06:25",
+     "last": "17:25",
+     "starts": [
+      "06:25",
+      "08:00",
+      "14:00"
+     ]
+    },
+    {
+     "no": "1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "10",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "10-1",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "10-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "100",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "100-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "101",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "101-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "11",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "15",
+     "per_day": null,
+     "stops_here": 15
+    },
+    {
+     "no": "15-S",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "16",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "18",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "2",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "200",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "200-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "200-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "300",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "4-S",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "400",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "6",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "7",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "7-1",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "7-2",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "7-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "9",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "901",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "902",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "905",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "906",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "S-10",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "S-12",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-3",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-6",
+     "per_day": null,
+     "stops_here": 2
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "포스코더샵A",
+     "routes": 25
+    },
+    {
+     "name": "신한은행후평동지점",
+     "routes": 21
+    },
+    {
+     "name": "충인교회",
+     "routes": 18
+    },
+    {
+     "name": "후평3동행복센터",
+     "routes": 9
+    },
+    {
+     "name": "후평주공4단지후문",
+     "routes": 9
+    }
+   ],
+   "low_freq": [],
+   "villages": []
+  },
+  "후평1동": {
+   "stops": 26,
+   "routes": [
+    {
+     "no": "동면3",
+     "per_day": 12,
+     "stops_here": 10,
+     "first": "06:50",
+     "last": "21:00",
+     "starts": [
+      "06:50",
+      "21:00"
+     ]
+    },
+    {
+     "no": "동내1",
+     "per_day": 9,
+     "stops_here": 3,
+     "first": "06:10",
+     "last": "20:35",
+     "starts": [
+      "06:10",
+      "07:10",
+      "09:15"
+     ]
+    },
+    {
+     "no": "동내2",
+     "per_day": 8,
+     "stops_here": 3,
+     "first": "06:25",
+     "last": "17:25",
+     "starts": [
+      "06:25",
+      "08:00",
+      "14:00"
+     ]
+    },
+    {
+     "no": "동면2",
+     "per_day": 7,
+     "stops_here": 9,
+     "first": "06:00",
+     "last": "20:20",
+     "starts": [
+      "06:00",
+      "07:40",
+      "20:20"
+     ]
+    },
+    {
+     "no": "동면1",
+     "per_day": 6,
+     "stops_here": 9,
+     "first": "06:05",
+     "last": "20:50",
+     "starts": [
+      "06:05",
+      "08:20",
+      "11:15",
+      "14:55",
+      "17:35",
+      "20:50"
+     ]
+    },
+    {
+     "no": "동산1",
+     "per_day": 5,
+     "stops_here": 4,
+     "first": "06:25",
+     "last": "21:40",
+     "starts": [
+      "06:25",
+      "13:05",
+      "15:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "1",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "1-13",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "10",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "10-1",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "10-S",
+     "per_day": null,
+     "stops_here": 13
+    },
+    {
+     "no": "100",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "100-1",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "101",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "101-1",
+     "per_day": null,
+     "stops_here": 12
+    },
+    {
+     "no": "11",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "11-1",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "12",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "12-1",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "12-S",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "13",
+     "per_day": null,
+     "stops_here": 13
+    },
+    {
+     "no": "13-S",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "14",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "15",
+     "per_day": null,
+     "stops_here": 12
+    },
+    {
+     "no": "15-S",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "16",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "19",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "2",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "2-S",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "200",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "200-1",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "200-S",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "3",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "3-S",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "300",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "4",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "4-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "400",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "6",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "7",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7-1",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7-2",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "7-3",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "7-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "8",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "8-1",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "8-S",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "9",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "901",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "902",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "905",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "906",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "S-12",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "S-6",
+     "per_day": null,
+     "stops_here": 1
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "기계공고",
+     "routes": 31
+    },
+    {
+     "name": "춘천기계공고",
+     "routes": 29
+    },
+    {
+     "name": "정부합동청사",
+     "routes": 26
+    },
+    {
+     "name": "크로바A",
+     "routes": 23
+    },
+    {
+     "name": "포스코후문",
+     "routes": 23
+    }
+   ],
+   "low_freq": [],
+   "villages": []
+  },
+  "근화동": {
+   "stops": 30,
+   "routes": [
+    {
+     "no": "신동1-1",
+     "per_day": 13,
+     "stops_here": 5,
+     "first": "06:05",
+     "last": "20:30",
+     "starts": [
+      "06:05",
+      "07:40",
+      "11:00"
+     ]
+    },
+    {
+     "no": "서면2",
+     "per_day": 12,
+     "stops_here": 1,
+     "first": "06:00",
+     "last": "20:20",
+     "starts": [
+      "06:00",
+      "07:15",
+      "09:10",
+      "14:50"
+     ]
+    },
+    {
+     "no": "서면5",
+     "per_day": 10,
+     "stops_here": 2,
+     "first": "06:30",
+     "last": "20:45",
+     "starts": [
+      "06:30",
+      "07:25",
+      "09:00"
+     ]
+    },
+    {
+     "no": "서면3",
+     "per_day": 9,
+     "stops_here": 2,
+     "first": "05:50",
+     "last": "20:55",
+     "starts": [
+      "05:50",
+      "07:25",
+      "09:05",
+      "20:55"
+     ]
+    },
+    {
+     "no": "동내4",
+     "per_day": 8,
+     "stops_here": 2,
+     "first": "06:15",
+     "last": "21:40",
+     "starts": [
+      "06:15",
+      "06:45",
+      "08:55",
+      "16:35",
+      "19:50",
+      "21:40"
+     ]
+    },
+    {
+     "no": "북산1",
+     "per_day": 7,
+     "stops_here": 7,
+     "first": "05:50",
+     "last": "20:20",
+     "starts": [
+      "05:50",
+      "08:10",
+      "14:20",
+      "20:20"
+     ]
+    },
+    {
+     "no": "서면1",
+     "per_day": 7,
+     "stops_here": 2,
+     "first": "06:00",
+     "last": "20:05",
+     "starts": [
+      "06:00",
+      "08:00",
+      "12:20",
+      "14:20",
+      "20:05"
+     ]
+    },
+    {
+     "no": "서면4",
+     "per_day": 7,
+     "stops_here": 2,
+     "first": "06:10",
+     "last": "20:00",
+     "starts": [
+      "06:10",
+      "07:35",
+      "09:50",
+      "12:00",
+      "14:50"
+     ]
+    },
+    {
+     "no": "동내3",
+     "per_day": 6,
+     "stops_here": 4,
+     "first": "06:10",
+     "last": "10:50",
+     "starts": [
+      "06:10",
+      "06:45",
+      "07:50",
+      "09:20"
+     ]
+    },
+    {
+     "no": "사북1",
+     "per_day": 6,
+     "stops_here": 7,
+     "first": "06:00",
+     "last": "20:30",
+     "starts": [
+      "06:00",
+      "08:15",
+      "20:30"
+     ]
+    },
+    {
+     "no": "신북1-1",
+     "per_day": 6,
+     "stops_here": 2,
+     "first": "12:10",
+     "last": "21:20",
+     "starts": [
+      "12:10",
+      "14:35"
+     ]
+    },
+    {
+     "no": "서면6",
+     "per_day": 5,
+     "stops_here": 2,
+     "first": "06:15",
+     "last": "19:15",
+     "starts": [
+      "06:15"
+     ]
+    },
+    {
+     "no": "신북2",
+     "per_day": 5,
+     "stops_here": 2,
+     "first": "06:00",
+     "last": "20:40",
+     "starts": [
+      "06:00"
+     ]
+    },
+    {
+     "no": "신북3-1",
+     "per_day": 5,
+     "stops_here": 2,
+     "first": "06:15",
+     "last": "21:05",
+     "starts": [
+      "06:15",
+      "09:40",
+      "13:30"
+     ]
+    },
+    {
+     "no": "사북2-1",
+     "per_day": 4,
+     "stops_here": 5,
+     "first": "06:10",
+     "last": "20:10",
+     "starts": [
+      "06:10"
+     ]
+    },
+    {
+     "no": "신북1",
+     "per_day": 4,
+     "stops_here": 2,
+     "first": "06:10",
+     "last": "10:30",
+     "starts": [
+      "06:10",
+      "08:55",
+      "10:30"
+     ]
+    },
+    {
+     "no": "신북2-1",
+     "per_day": 4,
+     "stops_here": 2,
+     "first": "07:30",
+     "last": "19:10",
+     "starts": [
+      "07:30"
+     ]
+    },
+    {
+     "no": "신북3",
+     "per_day": 4,
+     "stops_here": 2,
+     "first": "07:45",
+     "last": "19:25",
+     "starts": [
+      "07:45",
+      "19:25"
+     ]
+    },
+    {
+     "no": "사북2",
+     "per_day": 3,
+     "stops_here": 5,
+     "first": "08:10",
+     "last": "17:20",
+     "starts": [
+      "08:10",
+      "17:20"
+     ]
+    },
+    {
+     "no": "사북3",
+     "per_day": 3,
+     "stops_here": 2,
+     "first": "06:45",
+     "last": "10:55",
+     "starts": [
+      "06:45"
+     ]
+    },
+    {
+     "no": "사북3-1",
+     "per_day": 3,
+     "stops_here": 2,
+     "first": "13:45",
+     "last": "19:00",
+     "starts": [
+      "13:45"
+     ]
+    },
+    {
+     "no": "서면2-1",
+     "per_day": 3,
+     "stops_here": 2,
+     "first": "09:50",
+     "last": "14:05",
+     "starts": [
+      "09:50",
+      "11:05",
+      "14:05"
+     ]
+    },
+    {
+     "no": "동내2-1",
+     "per_day": 2,
+     "stops_here": 4,
+     "first": "20:25",
+     "last": "21:40",
+     "starts": [
+      "20:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "북산2",
+     "per_day": 2,
+     "stops_here": 5,
+     "first": "08:40",
+     "last": "16:55",
+     "starts": [
+      "08:40",
+      "16:55"
+     ]
+    },
+    {
+     "no": "서면1-1",
+     "per_day": 2,
+     "stops_here": 1,
+     "first": "09:25",
+     "last": "10:50",
+     "starts": [
+      "09:25",
+      "10:50"
+     ]
+    },
+    {
+     "no": "1",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "1-13",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "1-16",
+     "per_day": null,
+     "stops_here": 13
+    },
+    {
+     "no": "10",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "10-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "10-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "100",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "100-1",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "101",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "101-1",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "11",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "11-1",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "12",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "12-1",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "12-S",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "13",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "13-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "14",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "15",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "15-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "16",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "17",
+     "per_day": null,
+     "stops_here": 13
+    },
+    {
+     "no": "19",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "2",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "2-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "200",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "200-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "200-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "3",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "3-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "300",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "4",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "4-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "400",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "6",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "7",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7-1",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7-2",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7-3",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "7-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "8",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "8-1",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "8-S",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "9",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "901",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "902",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "905",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "906",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "S-9",
+     "per_day": null,
+     "stops_here": 1
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "춘천중학교",
+     "routes": 43
+    },
+    {
+     "name": "소양로1가",
+     "routes": 25
+    },
+    {
+     "name": "번개시장",
+     "routes": 24
+    },
+    {
+     "name": "공지사거리",
+     "routes": 23
+    },
+    {
+     "name": "공지천사거리",
+     "routes": 22
+    }
+   ],
+   "low_freq": [],
+   "villages": []
+  },
+  "교동": {
+   "stops": 4,
+   "routes": [
+    {
+     "no": "10-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "10-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "11",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "12-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "12-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "13",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "16",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "19",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "2-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "3",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "300",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "4",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "400",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "6",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "7-2",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "7-3",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "8",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "901",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "902",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "905",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "906",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-11",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-4",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-9",
+     "per_day": null,
+     "stops_here": 1
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "한림대학교",
+     "routes": 21
+    },
+    {
+     "name": "춘천시청별관",
+     "routes": 14
+    },
+    {
+     "name": "향교",
+     "routes": 14
+    },
+    {
+     "name": "성심경로당",
+     "routes": 9
+    }
+   ],
+   "low_freq": [],
+   "villages": []
+  },
+  "남산면": {
+   "stops": 82,
+   "routes": [
+    {
+     "no": "남면1",
+     "per_day": 7,
+     "stops_here": 17,
+     "first": "06:15",
+     "last": "20:40",
+     "starts": [
+      "06:15",
+      "08:00",
+      "14:10",
+      "20:40"
+     ]
+    },
+    {
+     "no": "남산3",
+     "per_day": 7,
+     "stops_here": 37,
+     "first": "06:45",
+     "last": "21:00",
+     "starts": [
+      "06:45",
+      "07:35",
+      "09:20",
+      "15:00",
+      "16:35",
+      "19:00",
+      "21:00"
+     ]
+    },
+    {
+     "no": "남산1",
+     "per_day": 6,
+     "stops_here": 35,
+     "first": "06:30",
+     "last": "19:45",
+     "starts": [
+      "06:30",
+      "08:10",
+      "11:55",
+      "14:05"
+     ]
+    },
+    {
+     "no": "남산5",
+     "per_day": 6,
+     "stops_here": 46,
+     "first": "06:20",
+     "last": "21:05",
+     "starts": [
+      "06:20",
+      "08:55",
+      "18:20",
+      "21:05"
+     ]
+    },
+    {
+     "no": "동면1",
+     "per_day": 6,
+     "stops_here": 15,
+     "first": "06:05",
+     "last": "20:50",
+     "starts": [
+      "06:05",
+      "08:20",
+      "11:15",
+      "14:55",
+      "17:35",
+      "20:50"
+     ]
+    },
+    {
+     "no": "남면3",
+     "per_day": 5,
+     "stops_here": 30,
+     "first": "06:30",
+     "last": "19:50",
+     "starts": [
+      "06:30",
+      "08:45",
+      "11:35",
+      "19:50"
+     ]
+    },
+    {
+     "no": "남면2",
+     "per_day": 4,
+     "stops_here": 16,
+     "first": "09:50",
+     "last": "20:00",
+     "starts": [
+      "09:50"
+     ]
+    },
+    {
+     "no": "남산2",
+     "per_day": 4,
+     "stops_here": 32,
+     "first": "09:00",
+     "last": "20:35",
+     "starts": [
+      "09:00",
+      "20:35"
+     ]
+    },
+    {
+     "no": "남면2-1",
+     "per_day": 2,
+     "stops_here": 15,
+     "first": "06:45",
+     "last": "13:40",
+     "starts": [
+      "06:45"
+     ]
+    },
+    {
+     "no": "남산1-1",
+     "per_day": 2,
+     "stops_here": 33,
+     "first": "09:15",
+     "last": "10:50",
+     "starts": [
+      "09:15",
+      "10:50"
+     ]
+    },
+    {
+     "no": "남산2-1",
+     "per_day": 2,
+     "stops_here": 12,
+     "first": "06:35",
+     "last": "17:10",
+     "starts": [
+      "06:35",
+      "17:10"
+     ]
+    },
+    {
+     "no": "7",
+     "per_day": null,
+     "stops_here": 17
+    },
+    {
+     "no": "7-1",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "7-2",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "7-3",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "7-S",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "8",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 25
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 28
+    },
+    {
+     "no": "905",
+     "per_day": null,
+     "stops_here": 12
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "강촌1리마을",
+     "routes": 16
+    },
+    {
+     "name": "강촌리",
+     "routes": 16
+    },
+    {
+     "name": "강촌유원지",
+     "routes": 16
+    },
+    {
+     "name": "강촌역",
+     "routes": 16
+    },
+    {
+     "name": "강촌역입구",
+     "routes": 11
+    }
+   ],
+   "low_freq": [
+    "남산1-1(2회)",
+    "남산2-1(2회)"
+   ],
+   "villages": [
+    {
+     "hub": "방하리 경로당",
+     "stop": "백양2리3반",
+     "km": 4.1,
+     "route": "동면1",
+     "per_day": 6
+    },
+    {
+     "hub": "서천2리 경로당",
+     "stop": "경강교차로",
+     "km": 1.31,
+     "route": "904",
+     "per_day": null
+    },
+    {
+     "hub": "발뢰 경로당(강촌3리)",
+     "stop": "옛백양리역",
+     "km": 0.32,
+     "route": "동면1",
+     "per_day": 6
+    },
+    {
+     "hub": "광판3리 경로당",
+     "stop": "정보화마을",
+     "km": 0.22,
+     "route": "남면3",
+     "per_day": 5
+    },
+    {
+     "hub": "백양1리 경로당",
+     "stop": "백양1리",
+     "km": 0.17,
+     "route": "동면1",
+     "per_day": 6
+    },
+    {
+     "hub": "행촌리 경로당",
+     "stop": "행촌리종점",
+     "km": 0.16,
+     "route": "남면3",
+     "per_day": 5
+    },
+    {
+     "hub": "서천1리 경로당",
+     "stop": "서천리",
+     "km": 0.15,
+     "route": "동면1",
+     "per_day": 6
+    },
+    {
+     "hub": "산수2리경로당",
+     "stop": "산수리감투봉",
+     "km": 0.14,
+     "route": "남산3",
+     "per_day": 7
+    },
+    {
+     "hub": "광판2리 경로당",
+     "stop": "광판2리",
+     "km": 0.12,
+     "route": "남산3",
+     "per_day": 7
+    },
+    {
+     "hub": "창촌1리 경로당",
+     "stop": "창촌1리",
+     "km": 0.11,
+     "route": "남면1",
+     "per_day": 7
+    },
+    {
+     "hub": "강촌2리 경로당",
+     "stop": "강촌유원지",
+     "km": 0.1,
+     "route": "남면1",
+     "per_day": 7
+    },
+    {
+     "hub": "광판1리 경로당",
+     "stop": "광판1리",
+     "km": 0.1,
+     "route": "남산3",
+     "per_day": 7
+    },
+    {
+     "hub": "방곡2리 경로당",
+     "stop": "방곡2리회관",
+     "km": 0.04,
+     "route": "남산3",
+     "per_day": 7
+    },
+    {
+     "hub": "방곡1리 경로당",
+     "stop": "방곡1리",
+     "km": 0.03,
+     "route": "남면1",
+     "per_day": 7
+    },
+    {
+     "hub": "산수1리 경로당",
+     "stop": "산수1리마을회관",
+     "km": 0.03,
+     "route": "남산1",
+     "per_day": 6
+    },
+    {
+     "hub": "수동1리 경로당",
+     "stop": "수동1리마을회관",
+     "km": 0.02,
+     "route": "남산3",
+     "per_day": 7
+    },
+    {
+     "hub": "강촌1리 경로당",
+     "stop": "강촌1리회관",
+     "km": 0.02,
+     "route": "남면1",
+     "per_day": 7
+    },
+    {
+     "hub": "백양2리 경로당",
+     "stop": "백양리종점",
+     "km": 0.02,
+     "route": "동면1",
+     "per_day": 6
+    },
+    {
+     "hub": "창촌2리 경로당",
+     "stop": "창촌2리마을회관",
+     "km": 0.02,
+     "route": "남면1",
+     "per_day": 7
+    },
+    {
+     "hub": "창촌3리 경로당",
+     "stop": "창촌3리",
+     "km": 0.01,
+     "route": "남산3",
+     "per_day": 7
+    }
+   ]
+  },
+  "동면": {
+   "stops": 86,
+   "routes": [
+    {
+     "no": "동면3",
+     "per_day": 12,
+     "stops_here": 41,
+     "first": "06:50",
+     "last": "21:00",
+     "starts": [
+      "06:50",
+      "21:00"
+     ]
+    },
+    {
+     "no": "동내1",
+     "per_day": 9,
+     "stops_here": 10,
+     "first": "06:10",
+     "last": "20:35",
+     "starts": [
+      "06:10",
+      "07:10",
+      "09:15"
+     ]
+    },
+    {
+     "no": "동내2",
+     "per_day": 8,
+     "stops_here": 10,
+     "first": "06:25",
+     "last": "17:25",
+     "starts": [
+      "06:25",
+      "08:00",
+      "14:00"
+     ]
+    },
+    {
+     "no": "동면2",
+     "per_day": 7,
+     "stops_here": 57,
+     "first": "06:00",
+     "last": "20:20",
+     "starts": [
+      "06:00",
+      "07:40",
+      "20:20"
+     ]
+    },
+    {
+     "no": "동면1",
+     "per_day": 6,
+     "stops_here": 29,
+     "first": "06:05",
+     "last": "20:50",
+     "starts": [
+      "06:05",
+      "08:20",
+      "11:15",
+      "14:55",
+      "17:35",
+      "20:50"
+     ]
+    },
+    {
+     "no": "동산1",
+     "per_day": 5,
+     "stops_here": 30,
+     "first": "06:25",
+     "last": "21:40",
+     "starts": [
+      "06:25",
+      "13:05",
+      "15:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "신북1",
+     "per_day": 4,
+     "stops_here": 13,
+     "first": "06:10",
+     "last": "10:30",
+     "starts": [
+      "06:10",
+      "08:55",
+      "10:30"
+     ]
+    },
+    {
+     "no": "1",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "1-13",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "10",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "10-1",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "10-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "100",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "100-1",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "101",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "101-1",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "11",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "11-1",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "12",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "12-1",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "12-S",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "13",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "13-S",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "14",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "15",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "15-S",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "18",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "19",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "2",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "2-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "200",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "200-1",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "200-S",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "3",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "3-S",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "300",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "4",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "4-S",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "6",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "7",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "7-1",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "7-2",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "7-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "9",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "901",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "902",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "905",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "906",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-10",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "S-11",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "S-12",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "S-3",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "S-7",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "S-8",
+     "per_day": null,
+     "stops_here": 2
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "후평동종점",
+     "routes": 39
+    },
+    {
+     "name": "강원고앞",
+     "routes": 23
+    },
+    {
+     "name": "장학교차로",
+     "routes": 22
+    },
+    {
+     "name": "장학해온채A",
+     "routes": 22
+    },
+    {
+     "name": "상공회의소",
+     "routes": 13
+    }
+   ],
+   "low_freq": [],
+   "villages": [
+    {
+     "hub": "품걸2리 경로당",
+     "stop": "상걸리종점",
+     "km": 6.13,
+     "route": "동면2",
+     "per_day": 7
+    },
+    {
+     "hub": "품걸1리 경로당",
+     "stop": "상걸리종점",
+     "km": 4.57,
+     "route": "동면2",
+     "per_day": 7
+    },
+    {
+     "hub": "춘천대동다숲아파트 경로당",
+     "stop": "양지교",
+     "km": 0.19,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "지내2리 경로당",
+     "stop": "지내2리",
+     "km": 0.19,
+     "route": "동면3",
+     "per_day": 12
+    },
+    {
+     "hub": "만천1리 경로당",
+     "stop": "동면만천농협",
+     "km": 0.17,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "지내1리 경로당",
+     "stop": "지내1리",
+     "km": 0.14,
+     "route": "동면3",
+     "per_day": 12
+    },
+    {
+     "hub": "두산위브 경로당",
+     "stop": "두산위브A",
+     "km": 0.14,
+     "route": "동면3",
+     "per_day": 12
+    },
+    {
+     "hub": "춘천아이파크경로당",
+     "stop": "두산위브A",
+     "km": 0.14,
+     "route": "동면3",
+     "per_day": 12
+    },
+    {
+     "hub": "만천2리 경로당",
+     "stop": "만천2리마을회관",
+     "km": 0.13,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "만천KCC스위첸아파트 경로당",
+     "stop": "스위첸A",
+     "km": 0.12,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "장학LH 1단지아파트 경로당",
+     "stop": "장학LH1단지",
+     "km": 0.11,
+     "route": "동면3",
+     "per_day": 12
+    },
+    {
+     "hub": "지내3리 경로당",
+     "stop": "지내3리",
+     "km": 0.1,
+     "route": "동면3",
+     "per_day": 12
+    },
+    {
+     "hub": "상걸2리 경로당",
+     "stop": "상걸리보건진료소",
+     "km": 0.09,
+     "route": "동면2",
+     "per_day": 7
+    },
+    {
+     "hub": "LH해온채 경로당",
+     "stop": "상공회의소",
+     "km": 0.08,
+     "route": "동면3",
+     "per_day": 12
+    },
+    {
+     "hub": "동면 만천LH아파트 경로당",
+     "stop": "만천초교",
+     "km": 0.07,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "장학부영아파트 경로당",
+     "stop": "장학부영A",
+     "km": 0.07,
+     "route": "동면3",
+     "per_day": 12
+    },
+    {
+     "hub": "장학1리 마을회관",
+     "stop": "장학1리마을회관",
+     "km": 0.04,
+     "route": "동면2",
+     "per_day": 7
+    },
+    {
+     "hub": "장학1리 경로당",
+     "stop": "장학1리마을회관",
+     "km": 0.04,
+     "route": "동면2",
+     "per_day": 7
+    },
+    {
+     "hub": "월곡리 경로당",
+     "stop": "금옥골체험장",
+     "km": 0.03,
+     "route": "동면3",
+     "per_day": 12
+    },
+    {
+     "hub": "월곡리 마을회관",
+     "stop": "월곡리종점",
+     "km": 0.03,
+     "route": "동면3",
+     "per_day": 12
+    },
+    {
+     "hub": "한일유엔아이＠ 경로당",
+     "stop": "유앤아이A",
+     "km": 0.02,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "상걸1리 경로당",
+     "stop": "상걸1리",
+     "km": 0.02,
+     "route": "동면2",
+     "per_day": 7
+    },
+    {
+     "hub": "감정2리 경로당",
+     "stop": "감정2리마을회관",
+     "km": 0.01,
+     "route": "동면3",
+     "per_day": 12
+    },
+    {
+     "hub": "장학2리 경로당",
+     "stop": "장학17리회관",
+     "km": 0.01,
+     "route": "동면3",
+     "per_day": 12
+    },
+    {
+     "hub": "만천3리 경로당",
+     "stop": "만천3리마을회관",
+     "km": 0.01,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "감정1리 경로당",
+     "stop": "감정1리마을회관",
+     "km": 0.01,
+     "route": "동면3",
+     "per_day": 12
+    }
+   ]
+  },
+  "효자1동": {
+   "stops": 8,
+   "routes": [
+    {
+     "no": "신동1-1",
+     "per_day": 13,
+     "stops_here": 2,
+     "first": "06:05",
+     "last": "20:30",
+     "starts": [
+      "06:05",
+      "07:40",
+      "11:00"
+     ]
+    },
+    {
+     "no": "서면2",
+     "per_day": 12,
+     "stops_here": 2,
+     "first": "06:00",
+     "last": "20:20",
+     "starts": [
+      "06:00",
+      "07:15",
+      "09:10",
+      "14:50"
+     ]
+    },
+    {
+     "no": "신동1-2",
+     "per_day": 11,
+     "stops_here": 2,
+     "first": "06:15",
+     "last": "21:05",
+     "starts": [
+      "06:15",
+      "07:00",
+      "08:50",
+      "12:20",
+      "21:05"
+     ]
+    },
+    {
+     "no": "신동3",
+     "per_day": 11,
+     "stops_here": 2,
+     "first": "06:20",
+     "last": "21:20",
+     "starts": [
+      "06:20",
+      "07:20",
+      "08:50",
+      "17:00",
+      "21:20"
+     ]
+    },
+    {
+     "no": "동내1",
+     "per_day": 9,
+     "stops_here": 4,
+     "first": "06:10",
+     "last": "20:35",
+     "starts": [
+      "06:10",
+      "07:10",
+      "09:15"
+     ]
+    },
+    {
+     "no": "신동2",
+     "per_day": 9,
+     "stops_here": 2,
+     "first": "07:00",
+     "last": "20:25",
+     "starts": [
+      "07:00",
+      "08:25",
+      "10:25"
+     ]
+    },
+    {
+     "no": "동내4",
+     "per_day": 8,
+     "stops_here": 4,
+     "first": "06:15",
+     "last": "21:40",
+     "starts": [
+      "06:15",
+      "06:45",
+      "08:55",
+      "16:35",
+      "19:50",
+      "21:40"
+     ]
+    },
+    {
+     "no": "남면1",
+     "per_day": 7,
+     "stops_here": 2,
+     "first": "06:15",
+     "last": "20:40",
+     "starts": [
+      "06:15",
+      "08:00",
+      "14:10",
+      "20:40"
+     ]
+    },
+    {
+     "no": "남산3",
+     "per_day": 7,
+     "stops_here": 2,
+     "first": "06:45",
+     "last": "21:00",
+     "starts": [
+      "06:45",
+      "07:35",
+      "09:20",
+      "15:00",
+      "16:35",
+      "19:00",
+      "21:00"
+     ]
+    },
+    {
+     "no": "동내3-1",
+     "per_day": 7,
+     "stops_here": 4,
+     "first": "13:00",
+     "last": "20:40",
+     "starts": [
+      "13:00",
+      "16:25",
+      "20:40"
+     ]
+    },
+    {
+     "no": "서면1",
+     "per_day": 7,
+     "stops_here": 2,
+     "first": "06:00",
+     "last": "20:05",
+     "starts": [
+      "06:00",
+      "08:00",
+      "12:20",
+      "14:20",
+      "20:05"
+     ]
+    },
+    {
+     "no": "남산1",
+     "per_day": 6,
+     "stops_here": 2,
+     "first": "06:30",
+     "last": "19:45",
+     "starts": [
+      "06:30",
+      "08:10",
+      "11:55",
+      "14:05"
+     ]
+    },
+    {
+     "no": "남산5",
+     "per_day": 6,
+     "stops_here": 2,
+     "first": "06:20",
+     "last": "21:05",
+     "starts": [
+      "06:20",
+      "08:55",
+      "18:20",
+      "21:05"
+     ]
+    },
+    {
+     "no": "동내3",
+     "per_day": 6,
+     "stops_here": 4,
+     "first": "06:10",
+     "last": "10:50",
+     "starts": [
+      "06:10",
+      "06:45",
+      "07:50",
+      "09:20"
+     ]
+    },
+    {
+     "no": "동면1",
+     "per_day": 6,
+     "stops_here": 1,
+     "first": "06:05",
+     "last": "20:50",
+     "starts": [
+      "06:05",
+      "08:20",
+      "11:15",
+      "14:55",
+      "17:35",
+      "20:50"
+     ]
+    },
+    {
+     "no": "남면3",
+     "per_day": 5,
+     "stops_here": 2,
+     "first": "06:30",
+     "last": "19:50",
+     "starts": [
+      "06:30",
+      "08:45",
+      "11:35",
+      "19:50"
+     ]
+    },
+    {
+     "no": "동산1",
+     "per_day": 5,
+     "stops_here": 4,
+     "first": "06:25",
+     "last": "21:40",
+     "starts": [
+      "06:25",
+      "13:05",
+      "15:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "동산2",
+     "per_day": 5,
+     "stops_here": 4,
+     "first": "06:00",
+     "last": "20:40",
+     "starts": [
+      "06:00",
+      "08:05",
+      "20:40"
+     ]
+    },
+    {
+     "no": "남면2",
+     "per_day": 4,
+     "stops_here": 1,
+     "first": "09:50",
+     "last": "20:00",
+     "starts": [
+      "09:50"
+     ]
+    },
+    {
+     "no": "남산2",
+     "per_day": 4,
+     "stops_here": 2,
+     "first": "09:00",
+     "last": "20:35",
+     "starts": [
+      "09:00",
+      "20:35"
+     ]
+    },
+    {
+     "no": "동산4",
+     "per_day": 4,
+     "stops_here": 4,
+     "first": "07:30",
+     "last": "20:40",
+     "starts": [
+      "07:30",
+      "09:30",
+      "11:45"
+     ]
+    },
+    {
+     "no": "동산5",
+     "per_day": 3,
+     "stops_here": 4,
+     "first": "07:00",
+     "last": "14:30",
+     "starts": [
+      "07:00",
+      "09:20",
+      "14:30"
+     ]
+    },
+    {
+     "no": "서면2-1",
+     "per_day": 3,
+     "stops_here": 1,
+     "first": "09:50",
+     "last": "14:05",
+     "starts": [
+      "09:50",
+      "11:05",
+      "14:05"
+     ]
+    },
+    {
+     "no": "남면2-1",
+     "per_day": 2,
+     "stops_here": 2,
+     "first": "06:45",
+     "last": "13:40",
+     "starts": [
+      "06:45"
+     ]
+    },
+    {
+     "no": "남산1-1",
+     "per_day": 2,
+     "stops_here": 2,
+     "first": "09:15",
+     "last": "10:50",
+     "starts": [
+      "09:15",
+      "10:50"
+     ]
+    },
+    {
+     "no": "남산2-1",
+     "per_day": 2,
+     "stops_here": 2,
+     "first": "06:35",
+     "last": "17:10",
+     "starts": [
+      "06:35",
+      "17:10"
+     ]
+    },
+    {
+     "no": "서면1-1",
+     "per_day": 2,
+     "stops_here": 2,
+     "first": "09:25",
+     "last": "10:50",
+     "starts": [
+      "09:25",
+      "10:50"
+     ]
+    },
+    {
+     "no": "동산3",
+     "per_day": 1,
+     "stops_here": 4,
+     "first": "14:20",
+     "last": "14:20",
+     "starts": [
+      "14:20"
+     ]
+    },
+    {
+     "no": "1",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "1-13",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "1-16",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "10",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "10-1",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "10-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "101",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "11",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "13",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "13-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "14",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "15",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "15-S",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "16",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "17",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "2",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "2-S",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "200",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "3",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "901",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "902",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "S-2",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-3",
+     "per_day": null,
+     "stops_here": 2
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "남부사거리",
+     "routes": 37
+    },
+    {
+     "name": "춘천경찰서",
+     "routes": 20
+    },
+    {
+     "name": "남부시장",
+     "routes": 17
+    },
+    {
+     "name": "수협",
+     "routes": 16
+    },
+    {
+     "name": "한국토지주택공사",
+     "routes": 15
+    }
+   ],
+   "low_freq": [],
+   "villages": []
+  },
+  "서면": {
+   "stops": 96,
+   "routes": [
+    {
+     "no": "서면2",
+     "per_day": 12,
+     "stops_here": 59,
+     "first": "06:00",
+     "last": "20:20",
+     "starts": [
+      "06:00",
+      "07:15",
+      "09:10",
+      "14:50"
+     ]
+    },
+    {
+     "no": "서면5",
+     "per_day": 10,
+     "stops_here": 26,
+     "first": "06:30",
+     "last": "20:45",
+     "starts": [
+      "06:30",
+      "07:25",
+      "09:00"
+     ]
+    },
+    {
+     "no": "서면3",
+     "per_day": 9,
+     "stops_here": 36,
+     "first": "05:50",
+     "last": "20:55",
+     "starts": [
+      "05:50",
+      "07:25",
+      "09:05",
+      "20:55"
+     ]
+    },
+    {
+     "no": "남면1",
+     "per_day": 7,
+     "stops_here": 4,
+     "first": "06:15",
+     "last": "20:40",
+     "starts": [
+      "06:15",
+      "08:00",
+      "14:10",
+      "20:40"
+     ]
+    },
+    {
+     "no": "남산3",
+     "per_day": 7,
+     "stops_here": 4,
+     "first": "06:45",
+     "last": "21:00",
+     "starts": [
+      "06:45",
+      "07:35",
+      "09:20",
+      "15:00",
+      "16:35",
+      "19:00",
+      "21:00"
+     ]
+    },
+    {
+     "no": "서면1",
+     "per_day": 7,
+     "stops_here": 29,
+     "first": "06:00",
+     "last": "20:05",
+     "starts": [
+      "06:00",
+      "08:00",
+      "12:20",
+      "14:20",
+      "20:05"
+     ]
+    },
+    {
+     "no": "서면4",
+     "per_day": 7,
+     "stops_here": 31,
+     "first": "06:10",
+     "last": "20:00",
+     "starts": [
+      "06:10",
+      "07:35",
+      "09:50",
+      "12:00",
+      "14:50"
+     ]
+    },
+    {
+     "no": "남산1",
+     "per_day": 6,
+     "stops_here": 4,
+     "first": "06:30",
+     "last": "19:45",
+     "starts": [
+      "06:30",
+      "08:10",
+      "11:55",
+      "14:05"
+     ]
+    },
+    {
+     "no": "남산5",
+     "per_day": 6,
+     "stops_here": 4,
+     "first": "06:20",
+     "last": "21:05",
+     "starts": [
+      "06:20",
+      "08:55",
+      "18:20",
+      "21:05"
+     ]
+    },
+    {
+     "no": "동면1",
+     "per_day": 6,
+     "stops_here": 3,
+     "first": "06:05",
+     "last": "20:50",
+     "starts": [
+      "06:05",
+      "08:20",
+      "11:15",
+      "14:55",
+      "17:35",
+      "20:50"
+     ]
+    },
+    {
+     "no": "사북1",
+     "per_day": 6,
+     "stops_here": 18,
+     "first": "06:00",
+     "last": "20:30",
+     "starts": [
+      "06:00",
+      "08:15",
+      "20:30"
+     ]
+    },
+    {
+     "no": "남면3",
+     "per_day": 5,
+     "stops_here": 4,
+     "first": "06:30",
+     "last": "19:50",
+     "starts": [
+      "06:30",
+      "08:45",
+      "11:35",
+      "19:50"
+     ]
+    },
+    {
+     "no": "서면6",
+     "per_day": 5,
+     "stops_here": 17,
+     "first": "06:15",
+     "last": "19:15",
+     "starts": [
+      "06:15"
+     ]
+    },
+    {
+     "no": "남면2",
+     "per_day": 4,
+     "stops_here": 3,
+     "first": "09:50",
+     "last": "20:00",
+     "starts": [
+      "09:50"
+     ]
+    },
+    {
+     "no": "남산2",
+     "per_day": 4,
+     "stops_here": 3,
+     "first": "09:00",
+     "last": "20:35",
+     "starts": [
+      "09:00",
+      "20:35"
+     ]
+    },
+    {
+     "no": "사북2-1",
+     "per_day": 4,
+     "stops_here": 9,
+     "first": "06:10",
+     "last": "20:10",
+     "starts": [
+      "06:10"
+     ]
+    },
+    {
+     "no": "사북2",
+     "per_day": 3,
+     "stops_here": 5,
+     "first": "08:10",
+     "last": "17:20",
+     "starts": [
+      "08:10",
+      "17:20"
+     ]
+    },
+    {
+     "no": "사북3",
+     "per_day": 3,
+     "stops_here": 5,
+     "first": "06:45",
+     "last": "10:55",
+     "starts": [
+      "06:45"
+     ]
+    },
+    {
+     "no": "서면2-1",
+     "per_day": 3,
+     "stops_here": 32,
+     "first": "09:50",
+     "last": "14:05",
+     "starts": [
+      "09:50",
+      "11:05",
+      "14:05"
+     ]
+    },
+    {
+     "no": "남면2-1",
+     "per_day": 2,
+     "stops_here": 4,
+     "first": "06:45",
+     "last": "13:40",
+     "starts": [
+      "06:45"
+     ]
+    },
+    {
+     "no": "남산1-1",
+     "per_day": 2,
+     "stops_here": 2,
+     "first": "09:15",
+     "last": "10:50",
+     "starts": [
+      "09:15",
+      "10:50"
+     ]
+    },
+    {
+     "no": "서면1-1",
+     "per_day": 2,
+     "stops_here": 41,
+     "first": "09:25",
+     "last": "10:50",
+     "starts": [
+      "09:25",
+      "10:50"
+     ]
+    },
+    {
+     "no": "10",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "7",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "7-1",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "7-2",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7-3",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "7-S",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "8",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 16
+    },
+    {
+     "no": "905",
+     "per_day": null,
+     "stops_here": 16
+    },
+    {
+     "no": "906",
+     "per_day": null,
+     "stops_here": 3
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "등선폭포",
+     "routes": 22
+    },
+    {
+     "name": "등선폭포주차장",
+     "routes": 20
+    },
+    {
+     "name": "의암교차로",
+     "routes": 20
+    },
+    {
+     "name": "덕두원3리",
+     "routes": 17
+    },
+    {
+     "name": "삼악산",
+     "routes": 9
+    }
+   ],
+   "low_freq": [
+    "서면1-1(2회)",
+    "서면2-1(3회)"
+   ],
+   "villages": [
+    {
+     "hub": "금산2리 경로당",
+     "stop": "금산2리",
+     "km": 0.51,
+     "route": "서면2",
+     "per_day": 12
+    },
+    {
+     "hub": "신매2리 경로당",
+     "stop": "서면치안센터",
+     "km": 0.3,
+     "route": "서면2",
+     "per_day": 12
+    },
+    {
+     "hub": "당림2리 경로당",
+     "stop": "당림2리",
+     "km": 0.27,
+     "route": "서면2",
+     "per_day": 12
+    },
+    {
+     "hub": "안보1리 경로당",
+     "stop": "안보1리",
+     "km": 0.25,
+     "route": "서면2",
+     "per_day": 12
+    },
+    {
+     "hub": "금산1리 경로당",
+     "stop": "금산2리",
+     "km": 0.2,
+     "route": "서면2",
+     "per_day": 12
+    },
+    {
+     "hub": "서상1리 경로당",
+     "stop": "서상1리종점",
+     "km": 0.19,
+     "route": "서면5",
+     "per_day": 10
+    },
+    {
+     "hub": "월송2리 경로당",
+     "stop": "월송2리",
+     "km": 0.19,
+     "route": "서면5",
+     "per_day": 10
+    },
+    {
+     "hub": "오월2리 경로당",
+     "stop": "오월2리",
+     "km": 0.18,
+     "route": "사북1",
+     "per_day": 6
+    },
+    {
+     "hub": "방동2리 마을회관",
+     "stop": "방동2리",
+     "km": 0.17,
+     "route": "서면3",
+     "per_day": 9
+    },
+    {
+     "hub": "안보2리 경로당",
+     "stop": "안보2리종점",
+     "km": 0.16,
+     "route": "서면2",
+     "per_day": 12
+    },
+    {
+     "hub": "덕두원2리 경로당",
+     "stop": "명월제1교",
+     "km": 0.15,
+     "route": "서면2",
+     "per_day": 12
+    },
+    {
+     "hub": "방동2리 경로당",
+     "stop": "방동2리",
+     "km": 0.15,
+     "route": "서면3",
+     "per_day": 9
+    },
+    {
+     "hub": "오월1리경로당",
+     "stop": "춘천댐종점",
+     "km": 0.12,
+     "route": "사북1",
+     "per_day": 6
+    },
+    {
+     "hub": "당림1리 경로당",
+     "stop": "풀무원입구",
+     "km": 0.09,
+     "route": "서면2",
+     "per_day": 12
+    },
+    {
+     "hub": "덕두원3리 경로당",
+     "stop": "등선폭포주차장",
+     "km": 0.09,
+     "route": "서면2",
+     "per_day": 12
+    },
+    {
+     "hub": "방동1리 마을회관",
+     "stop": "방동1리",
+     "km": 0.09,
+     "route": "서면3",
+     "per_day": 9
+    },
+    {
+     "hub": "방동1리 경로당",
+     "stop": "방동1리",
+     "km": 0.07,
+     "route": "서면3",
+     "per_day": 9
+    },
+    {
+     "hub": "금산3리 경로당",
+     "stop": "시청자미디어센터",
+     "km": 0.05,
+     "route": "서면2",
+     "per_day": 12
+    },
+    {
+     "hub": "신매1리 경로당",
+     "stop": "서춘천농협",
+     "km": 0.04,
+     "route": "서면5",
+     "per_day": 10
+    },
+    {
+     "hub": "월송3리 경로당",
+     "stop": "월송3리종점",
+     "km": 0.04,
+     "route": "서면5",
+     "per_day": 10
+    },
+    {
+     "hub": "현암리 경로당",
+     "stop": "애니메이션박물관",
+     "km": 0.03,
+     "route": "서면2",
+     "per_day": 12
+    },
+    {
+     "hub": "월송1리 경로당",
+     "stop": "월송1리",
+     "km": 0.03,
+     "route": "서면5",
+     "per_day": 10
+    },
+    {
+     "hub": "서상2리 경로당",
+     "stop": "서상마을회관",
+     "km": 0.02,
+     "route": "서면5",
+     "per_day": 10
+    },
+    {
+     "hub": "덕두원1리 경로당",
+     "stop": "봉덕사입구",
+     "km": 0.01,
+     "route": "서면2",
+     "per_day": 12
+    },
+    {
+     "hub": "신매3리 경로당",
+     "stop": "신매3리",
+     "km": 0.01,
+     "route": "서면2",
+     "per_day": 12
+    }
+   ]
+  },
+  "동산면": {
+   "stops": 47,
+   "routes": [
+    {
+     "no": "동내1",
+     "per_day": 9,
+     "stops_here": 19,
+     "first": "06:10",
+     "last": "20:35",
+     "starts": [
+      "06:10",
+      "07:10",
+      "09:15"
+     ]
+    },
+    {
+     "no": "남산3",
+     "per_day": 7,
+     "stops_here": 17,
+     "first": "06:45",
+     "last": "21:00",
+     "starts": [
+      "06:45",
+      "07:35",
+      "09:20",
+      "15:00",
+      "16:35",
+      "19:00",
+      "21:00"
+     ]
+    },
+    {
+     "no": "동산1",
+     "per_day": 5,
+     "stops_here": 20,
+     "first": "06:25",
+     "last": "21:40",
+     "starts": [
+      "06:25",
+      "13:05",
+      "15:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "동산2",
+     "per_day": 5,
+     "stops_here": 30,
+     "first": "06:00",
+     "last": "20:40",
+     "starts": [
+      "06:00",
+      "08:05",
+      "20:40"
+     ]
+    },
+    {
+     "no": "동산4",
+     "per_day": 4,
+     "stops_here": 42,
+     "first": "07:30",
+     "last": "20:40",
+     "starts": [
+      "07:30",
+      "09:30",
+      "11:45"
+     ]
+    },
+    {
+     "no": "동산5",
+     "per_day": 3,
+     "stops_here": 32,
+     "first": "07:00",
+     "last": "14:30",
+     "starts": [
+      "07:00",
+      "09:20",
+      "14:30"
+     ]
+    },
+    {
+     "no": "남산2-1",
+     "per_day": 2,
+     "stops_here": 17,
+     "first": "06:35",
+     "last": "17:10",
+     "starts": [
+      "06:35",
+      "17:10"
+     ]
+    },
+    {
+     "no": "동산3",
+     "per_day": 1,
+     "stops_here": 29,
+     "first": "14:20",
+     "last": "14:20",
+     "starts": [
+      "14:20"
+     ]
+    },
+    {
+     "no": "901",
+     "per_day": null,
+     "stops_here": 32
+    },
+    {
+     "no": "902",
+     "per_day": null,
+     "stops_here": 32
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "원창고개정상",
+     "routes": 10
+    },
+    {
+     "name": "폴리텍대학",
+     "routes": 10
+    },
+    {
+     "name": "할렐루야기도원",
+     "routes": 10
+    },
+    {
+     "name": "원창4리",
+     "routes": 10
+    },
+    {
+     "name": "새술막",
+     "routes": 10
+    }
+   ],
+   "low_freq": [
+    "동산3(1회)",
+    "동산5(3회)"
+   ],
+   "villages": [
+    {
+     "hub": "원창4리 경로당",
+     "stop": "원창4리",
+     "km": 1.07,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "봉명1리 경로당",
+     "stop": "봉명리",
+     "km": 0.27,
+     "route": "동산2",
+     "per_day": 5
+    },
+    {
+     "hub": "원창5리 경로당",
+     "stop": "원창5리",
+     "km": 0.2,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "원창1리 경로당",
+     "stop": "원창1리",
+     "km": 0.19,
+     "route": "동산4",
+     "per_day": 4
+    },
+    {
+     "hub": "봉명2리 경로당",
+     "stop": "봉명2교",
+     "km": 0.17,
+     "route": "동산2",
+     "per_day": 5
+    },
+    {
+     "hub": "원창2리 경로당",
+     "stop": "폴리텍입구",
+     "km": 0.15,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "군자3리 경로당",
+     "stop": "군자3리",
+     "km": 0.1,
+     "route": "남산3",
+     "per_day": 7
+    },
+    {
+     "hub": "군자2리 경로당",
+     "stop": "갈골",
+     "km": 0.1,
+     "route": "동산4",
+     "per_day": 4
+    },
+    {
+     "hub": "조양2리 경로당",
+     "stop": "조양2리",
+     "km": 0.09,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "원창3리 경로당",
+     "stop": "새술막",
+     "km": 0.05,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "조양1리 경로당",
+     "stop": "동산면행복센터",
+     "km": 0.05,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "조양4리 경로당",
+     "stop": "조양4리",
+     "km": 0.04,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "조양3리 경로당",
+     "stop": "조양3리종점",
+     "km": 0.02,
+     "route": "동산2",
+     "per_day": 5
+    },
+    {
+     "hub": "군자1리 경로당",
+     "stop": "군자1리",
+     "km": 0.01,
+     "route": "남산3",
+     "per_day": 7
+    }
+   ]
+  },
+  "효자3동": {
+   "stops": 9,
+   "routes": [
+    {
+     "no": "동면3",
+     "per_day": 12,
+     "stops_here": 2,
+     "first": "06:50",
+     "last": "21:00",
+     "starts": [
+      "06:50",
+      "21:00"
+     ]
+    },
+    {
+     "no": "동내1",
+     "per_day": 9,
+     "stops_here": 4,
+     "first": "06:10",
+     "last": "20:35",
+     "starts": [
+      "06:10",
+      "07:10",
+      "09:15"
+     ]
+    },
+    {
+     "no": "동내2",
+     "per_day": 8,
+     "stops_here": 4,
+     "first": "06:25",
+     "last": "17:25",
+     "starts": [
+      "06:25",
+      "08:00",
+      "14:00"
+     ]
+    },
+    {
+     "no": "동면2",
+     "per_day": 7,
+     "stops_here": 2,
+     "first": "06:00",
+     "last": "20:20",
+     "starts": [
+      "06:00",
+      "07:40",
+      "20:20"
+     ]
+    },
+    {
+     "no": "동면1",
+     "per_day": 6,
+     "stops_here": 2,
+     "first": "06:05",
+     "last": "20:50",
+     "starts": [
+      "06:05",
+      "08:20",
+      "11:15",
+      "14:55",
+      "17:35",
+      "20:50"
+     ]
+    },
+    {
+     "no": "동산1",
+     "per_day": 5,
+     "stops_here": 2,
+     "first": "06:25",
+     "last": "21:40",
+     "starts": [
+      "06:25",
+      "13:05",
+      "15:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "1",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "1-13",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "10",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "100",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "100-1",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "101",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "101-1",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "11-1",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "12",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "13",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "13-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "14",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "15",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "15-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "16",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "18",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "19",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "2",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "200",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "200-1",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "200-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "3-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "300",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "4",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "4-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "400",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "6",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7-1",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "7-2",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "7-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "8-1",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "8-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "9",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "901",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "902",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "905",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "906",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "S-3",
+     "per_day": null,
+     "stops_here": 1
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "봉의중학교",
+     "routes": 27
+    },
+    {
+     "name": "강원대학병원",
+     "routes": 22
+    },
+    {
+     "name": "중부지구대",
+     "routes": 19
+    },
+    {
+     "name": "푸른언덕공원",
+     "routes": 19
+    },
+    {
+     "name": "춘천청소년수련관",
+     "routes": 19
+    }
+   ],
+   "low_freq": [],
+   "villages": []
+  },
+  "후평2동": {
+   "stops": 10,
+   "routes": [
+    {
+     "no": "동면3",
+     "per_day": 12,
+     "stops_here": 2,
+     "first": "06:50",
+     "last": "21:00",
+     "starts": [
+      "06:50",
+      "21:00"
+     ]
+    },
+    {
+     "no": "동내1",
+     "per_day": 9,
+     "stops_here": 3,
+     "first": "06:10",
+     "last": "20:35",
+     "starts": [
+      "06:10",
+      "07:10",
+      "09:15"
+     ]
+    },
+    {
+     "no": "동내2",
+     "per_day": 8,
+     "stops_here": 3,
+     "first": "06:25",
+     "last": "17:25",
+     "starts": [
+      "06:25",
+      "08:00",
+      "14:00"
+     ]
+    },
+    {
+     "no": "동면2",
+     "per_day": 7,
+     "stops_here": 2,
+     "first": "06:00",
+     "last": "20:20",
+     "starts": [
+      "06:00",
+      "07:40",
+      "20:20"
+     ]
+    },
+    {
+     "no": "동면1",
+     "per_day": 6,
+     "stops_here": 2,
+     "first": "06:05",
+     "last": "20:50",
+     "starts": [
+      "06:05",
+      "08:20",
+      "11:15",
+      "14:55",
+      "17:35",
+      "20:50"
+     ]
+    },
+    {
+     "no": "동산1",
+     "per_day": 5,
+     "stops_here": 2,
+     "first": "06:25",
+     "last": "21:40",
+     "starts": [
+      "06:25",
+      "13:05",
+      "15:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "1-13",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "10",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "10-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "100",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "100-1",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "101",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "101-1",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "11-1",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "12",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "13",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "14",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "15",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "15-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "16",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "18",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "19",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "2",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "200",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "200-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "3-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "4",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "4-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "400",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "6",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7-1",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "7-2",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "7-S",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "8-1",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "8-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "9",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "901",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "902",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "905",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "906",
+     "per_day": null,
+     "stops_here": 5
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "포스코후문",
+     "routes": 23
+    },
+    {
+     "name": "크로바A",
+     "routes": 23
+    },
+    {
+     "name": "푸른언덕공원",
+     "routes": 20
+    },
+    {
+     "name": "후평중학교",
+     "routes": 20
+    },
+    {
+     "name": "일성트루엘A",
+     "routes": 19
+    }
+   ],
+   "low_freq": [],
+   "villages": []
+  },
+  "신북읍": {
+   "stops": 85,
+   "routes": [
+    {
+     "no": "신동1-1",
+     "per_day": 13,
+     "stops_here": 13,
+     "first": "06:05",
+     "last": "20:30",
+     "starts": [
+      "06:05",
+      "07:40",
+      "11:00"
+     ]
+    },
+    {
+     "no": "북산1",
+     "per_day": 7,
+     "stops_here": 20,
+     "first": "05:50",
+     "last": "20:20",
+     "starts": [
+      "05:50",
+      "08:10",
+      "14:20",
+      "20:20"
+     ]
+    },
+    {
+     "no": "서면1",
+     "per_day": 7,
+     "stops_here": 25,
+     "first": "06:00",
+     "last": "20:05",
+     "starts": [
+      "06:00",
+      "08:00",
+      "12:20",
+      "14:20",
+      "20:05"
+     ]
+    },
+    {
+     "no": "사북1",
+     "per_day": 6,
+     "stops_here": 9,
+     "first": "06:00",
+     "last": "20:30",
+     "starts": [
+      "06:00",
+      "08:15",
+      "20:30"
+     ]
+    },
+    {
+     "no": "신북1-1",
+     "per_day": 6,
+     "stops_here": 21,
+     "first": "12:10",
+     "last": "21:20",
+     "starts": [
+      "12:10",
+      "14:35"
+     ]
+    },
+    {
+     "no": "신북2",
+     "per_day": 5,
+     "stops_here": 19,
+     "first": "06:00",
+     "last": "20:40",
+     "starts": [
+      "06:00"
+     ]
+    },
+    {
+     "no": "신북3-1",
+     "per_day": 5,
+     "stops_here": 26,
+     "first": "06:15",
+     "last": "21:05",
+     "starts": [
+      "06:15",
+      "09:40",
+      "13:30"
+     ]
+    },
+    {
+     "no": "사북2-1",
+     "per_day": 4,
+     "stops_here": 9,
+     "first": "06:10",
+     "last": "20:10",
+     "starts": [
+      "06:10"
+     ]
+    },
+    {
+     "no": "신북1",
+     "per_day": 4,
+     "stops_here": 23,
+     "first": "06:10",
+     "last": "10:30",
+     "starts": [
+      "06:10",
+      "08:55",
+      "10:30"
+     ]
+    },
+    {
+     "no": "신북2-1",
+     "per_day": 4,
+     "stops_here": 26,
+     "first": "07:30",
+     "last": "19:10",
+     "starts": [
+      "07:30"
+     ]
+    },
+    {
+     "no": "신북3",
+     "per_day": 4,
+     "stops_here": 38,
+     "first": "07:45",
+     "last": "19:25",
+     "starts": [
+      "07:45",
+      "19:25"
+     ]
+    },
+    {
+     "no": "사북2",
+     "per_day": 3,
+     "stops_here": 9,
+     "first": "08:10",
+     "last": "17:20",
+     "starts": [
+      "08:10",
+      "17:20"
+     ]
+    },
+    {
+     "no": "사북3",
+     "per_day": 3,
+     "stops_here": 9,
+     "first": "06:45",
+     "last": "10:55",
+     "starts": [
+      "06:45"
+     ]
+    },
+    {
+     "no": "사북3-1",
+     "per_day": 3,
+     "stops_here": 7,
+     "first": "13:45",
+     "last": "19:00",
+     "starts": [
+      "13:45"
+     ]
+    },
+    {
+     "no": "북산2",
+     "per_day": 2,
+     "stops_here": 15,
+     "first": "08:40",
+     "last": "16:55",
+     "starts": [
+      "08:40",
+      "16:55"
+     ]
+    },
+    {
+     "no": "1-13",
+     "per_day": null,
+     "stops_here": 15
+    },
+    {
+     "no": "10",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "11",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "11-1",
+     "per_day": null,
+     "stops_here": 16
+    },
+    {
+     "no": "12",
+     "per_day": null,
+     "stops_here": 16
+    },
+    {
+     "no": "12-1",
+     "per_day": null,
+     "stops_here": 16
+    },
+    {
+     "no": "12-S",
+     "per_day": null,
+     "stops_here": 15
+    },
+    {
+     "no": "13",
+     "per_day": null,
+     "stops_here": 15
+    },
+    {
+     "no": "13-S",
+     "per_day": null,
+     "stops_here": 12
+    },
+    {
+     "no": "14",
+     "per_day": null,
+     "stops_here": 12
+    },
+    {
+     "no": "19",
+     "per_day": null,
+     "stops_here": 17
+    },
+    {
+     "no": "906",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "S-10",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-2",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-3",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-5",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-6",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-7",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-8",
+     "per_day": null,
+     "stops_here": 1
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "춘천한샘고등학교",
+     "routes": 22
+    },
+    {
+     "name": "신북읍행복센터",
+     "routes": 18
+    },
+    {
+     "name": "샘밭장터",
+     "routes": 14
+    },
+    {
+     "name": "용산1리",
+     "routes": 11
+    },
+    {
+     "name": "율문3리",
+     "routes": 10
+    }
+   ],
+   "low_freq": [],
+   "villages": [
+    {
+     "hub": "유포3리 경로당",
+     "stop": "유포3리입구",
+     "km": 0.7,
+     "route": "신동1-1",
+     "per_day": 13
+    },
+    {
+     "hub": "발산1리 경로당",
+     "stop": "신북발산",
+     "km": 0.33,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "율문1리 경로당",
+     "stop": "신북읍행복센터",
+     "km": 0.29,
+     "route": "신동1-1",
+     "per_day": 13
+    },
+    {
+     "hub": "율문5리 경로당",
+     "stop": "신북읍행복센터",
+     "km": 0.28,
+     "route": "신동1-1",
+     "per_day": 13
+    },
+    {
+     "hub": "용산1리 경로당",
+     "stop": "용산저수지",
+     "km": 0.23,
+     "route": "신북1-1",
+     "per_day": 6
+    },
+    {
+     "hub": "천전2리 경로당",
+     "stop": "춘천국유림관리소",
+     "km": 0.2,
+     "route": "동면3",
+     "per_day": 12
+    },
+    {
+     "hub": "천전4,6리 경로당",
+     "stop": "소망마을",
+     "km": 0.17,
+     "route": "12-S",
+     "per_day": null
+    },
+    {
+     "hub": "율문4리 마을회관",
+     "stop": "율문4리경로당",
+     "km": 0.14,
+     "route": "서면1",
+     "per_day": 7
+    },
+    {
+     "hub": "율문4리 경로당",
+     "stop": "율문4리경로당",
+     "km": 0.14,
+     "route": "서면1",
+     "per_day": 7
+    },
+    {
+     "hub": "지내3리 경로당",
+     "stop": "지내3리",
+     "km": 0.13,
+     "route": "신북1-1",
+     "per_day": 6
+    },
+    {
+     "hub": "천전3리 경로당",
+     "stop": "천전삼거리",
+     "km": 0.13,
+     "route": "12-S",
+     "per_day": null
+    },
+    {
+     "hub": "해강아파트 경로당",
+     "stop": "해강A",
+     "km": 0.12,
+     "route": "12-S",
+     "per_day": null
+    },
+    {
+     "hub": "발산2리 경로당",
+     "stop": "발산2리",
+     "km": 0.1,
+     "route": "서면1",
+     "per_day": 7
+    },
+    {
+     "hub": "산천1리 경로당",
+     "stop": "면허시험장입구",
+     "km": 0.09,
+     "route": "신동1-1",
+     "per_day": 13
+    },
+    {
+     "hub": "용산2리 경로당",
+     "stop": "용산2리",
+     "km": 0.09,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "천전1리 경로당",
+     "stop": "침례교회앞",
+     "km": 0.09,
+     "route": "신북3",
+     "per_day": 4
+    },
+    {
+     "hub": "천전1리 마을회관",
+     "stop": "침례교회앞",
+     "km": 0.09,
+     "route": "신북3",
+     "per_day": 4
+    },
+    {
+     "hub": "용산3리 경로당",
+     "stop": "용산3리",
+     "km": 0.09,
+     "route": "북산1",
+     "per_day": 7
+    },
+    {
+     "hub": "발산3리 경로당",
+     "stop": "발산3리종점",
+     "km": 0.07,
+     "route": "서면1",
+     "per_day": 7
+    },
+    {
+     "hub": "유포1리 경로당",
+     "stop": "아침못종점",
+     "km": 0.05,
+     "route": "신동1-1",
+     "per_day": 13
+    },
+    {
+     "hub": "소양강양우아파트경로당",
+     "stop": "윗샘밭종점",
+     "km": 0.05,
+     "route": "동면3",
+     "per_day": 12
+    },
+    {
+     "hub": "율문3리 경로당",
+     "stop": "한샘고후문",
+     "km": 0.04,
+     "route": "신동1-1",
+     "per_day": 13
+    },
+    {
+     "hub": "율문2리 경로당",
+     "stop": "한샘고후문",
+     "km": 0.04,
+     "route": "신동1-1",
+     "per_day": 13
+    },
+    {
+     "hub": "유포2리 경로당",
+     "stop": "유포리회관",
+     "km": 0.03,
+     "route": "신북3",
+     "per_day": 4
+    },
+    {
+     "hub": "산천1리 마을회관",
+     "stop": "면허시험장입구",
+     "km": 0.02,
+     "route": "신동1-1",
+     "per_day": 13
+    },
+    {
+     "hub": "지내2리 경로당",
+     "stop": "지내2리마을회관",
+     "km": 0.01,
+     "route": "신북1-1",
+     "per_day": 6
+    },
+    {
+     "hub": "지내1리 경로당",
+     "stop": "지내1리마을회관",
+     "km": 0.01,
+     "route": "신북1-1",
+     "per_day": 6
+    },
+    {
+     "hub": "산천2리 경로당",
+     "stop": "산천2리마을회관",
+     "km": 0.01,
+     "route": "서면1",
+     "per_day": 7
+    }
+   ]
+  },
+  "신사우동": {
+   "stops": 58,
+   "routes": [
+    {
+     "no": "신동1-1",
+     "per_day": 13,
+     "stops_here": 15,
+     "first": "06:05",
+     "last": "20:30",
+     "starts": [
+      "06:05",
+      "07:40",
+      "11:00"
+     ]
+    },
+    {
+     "no": "서면2",
+     "per_day": 12,
+     "stops_here": 8,
+     "first": "06:00",
+     "last": "20:20",
+     "starts": [
+      "06:00",
+      "07:15",
+      "09:10",
+      "14:50"
+     ]
+    },
+    {
+     "no": "서면5",
+     "per_day": 10,
+     "stops_here": 11,
+     "first": "06:30",
+     "last": "20:45",
+     "starts": [
+      "06:30",
+      "07:25",
+      "09:00"
+     ]
+    },
+    {
+     "no": "서면3",
+     "per_day": 9,
+     "stops_here": 11,
+     "first": "05:50",
+     "last": "20:55",
+     "starts": [
+      "05:50",
+      "07:25",
+      "09:05",
+      "20:55"
+     ]
+    },
+    {
+     "no": "북산1",
+     "per_day": 7,
+     "stops_here": 31,
+     "first": "05:50",
+     "last": "20:20",
+     "starts": [
+      "05:50",
+      "08:10",
+      "14:20",
+      "20:20"
+     ]
+    },
+    {
+     "no": "서면1",
+     "per_day": 7,
+     "stops_here": 15,
+     "first": "06:00",
+     "last": "20:05",
+     "starts": [
+      "06:00",
+      "08:00",
+      "12:20",
+      "14:20",
+      "20:05"
+     ]
+    },
+    {
+     "no": "서면4",
+     "per_day": 7,
+     "stops_here": 11,
+     "first": "06:10",
+     "last": "20:00",
+     "starts": [
+      "06:10",
+      "07:35",
+      "09:50",
+      "12:00",
+      "14:50"
+     ]
+    },
+    {
+     "no": "사북1",
+     "per_day": 6,
+     "stops_here": 19,
+     "first": "06:00",
+     "last": "20:30",
+     "starts": [
+      "06:00",
+      "08:15",
+      "20:30"
+     ]
+    },
+    {
+     "no": "신북1-1",
+     "per_day": 6,
+     "stops_here": 27,
+     "first": "12:10",
+     "last": "21:20",
+     "starts": [
+      "12:10",
+      "14:35"
+     ]
+    },
+    {
+     "no": "서면6",
+     "per_day": 5,
+     "stops_here": 11,
+     "first": "06:15",
+     "last": "19:15",
+     "starts": [
+      "06:15"
+     ]
+    },
+    {
+     "no": "신북2",
+     "per_day": 5,
+     "stops_here": 22,
+     "first": "06:00",
+     "last": "20:40",
+     "starts": [
+      "06:00"
+     ]
+    },
+    {
+     "no": "신북3-1",
+     "per_day": 5,
+     "stops_here": 15,
+     "first": "06:15",
+     "last": "21:05",
+     "starts": [
+      "06:15",
+      "09:40",
+      "13:30"
+     ]
+    },
+    {
+     "no": "사북2-1",
+     "per_day": 4,
+     "stops_here": 18,
+     "first": "06:10",
+     "last": "20:10",
+     "starts": [
+      "06:10"
+     ]
+    },
+    {
+     "no": "신북1",
+     "per_day": 4,
+     "stops_here": 27,
+     "first": "06:10",
+     "last": "10:30",
+     "starts": [
+      "06:10",
+      "08:55",
+      "10:30"
+     ]
+    },
+    {
+     "no": "신북2-1",
+     "per_day": 4,
+     "stops_here": 15,
+     "first": "07:30",
+     "last": "19:10",
+     "starts": [
+      "07:30"
+     ]
+    },
+    {
+     "no": "신북3",
+     "per_day": 4,
+     "stops_here": 15,
+     "first": "07:45",
+     "last": "19:25",
+     "starts": [
+      "07:45",
+      "19:25"
+     ]
+    },
+    {
+     "no": "사북2",
+     "per_day": 3,
+     "stops_here": 18,
+     "first": "08:10",
+     "last": "17:20",
+     "starts": [
+      "08:10",
+      "17:20"
+     ]
+    },
+    {
+     "no": "사북3",
+     "per_day": 3,
+     "stops_here": 18,
+     "first": "06:45",
+     "last": "10:55",
+     "starts": [
+      "06:45"
+     ]
+    },
+    {
+     "no": "사북3-1",
+     "per_day": 3,
+     "stops_here": 18,
+     "first": "13:45",
+     "last": "19:00",
+     "starts": [
+      "13:45"
+     ]
+    },
+    {
+     "no": "서면2-1",
+     "per_day": 3,
+     "stops_here": 11,
+     "first": "09:50",
+     "last": "14:05",
+     "starts": [
+      "09:50",
+      "11:05",
+      "14:05"
+     ]
+    },
+    {
+     "no": "북산2",
+     "per_day": 2,
+     "stops_here": 15,
+     "first": "08:40",
+     "last": "16:55",
+     "starts": [
+      "08:40",
+      "16:55"
+     ]
+    },
+    {
+     "no": "서면1-1",
+     "per_day": 2,
+     "stops_here": 8,
+     "first": "09:25",
+     "last": "10:50",
+     "starts": [
+      "09:25",
+      "10:50"
+     ]
+    },
+    {
+     "no": "1-13",
+     "per_day": null,
+     "stops_here": 22
+    },
+    {
+     "no": "10",
+     "per_day": null,
+     "stops_here": 18
+    },
+    {
+     "no": "100",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "100-1",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "101",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "11-1",
+     "per_day": null,
+     "stops_here": 15
+    },
+    {
+     "no": "12",
+     "per_day": null,
+     "stops_here": 19
+    },
+    {
+     "no": "12-1",
+     "per_day": null,
+     "stops_here": 14
+    },
+    {
+     "no": "12-S",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "13",
+     "per_day": null,
+     "stops_here": 30
+    },
+    {
+     "no": "13-S",
+     "per_day": null,
+     "stops_here": 16
+    },
+    {
+     "no": "14",
+     "per_day": null,
+     "stops_here": 17
+    },
+    {
+     "no": "15",
+     "per_day": null,
+     "stops_here": 22
+    },
+    {
+     "no": "19",
+     "per_day": null,
+     "stops_here": 14
+    },
+    {
+     "no": "906",
+     "per_day": null,
+     "stops_here": 22
+    },
+    {
+     "no": "S-11",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "S-12",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "S-2",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "S-5",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-6",
+     "per_day": null,
+     "stops_here": 1
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "사우사거리",
+     "routes": 35
+    },
+    {
+     "name": "소양2교",
+     "routes": 33
+    },
+    {
+     "name": "강원생명과학고",
+     "routes": 28
+    },
+    {
+     "name": "사농현대A",
+     "routes": 28
+    },
+    {
+     "name": "두미르A",
+     "routes": 26
+    }
+   ],
+   "low_freq": [],
+   "villages": []
+  },
+  "소양동": {
+   "stops": 16,
+   "routes": [
+    {
+     "no": "신동1-1",
+     "per_day": 13,
+     "stops_here": 6,
+     "first": "06:05",
+     "last": "20:30",
+     "starts": [
+      "06:05",
+      "07:40",
+      "11:00"
+     ]
+    },
+    {
+     "no": "동면3",
+     "per_day": 12,
+     "stops_here": 1,
+     "first": "06:50",
+     "last": "21:00",
+     "starts": [
+      "06:50",
+      "21:00"
+     ]
+    },
+    {
+     "no": "서면2",
+     "per_day": 12,
+     "stops_here": 8,
+     "first": "06:00",
+     "last": "20:20",
+     "starts": [
+      "06:00",
+      "07:15",
+      "09:10",
+      "14:50"
+     ]
+    },
+    {
+     "no": "신동1-2",
+     "per_day": 11,
+     "stops_here": 3,
+     "first": "06:15",
+     "last": "21:05",
+     "starts": [
+      "06:15",
+      "07:00",
+      "08:50",
+      "12:20",
+      "21:05"
+     ]
+    },
+    {
+     "no": "신동3",
+     "per_day": 11,
+     "stops_here": 3,
+     "first": "06:20",
+     "last": "21:20",
+     "starts": [
+      "06:20",
+      "07:20",
+      "08:50",
+      "17:00",
+      "21:20"
+     ]
+    },
+    {
+     "no": "서면5",
+     "per_day": 10,
+     "stops_here": 8,
+     "first": "06:30",
+     "last": "20:45",
+     "starts": [
+      "06:30",
+      "07:25",
+      "09:00"
+     ]
+    },
+    {
+     "no": "동내1",
+     "per_day": 9,
+     "stops_here": 3,
+     "first": "06:10",
+     "last": "20:35",
+     "starts": [
+      "06:10",
+      "07:10",
+      "09:15"
+     ]
+    },
+    {
+     "no": "서면3",
+     "per_day": 9,
+     "stops_here": 8,
+     "first": "05:50",
+     "last": "20:55",
+     "starts": [
+      "05:50",
+      "07:25",
+      "09:05",
+      "20:55"
+     ]
+    },
+    {
+     "no": "신동2",
+     "per_day": 9,
+     "stops_here": 3,
+     "first": "07:00",
+     "last": "20:25",
+     "starts": [
+      "07:00",
+      "08:25",
+      "10:25"
+     ]
+    },
+    {
+     "no": "동내2",
+     "per_day": 8,
+     "stops_here": 1,
+     "first": "06:25",
+     "last": "17:25",
+     "starts": [
+      "06:25",
+      "08:00",
+      "14:00"
+     ]
+    },
+    {
+     "no": "동내4",
+     "per_day": 8,
+     "stops_here": 3,
+     "first": "06:15",
+     "last": "21:40",
+     "starts": [
+      "06:15",
+      "06:45",
+      "08:55",
+      "16:35",
+      "19:50",
+      "21:40"
+     ]
+    },
+    {
+     "no": "남면1",
+     "per_day": 7,
+     "stops_here": 3,
+     "first": "06:15",
+     "last": "20:40",
+     "starts": [
+      "06:15",
+      "08:00",
+      "14:10",
+      "20:40"
+     ]
+    },
+    {
+     "no": "남산3",
+     "per_day": 7,
+     "stops_here": 3,
+     "first": "06:45",
+     "last": "21:00",
+     "starts": [
+      "06:45",
+      "07:35",
+      "09:20",
+      "15:00",
+      "16:35",
+      "19:00",
+      "21:00"
+     ]
+    },
+    {
+     "no": "동내3-1",
+     "per_day": 7,
+     "stops_here": 3,
+     "first": "13:00",
+     "last": "20:40",
+     "starts": [
+      "13:00",
+      "16:25",
+      "20:40"
+     ]
+    },
+    {
+     "no": "동면2",
+     "per_day": 7,
+     "stops_here": 1,
+     "first": "06:00",
+     "last": "20:20",
+     "starts": [
+      "06:00",
+      "07:40",
+      "20:20"
+     ]
+    },
+    {
+     "no": "북산1",
+     "per_day": 7,
+     "stops_here": 8,
+     "first": "05:50",
+     "last": "20:20",
+     "starts": [
+      "05:50",
+      "08:10",
+      "14:20",
+      "20:20"
+     ]
+    },
+    {
+     "no": "서면1",
+     "per_day": 7,
+     "stops_here": 10,
+     "first": "06:00",
+     "last": "20:05",
+     "starts": [
+      "06:00",
+      "08:00",
+      "12:20",
+      "14:20",
+      "20:05"
+     ]
+    },
+    {
+     "no": "서면4",
+     "per_day": 7,
+     "stops_here": 8,
+     "first": "06:10",
+     "last": "20:00",
+     "starts": [
+      "06:10",
+      "07:35",
+      "09:50",
+      "12:00",
+      "14:50"
+     ]
+    },
+    {
+     "no": "남산1",
+     "per_day": 6,
+     "stops_here": 3,
+     "first": "06:30",
+     "last": "19:45",
+     "starts": [
+      "06:30",
+      "08:10",
+      "11:55",
+      "14:05"
+     ]
+    },
+    {
+     "no": "남산5",
+     "per_day": 6,
+     "stops_here": 3,
+     "first": "06:20",
+     "last": "21:05",
+     "starts": [
+      "06:20",
+      "08:55",
+      "18:20",
+      "21:05"
+     ]
+    },
+    {
+     "no": "동내3",
+     "per_day": 6,
+     "stops_here": 3,
+     "first": "06:10",
+     "last": "10:50",
+     "starts": [
+      "06:10",
+      "06:45",
+      "07:50",
+      "09:20"
+     ]
+    },
+    {
+     "no": "동면1",
+     "per_day": 6,
+     "stops_here": 3,
+     "first": "06:05",
+     "last": "20:50",
+     "starts": [
+      "06:05",
+      "08:20",
+      "11:15",
+      "14:55",
+      "17:35",
+      "20:50"
+     ]
+    },
+    {
+     "no": "사북1",
+     "per_day": 6,
+     "stops_here": 8,
+     "first": "06:00",
+     "last": "20:30",
+     "starts": [
+      "06:00",
+      "08:15",
+      "20:30"
+     ]
+    },
+    {
+     "no": "신북1-1",
+     "per_day": 6,
+     "stops_here": 8,
+     "first": "12:10",
+     "last": "21:20",
+     "starts": [
+      "12:10",
+      "14:35"
+     ]
+    },
+    {
+     "no": "남면3",
+     "per_day": 5,
+     "stops_here": 3,
+     "first": "06:30",
+     "last": "19:50",
+     "starts": [
+      "06:30",
+      "08:45",
+      "11:35",
+      "19:50"
+     ]
+    },
+    {
+     "no": "동산1",
+     "per_day": 5,
+     "stops_here": 3,
+     "first": "06:25",
+     "last": "21:40",
+     "starts": [
+      "06:25",
+      "13:05",
+      "15:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "동산2",
+     "per_day": 5,
+     "stops_here": 3,
+     "first": "06:00",
+     "last": "20:40",
+     "starts": [
+      "06:00",
+      "08:05",
+      "20:40"
+     ]
+    },
+    {
+     "no": "서면6",
+     "per_day": 5,
+     "stops_here": 8,
+     "first": "06:15",
+     "last": "19:15",
+     "starts": [
+      "06:15"
+     ]
+    },
+    {
+     "no": "신북2",
+     "per_day": 5,
+     "stops_here": 8,
+     "first": "06:00",
+     "last": "20:40",
+     "starts": [
+      "06:00"
+     ]
+    },
+    {
+     "no": "신북3-1",
+     "per_day": 5,
+     "stops_here": 8,
+     "first": "06:15",
+     "last": "21:05",
+     "starts": [
+      "06:15",
+      "09:40",
+      "13:30"
+     ]
+    },
+    {
+     "no": "남면2",
+     "per_day": 4,
+     "stops_here": 3,
+     "first": "09:50",
+     "last": "20:00",
+     "starts": [
+      "09:50"
+     ]
+    },
+    {
+     "no": "남산2",
+     "per_day": 4,
+     "stops_here": 3,
+     "first": "09:00",
+     "last": "20:35",
+     "starts": [
+      "09:00",
+      "20:35"
+     ]
+    },
+    {
+     "no": "동산4",
+     "per_day": 4,
+     "stops_here": 3,
+     "first": "07:30",
+     "last": "20:40",
+     "starts": [
+      "07:30",
+      "09:30",
+      "11:45"
+     ]
+    },
+    {
+     "no": "사북2-1",
+     "per_day": 4,
+     "stops_here": 4,
+     "first": "06:10",
+     "last": "20:10",
+     "starts": [
+      "06:10"
+     ]
+    },
+    {
+     "no": "신북1",
+     "per_day": 4,
+     "stops_here": 8,
+     "first": "06:10",
+     "last": "10:30",
+     "starts": [
+      "06:10",
+      "08:55",
+      "10:30"
+     ]
+    },
+    {
+     "no": "신북2-1",
+     "per_day": 4,
+     "stops_here": 8,
+     "first": "07:30",
+     "last": "19:10",
+     "starts": [
+      "07:30"
+     ]
+    },
+    {
+     "no": "신북3",
+     "per_day": 4,
+     "stops_here": 8,
+     "first": "07:45",
+     "last": "19:25",
+     "starts": [
+      "07:45",
+      "19:25"
+     ]
+    },
+    {
+     "no": "동산5",
+     "per_day": 3,
+     "stops_here": 3,
+     "first": "07:00",
+     "last": "14:30",
+     "starts": [
+      "07:00",
+      "09:20",
+      "14:30"
+     ]
+    },
+    {
+     "no": "사북2",
+     "per_day": 3,
+     "stops_here": 4,
+     "first": "08:10",
+     "last": "17:20",
+     "starts": [
+      "08:10",
+      "17:20"
+     ]
+    },
+    {
+     "no": "사북3",
+     "per_day": 3,
+     "stops_here": 8,
+     "first": "06:45",
+     "last": "10:55",
+     "starts": [
+      "06:45"
+     ]
+    },
+    {
+     "no": "사북3-1",
+     "per_day": 3,
+     "stops_here": 8,
+     "first": "13:45",
+     "last": "19:00",
+     "starts": [
+      "13:45"
+     ]
+    },
+    {
+     "no": "서면2-1",
+     "per_day": 3,
+     "stops_here": 8,
+     "first": "09:50",
+     "last": "14:05",
+     "starts": [
+      "09:50",
+      "11:05",
+      "14:05"
+     ]
+    },
+    {
+     "no": "남면2-1",
+     "per_day": 2,
+     "stops_here": 3,
+     "first": "06:45",
+     "last": "13:40",
+     "starts": [
+      "06:45"
+     ]
+    },
+    {
+     "no": "남산1-1",
+     "per_day": 2,
+     "stops_here": 3,
+     "first": "09:15",
+     "last": "10:50",
+     "starts": [
+      "09:15",
+      "10:50"
+     ]
+    },
+    {
+     "no": "남산2-1",
+     "per_day": 2,
+     "stops_here": 3,
+     "first": "06:35",
+     "last": "17:10",
+     "starts": [
+      "06:35",
+      "17:10"
+     ]
+    },
+    {
+     "no": "동내2-1",
+     "per_day": 2,
+     "stops_here": 3,
+     "first": "20:25",
+     "last": "21:40",
+     "starts": [
+      "20:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "북산2",
+     "per_day": 2,
+     "stops_here": 4,
+     "first": "08:40",
+     "last": "16:55",
+     "starts": [
+      "08:40",
+      "16:55"
+     ]
+    },
+    {
+     "no": "서면1-1",
+     "per_day": 2,
+     "stops_here": 6,
+     "first": "09:25",
+     "last": "10:50",
+     "starts": [
+      "09:25",
+      "10:50"
+     ]
+    },
+    {
+     "no": "동산3",
+     "per_day": 1,
+     "stops_here": 3,
+     "first": "14:20",
+     "last": "14:20",
+     "starts": [
+      "14:20"
+     ]
+    },
+    {
+     "no": "1",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "1-13",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "1-16",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "10",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "10-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "10-S",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "11",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "11-1",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "12",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "12-1",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "12-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "13",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "13-S",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "14",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "15",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "15-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "17",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "19",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "2",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "2-S",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "200-1",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "3",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "3-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "300",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "4",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "4-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "400",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "6",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "7",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "7-1",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "7-2",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "7-3",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "8",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "8-1",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "8-S",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "9",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "901",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "902",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "905",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "906",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "S-11",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "S-2",
+     "per_day": null,
+     "stops_here": 2
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "중앙로입구",
+     "routes": 85
+    },
+    {
+     "name": "춘천시보건소",
+     "routes": 64
+    },
+    {
+     "name": "인성병원",
+     "routes": 39
+    },
+    {
+     "name": "KT",
+     "routes": 37
+    },
+    {
+     "name": "소양로우체국",
+     "routes": 37
+    }
+   ],
+   "low_freq": [],
+   "villages": []
+  },
+  "약사명동": {
+   "stops": 9,
+   "routes": [
+    {
+     "no": "신동1-1",
+     "per_day": 13,
+     "stops_here": 8,
+     "first": "06:05",
+     "last": "20:30",
+     "starts": [
+      "06:05",
+      "07:40",
+      "11:00"
+     ]
+    },
+    {
+     "no": "동면3",
+     "per_day": 12,
+     "stops_here": 4,
+     "first": "06:50",
+     "last": "21:00",
+     "starts": [
+      "06:50",
+      "21:00"
+     ]
+    },
+    {
+     "no": "서면2",
+     "per_day": 12,
+     "stops_here": 6,
+     "first": "06:00",
+     "last": "20:20",
+     "starts": [
+      "06:00",
+      "07:15",
+      "09:10",
+      "14:50"
+     ]
+    },
+    {
+     "no": "신동1-2",
+     "per_day": 11,
+     "stops_here": 5,
+     "first": "06:15",
+     "last": "21:05",
+     "starts": [
+      "06:15",
+      "07:00",
+      "08:50",
+      "12:20",
+      "21:05"
+     ]
+    },
+    {
+     "no": "신동3",
+     "per_day": 11,
+     "stops_here": 5,
+     "first": "06:20",
+     "last": "21:20",
+     "starts": [
+      "06:20",
+      "07:20",
+      "08:50",
+      "17:00",
+      "21:20"
+     ]
+    },
+    {
+     "no": "서면5",
+     "per_day": 10,
+     "stops_here": 4,
+     "first": "06:30",
+     "last": "20:45",
+     "starts": [
+      "06:30",
+      "07:25",
+      "09:00"
+     ]
+    },
+    {
+     "no": "동내1",
+     "per_day": 9,
+     "stops_here": 8,
+     "first": "06:10",
+     "last": "20:35",
+     "starts": [
+      "06:10",
+      "07:10",
+      "09:15"
+     ]
+    },
+    {
+     "no": "서면3",
+     "per_day": 9,
+     "stops_here": 4,
+     "first": "05:50",
+     "last": "20:55",
+     "starts": [
+      "05:50",
+      "07:25",
+      "09:05",
+      "20:55"
+     ]
+    },
+    {
+     "no": "신동2",
+     "per_day": 9,
+     "stops_here": 5,
+     "first": "07:00",
+     "last": "20:25",
+     "starts": [
+      "07:00",
+      "08:25",
+      "10:25"
+     ]
+    },
+    {
+     "no": "동내2",
+     "per_day": 8,
+     "stops_here": 4,
+     "first": "06:25",
+     "last": "17:25",
+     "starts": [
+      "06:25",
+      "08:00",
+      "14:00"
+     ]
+    },
+    {
+     "no": "동내4",
+     "per_day": 8,
+     "stops_here": 5,
+     "first": "06:15",
+     "last": "21:40",
+     "starts": [
+      "06:15",
+      "06:45",
+      "08:55",
+      "16:35",
+      "19:50",
+      "21:40"
+     ]
+    },
+    {
+     "no": "남면1",
+     "per_day": 7,
+     "stops_here": 5,
+     "first": "06:15",
+     "last": "20:40",
+     "starts": [
+      "06:15",
+      "08:00",
+      "14:10",
+      "20:40"
+     ]
+    },
+    {
+     "no": "남산3",
+     "per_day": 7,
+     "stops_here": 5,
+     "first": "06:45",
+     "last": "21:00",
+     "starts": [
+      "06:45",
+      "07:35",
+      "09:20",
+      "15:00",
+      "16:35",
+      "19:00",
+      "21:00"
+     ]
+    },
+    {
+     "no": "동내3-1",
+     "per_day": 7,
+     "stops_here": 5,
+     "first": "13:00",
+     "last": "20:40",
+     "starts": [
+      "13:00",
+      "16:25",
+      "20:40"
+     ]
+    },
+    {
+     "no": "동면2",
+     "per_day": 7,
+     "stops_here": 4,
+     "first": "06:00",
+     "last": "20:20",
+     "starts": [
+      "06:00",
+      "07:40",
+      "20:20"
+     ]
+    },
+    {
+     "no": "북산1",
+     "per_day": 7,
+     "stops_here": 4,
+     "first": "05:50",
+     "last": "20:20",
+     "starts": [
+      "05:50",
+      "08:10",
+      "14:20",
+      "20:20"
+     ]
+    },
+    {
+     "no": "서면1",
+     "per_day": 7,
+     "stops_here": 8,
+     "first": "06:00",
+     "last": "20:05",
+     "starts": [
+      "06:00",
+      "08:00",
+      "12:20",
+      "14:20",
+      "20:05"
+     ]
+    },
+    {
+     "no": "서면4",
+     "per_day": 7,
+     "stops_here": 4,
+     "first": "06:10",
+     "last": "20:00",
+     "starts": [
+      "06:10",
+      "07:35",
+      "09:50",
+      "12:00",
+      "14:50"
+     ]
+    },
+    {
+     "no": "남산1",
+     "per_day": 6,
+     "stops_here": 5,
+     "first": "06:30",
+     "last": "19:45",
+     "starts": [
+      "06:30",
+      "08:10",
+      "11:55",
+      "14:05"
+     ]
+    },
+    {
+     "no": "남산5",
+     "per_day": 6,
+     "stops_here": 5,
+     "first": "06:20",
+     "last": "21:05",
+     "starts": [
+      "06:20",
+      "08:55",
+      "18:20",
+      "21:05"
+     ]
+    },
+    {
+     "no": "동내3",
+     "per_day": 6,
+     "stops_here": 5,
+     "first": "06:10",
+     "last": "10:50",
+     "starts": [
+      "06:10",
+      "06:45",
+      "07:50",
+      "09:20"
+     ]
+    },
+    {
+     "no": "동면1",
+     "per_day": 6,
+     "stops_here": 5,
+     "first": "06:05",
+     "last": "20:50",
+     "starts": [
+      "06:05",
+      "08:20",
+      "11:15",
+      "14:55",
+      "17:35",
+      "20:50"
+     ]
+    },
+    {
+     "no": "사북1",
+     "per_day": 6,
+     "stops_here": 4,
+     "first": "06:00",
+     "last": "20:30",
+     "starts": [
+      "06:00",
+      "08:15",
+      "20:30"
+     ]
+    },
+    {
+     "no": "신북1-1",
+     "per_day": 6,
+     "stops_here": 4,
+     "first": "12:10",
+     "last": "21:20",
+     "starts": [
+      "12:10",
+      "14:35"
+     ]
+    },
+    {
+     "no": "남면3",
+     "per_day": 5,
+     "stops_here": 5,
+     "first": "06:30",
+     "last": "19:50",
+     "starts": [
+      "06:30",
+      "08:45",
+      "11:35",
+      "19:50"
+     ]
+    },
+    {
+     "no": "동산1",
+     "per_day": 5,
+     "stops_here": 7,
+     "first": "06:25",
+     "last": "21:40",
+     "starts": [
+      "06:25",
+      "13:05",
+      "15:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "동산2",
+     "per_day": 5,
+     "stops_here": 5,
+     "first": "06:00",
+     "last": "20:40",
+     "starts": [
+      "06:00",
+      "08:05",
+      "20:40"
+     ]
+    },
+    {
+     "no": "서면6",
+     "per_day": 5,
+     "stops_here": 4,
+     "first": "06:15",
+     "last": "19:15",
+     "starts": [
+      "06:15"
+     ]
+    },
+    {
+     "no": "신북2",
+     "per_day": 5,
+     "stops_here": 4,
+     "first": "06:00",
+     "last": "20:40",
+     "starts": [
+      "06:00"
+     ]
+    },
+    {
+     "no": "신북3-1",
+     "per_day": 5,
+     "stops_here": 4,
+     "first": "06:15",
+     "last": "21:05",
+     "starts": [
+      "06:15",
+      "09:40",
+      "13:30"
+     ]
+    },
+    {
+     "no": "남면2",
+     "per_day": 4,
+     "stops_here": 1,
+     "first": "09:50",
+     "last": "20:00",
+     "starts": [
+      "09:50"
+     ]
+    },
+    {
+     "no": "남산2",
+     "per_day": 4,
+     "stops_here": 5,
+     "first": "09:00",
+     "last": "20:35",
+     "starts": [
+      "09:00",
+      "20:35"
+     ]
+    },
+    {
+     "no": "동산4",
+     "per_day": 4,
+     "stops_here": 5,
+     "first": "07:30",
+     "last": "20:40",
+     "starts": [
+      "07:30",
+      "09:30",
+      "11:45"
+     ]
+    },
+    {
+     "no": "사북2-1",
+     "per_day": 4,
+     "stops_here": 4,
+     "first": "06:10",
+     "last": "20:10",
+     "starts": [
+      "06:10"
+     ]
+    },
+    {
+     "no": "신북1",
+     "per_day": 4,
+     "stops_here": 4,
+     "first": "06:10",
+     "last": "10:30",
+     "starts": [
+      "06:10",
+      "08:55",
+      "10:30"
+     ]
+    },
+    {
+     "no": "신북2-1",
+     "per_day": 4,
+     "stops_here": 4,
+     "first": "07:30",
+     "last": "19:10",
+     "starts": [
+      "07:30"
+     ]
+    },
+    {
+     "no": "신북3",
+     "per_day": 4,
+     "stops_here": 4,
+     "first": "07:45",
+     "last": "19:25",
+     "starts": [
+      "07:45",
+      "19:25"
+     ]
+    },
+    {
+     "no": "동산5",
+     "per_day": 3,
+     "stops_here": 5,
+     "first": "07:00",
+     "last": "14:30",
+     "starts": [
+      "07:00",
+      "09:20",
+      "14:30"
+     ]
+    },
+    {
+     "no": "사북2",
+     "per_day": 3,
+     "stops_here": 4,
+     "first": "08:10",
+     "last": "17:20",
+     "starts": [
+      "08:10",
+      "17:20"
+     ]
+    },
+    {
+     "no": "사북3",
+     "per_day": 3,
+     "stops_here": 4,
+     "first": "06:45",
+     "last": "10:55",
+     "starts": [
+      "06:45"
+     ]
+    },
+    {
+     "no": "사북3-1",
+     "per_day": 3,
+     "stops_here": 4,
+     "first": "13:45",
+     "last": "19:00",
+     "starts": [
+      "13:45"
+     ]
+    },
+    {
+     "no": "서면2-1",
+     "per_day": 3,
+     "stops_here": 7,
+     "first": "09:50",
+     "last": "14:05",
+     "starts": [
+      "09:50",
+      "11:05",
+      "14:05"
+     ]
+    },
+    {
+     "no": "남면2-1",
+     "per_day": 2,
+     "stops_here": 5,
+     "first": "06:45",
+     "last": "13:40",
+     "starts": [
+      "06:45"
+     ]
+    },
+    {
+     "no": "남산1-1",
+     "per_day": 2,
+     "stops_here": 5,
+     "first": "09:15",
+     "last": "10:50",
+     "starts": [
+      "09:15",
+      "10:50"
+     ]
+    },
+    {
+     "no": "남산2-1",
+     "per_day": 2,
+     "stops_here": 5,
+     "first": "06:35",
+     "last": "17:10",
+     "starts": [
+      "06:35",
+      "17:10"
+     ]
+    },
+    {
+     "no": "동내2-1",
+     "per_day": 2,
+     "stops_here": 3,
+     "first": "20:25",
+     "last": "21:40",
+     "starts": [
+      "20:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "북산2",
+     "per_day": 2,
+     "stops_here": 4,
+     "first": "08:40",
+     "last": "16:55",
+     "starts": [
+      "08:40",
+      "16:55"
+     ]
+    },
+    {
+     "no": "서면1-1",
+     "per_day": 2,
+     "stops_here": 7,
+     "first": "09:25",
+     "last": "10:50",
+     "starts": [
+      "09:25",
+      "10:50"
+     ]
+    },
+    {
+     "no": "동산3",
+     "per_day": 1,
+     "stops_here": 5,
+     "first": "14:20",
+     "last": "14:20",
+     "starts": [
+      "14:20"
+     ]
+    },
+    {
+     "no": "1",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "1-13",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "1-16",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "10",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "10-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "10-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "11",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "11-1",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "12",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "13",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "13-S",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "14",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "15",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "15-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "16",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "17",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "2",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "2-S",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "200-1",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "200-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "3",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "3-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "300",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "4",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "4-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "6",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7-1",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7-2",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7-3",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "7-S",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "8",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "8-1",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "8-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "9",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "901",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "902",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "905",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "S-4",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-9",
+     "per_day": null,
+     "stops_here": 2
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "중앙로입구",
+     "routes": 81
+    },
+    {
+     "name": "명동입구",
+     "routes": 68
+    },
+    {
+     "name": "중앙시장/중앙초교",
+     "routes": 62
+    },
+    {
+     "name": "춘천초등학교",
+     "routes": 60
+    },
+    {
+     "name": "중앙시장",
+     "routes": 44
+    }
+   ],
+   "low_freq": [],
+   "villages": []
+  },
+  "퇴계동": {
+   "stops": 39,
+   "routes": [
+    {
+     "no": "신동1-1",
+     "per_day": 13,
+     "stops_here": 2,
+     "first": "06:05",
+     "last": "20:30",
+     "starts": [
+      "06:05",
+      "07:40",
+      "11:00"
+     ]
+    },
+    {
+     "no": "서면2",
+     "per_day": 12,
+     "stops_here": 2,
+     "first": "06:00",
+     "last": "20:20",
+     "starts": [
+      "06:00",
+      "07:15",
+      "09:10",
+      "14:50"
+     ]
+    },
+    {
+     "no": "신동1-2",
+     "per_day": 11,
+     "stops_here": 2,
+     "first": "06:15",
+     "last": "21:05",
+     "starts": [
+      "06:15",
+      "07:00",
+      "08:50",
+      "12:20",
+      "21:05"
+     ]
+    },
+    {
+     "no": "신동3",
+     "per_day": 11,
+     "stops_here": 17,
+     "first": "06:20",
+     "last": "21:20",
+     "starts": [
+      "06:20",
+      "07:20",
+      "08:50",
+      "17:00",
+      "21:20"
+     ]
+    },
+    {
+     "no": "신동2",
+     "per_day": 9,
+     "stops_here": 14,
+     "first": "07:00",
+     "last": "20:25",
+     "starts": [
+      "07:00",
+      "08:25",
+      "10:25"
+     ]
+    },
+    {
+     "no": "동내4",
+     "per_day": 8,
+     "stops_here": 3,
+     "first": "06:15",
+     "last": "21:40",
+     "starts": [
+      "06:15",
+      "06:45",
+      "08:55",
+      "16:35",
+      "19:50",
+      "21:40"
+     ]
+    },
+    {
+     "no": "남면1",
+     "per_day": 7,
+     "stops_here": 9,
+     "first": "06:15",
+     "last": "20:40",
+     "starts": [
+      "06:15",
+      "08:00",
+      "14:10",
+      "20:40"
+     ]
+    },
+    {
+     "no": "남산3",
+     "per_day": 7,
+     "stops_here": 18,
+     "first": "06:45",
+     "last": "21:00",
+     "starts": [
+      "06:45",
+      "07:35",
+      "09:20",
+      "15:00",
+      "16:35",
+      "19:00",
+      "21:00"
+     ]
+    },
+    {
+     "no": "서면1",
+     "per_day": 7,
+     "stops_here": 2,
+     "first": "06:00",
+     "last": "20:05",
+     "starts": [
+      "06:00",
+      "08:00",
+      "12:20",
+      "14:20",
+      "20:05"
+     ]
+    },
+    {
+     "no": "남산1",
+     "per_day": 6,
+     "stops_here": 14,
+     "first": "06:30",
+     "last": "19:45",
+     "starts": [
+      "06:30",
+      "08:10",
+      "11:55",
+      "14:05"
+     ]
+    },
+    {
+     "no": "남산5",
+     "per_day": 6,
+     "stops_here": 2,
+     "first": "06:20",
+     "last": "21:05",
+     "starts": [
+      "06:20",
+      "08:55",
+      "18:20",
+      "21:05"
+     ]
+    },
+    {
+     "no": "동내3",
+     "per_day": 6,
+     "stops_here": 3,
+     "first": "06:10",
+     "last": "10:50",
+     "starts": [
+      "06:10",
+      "06:45",
+      "07:50",
+      "09:20"
+     ]
+    },
+    {
+     "no": "남면3",
+     "per_day": 5,
+     "stops_here": 2,
+     "first": "06:30",
+     "last": "19:50",
+     "starts": [
+      "06:30",
+      "08:45",
+      "11:35",
+      "19:50"
+     ]
+    },
+    {
+     "no": "남산2",
+     "per_day": 4,
+     "stops_here": 10,
+     "first": "09:00",
+     "last": "20:35",
+     "starts": [
+      "09:00",
+      "20:35"
+     ]
+    },
+    {
+     "no": "신북1",
+     "per_day": 4,
+     "stops_here": 16,
+     "first": "06:10",
+     "last": "10:30",
+     "starts": [
+      "06:10",
+      "08:55",
+      "10:30"
+     ]
+    },
+    {
+     "no": "서면2-1",
+     "per_day": 3,
+     "stops_here": 2,
+     "first": "09:50",
+     "last": "14:05",
+     "starts": [
+      "09:50",
+      "11:05",
+      "14:05"
+     ]
+    },
+    {
+     "no": "남면2-1",
+     "per_day": 2,
+     "stops_here": 2,
+     "first": "06:45",
+     "last": "13:40",
+     "starts": [
+      "06:45"
+     ]
+    },
+    {
+     "no": "남산1-1",
+     "per_day": 2,
+     "stops_here": 10,
+     "first": "09:15",
+     "last": "10:50",
+     "starts": [
+      "09:15",
+      "10:50"
+     ]
+    },
+    {
+     "no": "남산2-1",
+     "per_day": 2,
+     "stops_here": 19,
+     "first": "06:35",
+     "last": "17:10",
+     "starts": [
+      "06:35",
+      "17:10"
+     ]
+    },
+    {
+     "no": "동내2-1",
+     "per_day": 2,
+     "stops_here": 3,
+     "first": "20:25",
+     "last": "21:40",
+     "starts": [
+      "20:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "서면1-1",
+     "per_day": 2,
+     "stops_here": 2,
+     "first": "09:25",
+     "last": "10:50",
+     "starts": [
+      "09:25",
+      "10:50"
+     ]
+    },
+    {
+     "no": "1-16",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "100",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "100-1",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "101",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "101-1",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "11-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "12",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "15",
+     "per_day": null,
+     "stops_here": 18
+    },
+    {
+     "no": "15-S",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "16",
+     "per_day": null,
+     "stops_here": 12
+    },
+    {
+     "no": "17",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "18",
+     "per_day": null,
+     "stops_here": 16
+    },
+    {
+     "no": "2-S",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "200",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "200-1",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "200-S",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "3",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "3-S",
+     "per_day": null,
+     "stops_here": 15
+    },
+    {
+     "no": "300",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "4",
+     "per_day": null,
+     "stops_here": 15
+    },
+    {
+     "no": "4-S",
+     "per_day": null,
+     "stops_here": 13
+    },
+    {
+     "no": "400",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "6",
+     "per_day": null,
+     "stops_here": 13
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "S-10",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-4",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "S-5",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "S-7",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "S-8",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "S-9",
+     "per_day": null,
+     "stops_here": 2
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "남춘천역",
+     "routes": 29
+    },
+    {
+     "name": "케이티앤지",
+     "routes": 27
+    },
+    {
+     "name": "퇴계우성A",
+     "routes": 24
+    },
+    {
+     "name": "온의사거리",
+     "routes": 21
+    },
+    {
+     "name": "KBS방송국",
+     "routes": 19
+    }
+   ],
+   "low_freq": [],
+   "villages": []
+  },
+  "석사동": {
+   "stops": 45,
+   "routes": [
+    {
+     "no": "동내1",
+     "per_day": 9,
+     "stops_here": 9,
+     "first": "06:10",
+     "last": "20:35",
+     "starts": [
+      "06:10",
+      "07:10",
+      "09:15"
+     ]
+    },
+    {
+     "no": "동내2",
+     "per_day": 8,
+     "stops_here": 1,
+     "first": "06:25",
+     "last": "17:25",
+     "starts": [
+      "06:25",
+      "08:00",
+      "14:00"
+     ]
+    },
+    {
+     "no": "동내4",
+     "per_day": 8,
+     "stops_here": 8,
+     "first": "06:15",
+     "last": "21:40",
+     "starts": [
+      "06:15",
+      "06:45",
+      "08:55",
+      "16:35",
+      "19:50",
+      "21:40"
+     ]
+    },
+    {
+     "no": "남산3",
+     "per_day": 7,
+     "stops_here": 5,
+     "first": "06:45",
+     "last": "21:00",
+     "starts": [
+      "06:45",
+      "07:35",
+      "09:20",
+      "15:00",
+      "16:35",
+      "19:00",
+      "21:00"
+     ]
+    },
+    {
+     "no": "동내3-1",
+     "per_day": 7,
+     "stops_here": 8,
+     "first": "13:00",
+     "last": "20:40",
+     "starts": [
+      "13:00",
+      "16:25",
+      "20:40"
+     ]
+    },
+    {
+     "no": "동내3",
+     "per_day": 6,
+     "stops_here": 8,
+     "first": "06:10",
+     "last": "10:50",
+     "starts": [
+      "06:10",
+      "06:45",
+      "07:50",
+      "09:20"
+     ]
+    },
+    {
+     "no": "동산1",
+     "per_day": 5,
+     "stops_here": 9,
+     "first": "06:25",
+     "last": "21:40",
+     "starts": [
+      "06:25",
+      "13:05",
+      "15:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "동산2",
+     "per_day": 5,
+     "stops_here": 9,
+     "first": "06:00",
+     "last": "20:40",
+     "starts": [
+      "06:00",
+      "08:05",
+      "20:40"
+     ]
+    },
+    {
+     "no": "동산4",
+     "per_day": 4,
+     "stops_here": 9,
+     "first": "07:30",
+     "last": "20:40",
+     "starts": [
+      "07:30",
+      "09:30",
+      "11:45"
+     ]
+    },
+    {
+     "no": "신북1",
+     "per_day": 4,
+     "stops_here": 3,
+     "first": "06:10",
+     "last": "10:30",
+     "starts": [
+      "06:10",
+      "08:55",
+      "10:30"
+     ]
+    },
+    {
+     "no": "동산5",
+     "per_day": 3,
+     "stops_here": 9,
+     "first": "07:00",
+     "last": "14:30",
+     "starts": [
+      "07:00",
+      "09:20",
+      "14:30"
+     ]
+    },
+    {
+     "no": "남산2-1",
+     "per_day": 2,
+     "stops_here": 5,
+     "first": "06:35",
+     "last": "17:10",
+     "starts": [
+      "06:35",
+      "17:10"
+     ]
+    },
+    {
+     "no": "동내2-1",
+     "per_day": 2,
+     "stops_here": 8,
+     "first": "20:25",
+     "last": "21:40",
+     "starts": [
+      "20:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "동산3",
+     "per_day": 1,
+     "stops_here": 9,
+     "first": "14:20",
+     "last": "14:20",
+     "starts": [
+      "14:20"
+     ]
+    },
+    {
+     "no": "1",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "10-1",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "10-S",
+     "per_day": null,
+     "stops_here": 7
+    },
+    {
+     "no": "100",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "100-1",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "101",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "101-1",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "11",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "15",
+     "per_day": null,
+     "stops_here": 16
+    },
+    {
+     "no": "15-S",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "16",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "18",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "2",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "2-S",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "200",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "200-1",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "200-S",
+     "per_day": null,
+     "stops_here": 6
+    },
+    {
+     "no": "3",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "3-S",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "300",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "4",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "4-S",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "6",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "7",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "901",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "902",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "S-1",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-10",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "S-6",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "S-7",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "S-8",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "S-9",
+     "per_day": null,
+     "stops_here": 3
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "석사극동A",
+     "routes": 22
+    },
+    {
+     "name": "교육대학교",
+     "routes": 18
+    },
+    {
+     "name": "그랜드A",
+     "routes": 17
+    },
+    {
+     "name": "석사4거리",
+     "routes": 16
+    },
+    {
+     "name": "석사교회",
+     "routes": 16
+    }
+   ],
+   "low_freq": [],
+   "villages": []
+  },
+  "신동면": {
+   "stops": 50,
+   "routes": [
+    {
+     "no": "신동1-1",
+     "per_day": 13,
+     "stops_here": 12,
+     "first": "06:05",
+     "last": "20:30",
+     "starts": [
+      "06:05",
+      "07:40",
+      "11:00"
+     ]
+    },
+    {
+     "no": "서면2",
+     "per_day": 12,
+     "stops_here": 1,
+     "first": "06:00",
+     "last": "20:20",
+     "starts": [
+      "06:00",
+      "07:15",
+      "09:10",
+      "14:50"
+     ]
+    },
+    {
+     "no": "신동1-2",
+     "per_day": 11,
+     "stops_here": 21,
+     "first": "06:15",
+     "last": "21:05",
+     "starts": [
+      "06:15",
+      "07:00",
+      "08:50",
+      "12:20",
+      "21:05"
+     ]
+    },
+    {
+     "no": "신동3",
+     "per_day": 11,
+     "stops_here": 31,
+     "first": "06:20",
+     "last": "21:20",
+     "starts": [
+      "06:20",
+      "07:20",
+      "08:50",
+      "17:00",
+      "21:20"
+     ]
+    },
+    {
+     "no": "신동2",
+     "per_day": 9,
+     "stops_here": 27,
+     "first": "07:00",
+     "last": "20:25",
+     "starts": [
+      "07:00",
+      "08:25",
+      "10:25"
+     ]
+    },
+    {
+     "no": "남면1",
+     "per_day": 7,
+     "stops_here": 28,
+     "first": "06:15",
+     "last": "20:40",
+     "starts": [
+      "06:15",
+      "08:00",
+      "14:10",
+      "20:40"
+     ]
+    },
+    {
+     "no": "남산3",
+     "per_day": 7,
+     "stops_here": 4,
+     "first": "06:45",
+     "last": "21:00",
+     "starts": [
+      "06:45",
+      "07:35",
+      "09:20",
+      "15:00",
+      "16:35",
+      "19:00",
+      "21:00"
+     ]
+    },
+    {
+     "no": "서면1",
+     "per_day": 7,
+     "stops_here": 1,
+     "first": "06:00",
+     "last": "20:05",
+     "starts": [
+      "06:00",
+      "08:00",
+      "12:20",
+      "14:20",
+      "20:05"
+     ]
+    },
+    {
+     "no": "남산1",
+     "per_day": 6,
+     "stops_here": 17,
+     "first": "06:30",
+     "last": "19:45",
+     "starts": [
+      "06:30",
+      "08:10",
+      "11:55",
+      "14:05"
+     ]
+    },
+    {
+     "no": "남산5",
+     "per_day": 6,
+     "stops_here": 4,
+     "first": "06:20",
+     "last": "21:05",
+     "starts": [
+      "06:20",
+      "08:55",
+      "18:20",
+      "21:05"
+     ]
+    },
+    {
+     "no": "동면1",
+     "per_day": 6,
+     "stops_here": 4,
+     "first": "06:05",
+     "last": "20:50",
+     "starts": [
+      "06:05",
+      "08:20",
+      "11:15",
+      "14:55",
+      "17:35",
+      "20:50"
+     ]
+    },
+    {
+     "no": "남면3",
+     "per_day": 5,
+     "stops_here": 4,
+     "first": "06:30",
+     "last": "19:50",
+     "starts": [
+      "06:30",
+      "08:45",
+      "11:35",
+      "19:50"
+     ]
+    },
+    {
+     "no": "남면2",
+     "per_day": 4,
+     "stops_here": 4,
+     "first": "09:50",
+     "last": "20:00",
+     "starts": [
+      "09:50"
+     ]
+    },
+    {
+     "no": "남산2",
+     "per_day": 4,
+     "stops_here": 17,
+     "first": "09:00",
+     "last": "20:35",
+     "starts": [
+      "09:00",
+      "20:35"
+     ]
+    },
+    {
+     "no": "서면2-1",
+     "per_day": 3,
+     "stops_here": 1,
+     "first": "09:50",
+     "last": "14:05",
+     "starts": [
+      "09:50",
+      "11:05",
+      "14:05"
+     ]
+    },
+    {
+     "no": "남면2-1",
+     "per_day": 2,
+     "stops_here": 4,
+     "first": "06:45",
+     "last": "13:40",
+     "starts": [
+      "06:45"
+     ]
+    },
+    {
+     "no": "남산1-1",
+     "per_day": 2,
+     "stops_here": 15,
+     "first": "09:15",
+     "last": "10:50",
+     "starts": [
+      "09:15",
+      "10:50"
+     ]
+    },
+    {
+     "no": "남산2-1",
+     "per_day": 2,
+     "stops_here": 13,
+     "first": "06:35",
+     "last": "17:10",
+     "starts": [
+      "06:35",
+      "17:10"
+     ]
+    },
+    {
+     "no": "서면1-1",
+     "per_day": 2,
+     "stops_here": 1,
+     "first": "09:25",
+     "last": "10:50",
+     "starts": [
+      "09:25",
+      "10:50"
+     ]
+    },
+    {
+     "no": "7",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "7-1",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "7-2",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "7-3",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "7-S",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "8",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 17
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 17
+    },
+    {
+     "no": "905",
+     "per_day": null,
+     "stops_here": 4
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "팔미1리",
+     "routes": 16
+    },
+    {
+     "name": "봄봄유치원",
+     "routes": 14
+    },
+    {
+     "name": "의암리입구",
+     "routes": 13
+    },
+    {
+     "name": "팔미쉼터",
+     "routes": 13
+    },
+    {
+     "name": "의암댐",
+     "routes": 12
+    }
+   ],
+   "low_freq": [],
+   "villages": [
+    {
+     "hub": "증1리경로당",
+     "stop": "김유정역",
+     "km": 0.26,
+     "route": "신동1-1",
+     "per_day": 13
+    },
+    {
+     "hub": "혈동1리경로당",
+     "stop": "혈동1리종점",
+     "km": 0.22,
+     "route": "신동3",
+     "per_day": 11
+    },
+    {
+     "hub": "의암리 경로당",
+     "stop": "의암리본마을",
+     "km": 0.21,
+     "route": "신동1-1",
+     "per_day": 13
+    },
+    {
+     "hub": "팔미3리 경로당",
+     "stop": "팔미3리",
+     "km": 0.17,
+     "route": "신동1-2",
+     "per_day": 11
+    },
+    {
+     "hub": "팔미1리 경로당",
+     "stop": "팔미쉼터",
+     "km": 0.17,
+     "route": "신동1-2",
+     "per_day": 11
+    },
+    {
+     "hub": "팔미3리 마을회관",
+     "stop": "팔미3리",
+     "km": 0.16,
+     "route": "신동1-2",
+     "per_day": 11
+    },
+    {
+     "hub": "팔미1리 마을회관",
+     "stop": "팔미쉼터",
+     "km": 0.16,
+     "route": "신동1-2",
+     "per_day": 11
+    },
+    {
+     "hub": "정족1리 경로당",
+     "stop": "정족1리입구",
+     "km": 0.16,
+     "route": "신동3",
+     "per_day": 11
+    },
+    {
+     "hub": "증3리 경로당",
+     "stop": "김유정문학촌",
+     "km": 0.1,
+     "route": "신동1-1",
+     "per_day": 13
+    },
+    {
+     "hub": "팔미2리 경로당",
+     "stop": "설미종점",
+     "km": 0.08,
+     "route": "신동1-1",
+     "per_day": 13
+    },
+    {
+     "hub": "증2리 마을회관",
+     "stop": "증2리경로당",
+     "km": 0.04,
+     "route": "신동3",
+     "per_day": 11
+    },
+    {
+     "hub": "증2리경로당",
+     "stop": "증2리경로당",
+     "km": 0.04,
+     "route": "신동3",
+     "per_day": 11
+    },
+    {
+     "hub": "정족2리 경로당",
+     "stop": "정족2리",
+     "km": 0.03,
+     "route": "신동3",
+     "per_day": 11
+    },
+    {
+     "hub": "증4리 경로당",
+     "stop": "삼포유원지",
+     "km": 0.03,
+     "route": "신동3",
+     "per_day": 11
+    },
+    {
+     "hub": "혈동2리 경로당",
+     "stop": "혈동2리마을회관",
+     "km": 0.01,
+     "route": "신동1-2",
+     "per_day": 11
+    }
+   ]
+  },
+  "강남동": {
+   "stops": 47,
+   "routes": [
+    {
+     "no": "신동1-1",
+     "per_day": 13,
+     "stops_here": 12,
+     "first": "06:05",
+     "last": "20:30",
+     "starts": [
+      "06:05",
+      "07:40",
+      "11:00"
+     ]
+    },
+    {
+     "no": "서면2",
+     "per_day": 12,
+     "stops_here": 9,
+     "first": "06:00",
+     "last": "20:20",
+     "starts": [
+      "06:00",
+      "07:15",
+      "09:10",
+      "14:50"
+     ]
+    },
+    {
+     "no": "신동1-2",
+     "per_day": 11,
+     "stops_here": 12,
+     "first": "06:15",
+     "last": "21:05",
+     "starts": [
+      "06:15",
+      "07:00",
+      "08:50",
+      "12:20",
+      "21:05"
+     ]
+    },
+    {
+     "no": "신동3",
+     "per_day": 11,
+     "stops_here": 1,
+     "first": "06:20",
+     "last": "21:20",
+     "starts": [
+      "06:20",
+      "07:20",
+      "08:50",
+      "17:00",
+      "21:20"
+     ]
+    },
+    {
+     "no": "신동2",
+     "per_day": 9,
+     "stops_here": 4,
+     "first": "07:00",
+     "last": "20:25",
+     "starts": [
+      "07:00",
+      "08:25",
+      "10:25"
+     ]
+    },
+    {
+     "no": "동내4",
+     "per_day": 8,
+     "stops_here": 3,
+     "first": "06:15",
+     "last": "21:40",
+     "starts": [
+      "06:15",
+      "06:45",
+      "08:55",
+      "16:35",
+      "19:50",
+      "21:40"
+     ]
+    },
+    {
+     "no": "남면1",
+     "per_day": 7,
+     "stops_here": 8,
+     "first": "06:15",
+     "last": "20:40",
+     "starts": [
+      "06:15",
+      "08:00",
+      "14:10",
+      "20:40"
+     ]
+    },
+    {
+     "no": "남산3",
+     "per_day": 7,
+     "stops_here": 8,
+     "first": "06:45",
+     "last": "21:00",
+     "starts": [
+      "06:45",
+      "07:35",
+      "09:20",
+      "15:00",
+      "16:35",
+      "19:00",
+      "21:00"
+     ]
+    },
+    {
+     "no": "서면1",
+     "per_day": 7,
+     "stops_here": 9,
+     "first": "06:00",
+     "last": "20:05",
+     "starts": [
+      "06:00",
+      "08:00",
+      "12:20",
+      "14:20",
+      "20:05"
+     ]
+    },
+    {
+     "no": "남산1",
+     "per_day": 6,
+     "stops_here": 8,
+     "first": "06:30",
+     "last": "19:45",
+     "starts": [
+      "06:30",
+      "08:10",
+      "11:55",
+      "14:05"
+     ]
+    },
+    {
+     "no": "남산5",
+     "per_day": 6,
+     "stops_here": 8,
+     "first": "06:20",
+     "last": "21:05",
+     "starts": [
+      "06:20",
+      "08:55",
+      "18:20",
+      "21:05"
+     ]
+    },
+    {
+     "no": "동내3",
+     "per_day": 6,
+     "stops_here": 4,
+     "first": "06:10",
+     "last": "10:50",
+     "starts": [
+      "06:10",
+      "06:45",
+      "07:50",
+      "09:20"
+     ]
+    },
+    {
+     "no": "동면1",
+     "per_day": 6,
+     "stops_here": 7,
+     "first": "06:05",
+     "last": "20:50",
+     "starts": [
+      "06:05",
+      "08:20",
+      "11:15",
+      "14:55",
+      "17:35",
+      "20:50"
+     ]
+    },
+    {
+     "no": "남면3",
+     "per_day": 5,
+     "stops_here": 8,
+     "first": "06:30",
+     "last": "19:50",
+     "starts": [
+      "06:30",
+      "08:45",
+      "11:35",
+      "19:50"
+     ]
+    },
+    {
+     "no": "남면2",
+     "per_day": 4,
+     "stops_here": 7,
+     "first": "09:50",
+     "last": "20:00",
+     "starts": [
+      "09:50"
+     ]
+    },
+    {
+     "no": "남산2",
+     "per_day": 4,
+     "stops_here": 7,
+     "first": "09:00",
+     "last": "20:35",
+     "starts": [
+      "09:00",
+      "20:35"
+     ]
+    },
+    {
+     "no": "신북1",
+     "per_day": 4,
+     "stops_here": 4,
+     "first": "06:10",
+     "last": "10:30",
+     "starts": [
+      "06:10",
+      "08:55",
+      "10:30"
+     ]
+    },
+    {
+     "no": "서면2-1",
+     "per_day": 3,
+     "stops_here": 7,
+     "first": "09:50",
+     "last": "14:05",
+     "starts": [
+      "09:50",
+      "11:05",
+      "14:05"
+     ]
+    },
+    {
+     "no": "남면2-1",
+     "per_day": 2,
+     "stops_here": 8,
+     "first": "06:45",
+     "last": "13:40",
+     "starts": [
+      "06:45"
+     ]
+    },
+    {
+     "no": "남산1-1",
+     "per_day": 2,
+     "stops_here": 6,
+     "first": "09:15",
+     "last": "10:50",
+     "starts": [
+      "09:15",
+      "10:50"
+     ]
+    },
+    {
+     "no": "남산2-1",
+     "per_day": 2,
+     "stops_here": 1,
+     "first": "06:35",
+     "last": "17:10",
+     "starts": [
+      "06:35",
+      "17:10"
+     ]
+    },
+    {
+     "no": "동내2-1",
+     "per_day": 2,
+     "stops_here": 4,
+     "first": "20:25",
+     "last": "21:40",
+     "starts": [
+      "20:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "서면1-1",
+     "per_day": 2,
+     "stops_here": 9,
+     "first": "09:25",
+     "last": "10:50",
+     "starts": [
+      "09:25",
+      "10:50"
+     ]
+    },
+    {
+     "no": "1-16",
+     "per_day": null,
+     "stops_here": 25
+    },
+    {
+     "no": "100",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "100-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "101",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "101-1",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "11-1",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "12",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "15",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "15-S",
+     "per_day": null,
+     "stops_here": 1
+    },
+    {
+     "no": "17",
+     "per_day": null,
+     "stops_here": 25
+    },
+    {
+     "no": "18",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "2-S",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "200",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "200-1",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "200-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "3",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "3-S",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "300",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "4",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "4-S",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "400",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "6",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "7",
+     "per_day": null,
+     "stops_here": 22
+    },
+    {
+     "no": "7-1",
+     "per_day": null,
+     "stops_here": 18
+    },
+    {
+     "no": "7-2",
+     "per_day": null,
+     "stops_here": 12
+    },
+    {
+     "no": "7-3",
+     "per_day": null,
+     "stops_here": 14
+    },
+    {
+     "no": "7-S",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "8",
+     "per_day": null,
+     "stops_here": 12
+    },
+    {
+     "no": "903",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "904",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "905",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "S-2",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "S-3",
+     "per_day": null,
+     "stops_here": 4
+    },
+    {
+     "no": "S-4",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "S-5",
+     "per_day": null,
+     "stops_here": 3
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "시외버스터미널",
+     "routes": 34
+    },
+    {
+     "name": "배나무골",
+     "routes": 27
+    },
+    {
+     "name": "온의금호1차",
+     "routes": 26
+    },
+    {
+     "name": "가압펌프장",
+     "routes": 23
+    },
+    {
+     "name": "88공원",
+     "routes": 21
+    }
+   ],
+   "low_freq": [],
+   "villages": []
+  },
+  "동내면": {
+   "stops": 62,
+   "routes": [
+    {
+     "no": "동내1",
+     "per_day": 9,
+     "stops_here": 21,
+     "first": "06:10",
+     "last": "20:35",
+     "starts": [
+      "06:10",
+      "07:10",
+      "09:15"
+     ]
+    },
+    {
+     "no": "동내2",
+     "per_day": 8,
+     "stops_here": 26,
+     "first": "06:25",
+     "last": "17:25",
+     "starts": [
+      "06:25",
+      "08:00",
+      "14:00"
+     ]
+    },
+    {
+     "no": "동내4",
+     "per_day": 8,
+     "stops_here": 34,
+     "first": "06:15",
+     "last": "21:40",
+     "starts": [
+      "06:15",
+      "06:45",
+      "08:55",
+      "16:35",
+      "19:50",
+      "21:40"
+     ]
+    },
+    {
+     "no": "남산3",
+     "per_day": 7,
+     "stops_here": 8,
+     "first": "06:45",
+     "last": "21:00",
+     "starts": [
+      "06:45",
+      "07:35",
+      "09:20",
+      "15:00",
+      "16:35",
+      "19:00",
+      "21:00"
+     ]
+    },
+    {
+     "no": "동내3-1",
+     "per_day": 7,
+     "stops_here": 23,
+     "first": "13:00",
+     "last": "20:40",
+     "starts": [
+      "13:00",
+      "16:25",
+      "20:40"
+     ]
+    },
+    {
+     "no": "동내3",
+     "per_day": 6,
+     "stops_here": 31,
+     "first": "06:10",
+     "last": "10:50",
+     "starts": [
+      "06:10",
+      "06:45",
+      "07:50",
+      "09:20"
+     ]
+    },
+    {
+     "no": "동산1",
+     "per_day": 5,
+     "stops_here": 9,
+     "first": "06:25",
+     "last": "21:40",
+     "starts": [
+      "06:25",
+      "13:05",
+      "15:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "동산2",
+     "per_day": 5,
+     "stops_here": 10,
+     "first": "06:00",
+     "last": "20:40",
+     "starts": [
+      "06:00",
+      "08:05",
+      "20:40"
+     ]
+    },
+    {
+     "no": "동산4",
+     "per_day": 4,
+     "stops_here": 9,
+     "first": "07:30",
+     "last": "20:40",
+     "starts": [
+      "07:30",
+      "09:30",
+      "11:45"
+     ]
+    },
+    {
+     "no": "신북1",
+     "per_day": 4,
+     "stops_here": 5,
+     "first": "06:10",
+     "last": "10:30",
+     "starts": [
+      "06:10",
+      "08:55",
+      "10:30"
+     ]
+    },
+    {
+     "no": "동산5",
+     "per_day": 3,
+     "stops_here": 15,
+     "first": "07:00",
+     "last": "14:30",
+     "starts": [
+      "07:00",
+      "09:20",
+      "14:30"
+     ]
+    },
+    {
+     "no": "남산2-1",
+     "per_day": 2,
+     "stops_here": 8,
+     "first": "06:35",
+     "last": "17:10",
+     "starts": [
+      "06:35",
+      "17:10"
+     ]
+    },
+    {
+     "no": "동내2-1",
+     "per_day": 2,
+     "stops_here": 20,
+     "first": "20:25",
+     "last": "21:40",
+     "starts": [
+      "20:25",
+      "21:40"
+     ]
+    },
+    {
+     "no": "동산3",
+     "per_day": 1,
+     "stops_here": 9,
+     "first": "14:20",
+     "last": "14:20",
+     "starts": [
+      "14:20"
+     ]
+    },
+    {
+     "no": "1",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "10-1",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "10-S",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "11",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "15",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "15-S",
+     "per_day": null,
+     "stops_here": 8
+    },
+    {
+     "no": "16",
+     "per_day": null,
+     "stops_here": 10
+    },
+    {
+     "no": "2",
+     "per_day": null,
+     "stops_here": 11
+    },
+    {
+     "no": "2-S",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "200-1",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "200-S",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "3",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "300",
+     "per_day": null,
+     "stops_here": 5
+    },
+    {
+     "no": "901",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "902",
+     "per_day": null,
+     "stops_here": 9
+    },
+    {
+     "no": "S-1",
+     "per_day": null,
+     "stops_here": 16
+    },
+    {
+     "no": "S-10",
+     "per_day": null,
+     "stops_here": 2
+    },
+    {
+     "no": "S-4",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "S-5",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "S-6",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "S-7",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "S-8",
+     "per_day": null,
+     "stops_here": 3
+    },
+    {
+     "no": "S-9",
+     "per_day": null,
+     "stops_here": 2
+    }
+   ],
+   "busy_stops": [
+    {
+     "name": "초록지붕A",
+     "routes": 22
+    },
+    {
+     "name": "석사삼익A",
+     "routes": 22
+    },
+    {
+     "name": "석사극동A",
+     "routes": 21
+    },
+    {
+     "name": "거두리부영A",
+     "routes": 18
+    },
+    {
+     "name": "학곡리종점",
+     "routes": 15
+    }
+   ],
+   "low_freq": [
+    "동내2-1(2회)"
+   ],
+   "villages": [
+    {
+     "hub": "호반베르디움에코아파트 경로당",
+     "stop": "거두리주공A",
+     "km": 0.29,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "거두3리 경로당",
+     "stop": "성우오스타A",
+     "km": 0.23,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "신아3차 아파트 경로당",
+     "stop": "학곡리종점",
+     "km": 0.23,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "거두2 행복주택 경로당",
+     "stop": "거두리주공A",
+     "km": 0.22,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "학곡1리 경로당",
+     "stop": "학곡리종점",
+     "km": 0.21,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "학곡1리 마을회관",
+     "stop": "학곡리종점",
+     "km": 0.21,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "학곡2리 경로당",
+     "stop": "대룡산쉼터",
+     "km": 0.18,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "부영2차아파트 경로당",
+     "stop": "성우오스타A",
+     "km": 0.16,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "학곡3리 마을회관",
+     "stop": "학곡리종점",
+     "km": 0.15,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "학곡3리 경로당",
+     "stop": "학곡리종점",
+     "km": 0.15,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "고은2리경로당",
+     "stop": "고은2리",
+     "km": 0.14,
+     "route": "동내4",
+     "per_day": 8
+    },
+    {
+     "hub": "고은2리 마을회관",
+     "stop": "고은2리",
+     "km": 0.14,
+     "route": "동내4",
+     "per_day": 8
+    },
+    {
+     "hub": "호반베르디움경로당",
+     "stop": "거두1리",
+     "km": 0.13,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "부영3차아파트 경로당",
+     "stop": "성우오스타A",
+     "km": 0.13,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "고은1리 경로당",
+     "stop": "고은리",
+     "km": 0.12,
+     "route": "동내4",
+     "per_day": 8
+    },
+    {
+     "hub": "비스타경로당",
+     "stop": "모아엘가비스타",
+     "km": 0.11,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "현대 성우오스타아파트 경로당",
+     "stop": "성우오스타A",
+     "km": 0.1,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "동내면 거두주공1차 아파트 경로당",
+     "stop": "호반베르디움",
+     "km": 0.1,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "부영1차아파트 경로당",
+     "stop": "성우오스타A",
+     "km": 0.09,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "신촌1리 경로당",
+     "stop": "신촌리종점",
+     "km": 0.08,
+     "route": "동내2",
+     "per_day": 8
+    },
+    {
+     "hub": "신촌3리 경로당",
+     "stop": "동내면행복센터",
+     "km": 0.07,
+     "route": "동내2",
+     "per_day": 8
+    },
+    {
+     "hub": "거두9리 경로당(초록지붕아파트)",
+     "stop": "초록지붕A",
+     "km": 0.06,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "신촌2리 경로당",
+     "stop": "신촌2리",
+     "km": 0.04,
+     "route": "동내2",
+     "per_day": 8
+    },
+    {
+     "hub": "거두2리 경로당",
+     "stop": "거두2리마을회관",
+     "km": 0.04,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "사암1리 경로당",
+     "stop": "사암1리마을회관",
+     "km": 0.03,
+     "route": "동내4",
+     "per_day": 8
+    },
+    {
+     "hub": "거두1리 경로당",
+     "stop": "거두1리마을회관",
+     "km": 0.02,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "사암1리 마을회관",
+     "stop": "사암1리마을회관",
+     "km": 0.02,
+     "route": "동내4",
+     "per_day": 8
+    },
+    {
+     "hub": "거두2리 마을회관",
+     "stop": "거두2리마을회관",
+     "km": 0.02,
+     "route": "동내1",
+     "per_day": 9
+    },
+    {
+     "hub": "산수빌 아파트 경로당",
+     "stop": "산수빌A",
+     "km": 0.02,
+     "route": "동내2",
+     "per_day": 8
+    },
+    {
+     "hub": "사암2리 경로당",
+     "stop": "사암2리마을회관",
+     "km": 0.02,
+     "route": "동내4",
+     "per_day": 8
+    },
+    {
+     "hub": "사암4리 경로당",
+     "stop": "사암4리종점",
+     "km": 0.01,
+     "route": "동내4",
+     "per_day": 8
+    },
+    {
+     "hub": "사암3리 경로당",
+     "stop": "대룡산종점",
+     "km": 0.01,
+     "route": "동내4",
+     "per_day": 8
+    }
+   ]
+  }
+ }
+}

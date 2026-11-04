@@ -1,0 +1,196 @@
+{
+ "name": "multi_hard_8",
+ "frozen": "2026-10-26 PC, multi_16에서 시제품이 3번 모두 맞힌 뒤, 더 짓궂은 질문으로 다시 재려고 씀(이 시험지의 AI 결과를 보기 전에 커밋). 목록에 없는 조건 · 동 몇 곳 안에서 · 줄 세우기 · 조건 다섯 개",
+ "note": "expect_unknown: 지표 목록에 없는 조건을 unknown으로 밝혀야 하면 true(지어 붙이면 틀림). plan에 sort가 있으면 순서까지 견준다",
+ "items": [
+  {
+   "id": "H1",
+   "region": "춘천시",
+   "say": "춘천에서 혼자 사는 할머니가 많고 동 안에 약국이 없는 곳 알려줘",
+   "expect_unknown": true,
+   "plan": {
+    "region": "춘천시",
+    "conds": [
+     {
+      "metric": "pharmacies",
+      "op": "없음"
+     }
+    ]
+   }
+  },
+  {
+   "id": "H2",
+   "region": "강남구",
+   "say": "수서동, 일원1동, 개포3동 중에서 혼자 사는 80세 이상이 제일 많은 곳은?",
+   "expect_unknown": false,
+   "plan": {
+    "region": "강남구",
+    "dongs": [
+     "수서동",
+     "일원1동",
+     "개포3동"
+    ],
+    "conds": [],
+    "sort": "solo80",
+    "order": "많은 순",
+    "limit": 1
+   }
+  },
+  {
+   "id": "H3",
+   "region": "강남구",
+   "say": "강남에서 기초수급 받는 독거 어르신이 많고 우울감이 높은 사람이 많은 동",
+   "expect_unknown": true,
+   "plan": {
+    "region": "강남구",
+    "conds": [
+     {
+      "metric": "lonely_poor",
+      "op": "많음"
+     }
+    ]
+   }
+  },
+  {
+   "id": "H4",
+   "region": "강남구",
+   "say": "강남에서 계단 집 비율이 15% 이상이고, 지하층 있는 낡은 건물이 100채 이상이고, 혼자 사는 80세 이상이 150명 넘고, 약국이 5곳 이하인 동",
+   "expect_unknown": false,
+   "plan": {
+    "region": "강남구",
+    "conds": [
+     {
+      "metric": "old_walkup_share",
+      "op": "이상",
+      "value": 0.15
+     },
+     {
+      "metric": "basement_old",
+      "op": "이상",
+      "value": 100
+     },
+     {
+      "metric": "solo80",
+      "op": "이상",
+      "value": 150
+     },
+     {
+      "metric": "pharmacies",
+      "op": "이하",
+      "value": 5
+     }
+    ]
+   }
+  },
+  {
+   "id": "H5",
+   "region": "춘천시",
+   "say": "춘천에서 버스가 하루 다섯 번도 안 다니고 혼자 사는 어르신이 많은 면",
+   "expect_unknown": false,
+   "plan": {
+    "region": "춘천시",
+    "kind": "읍면만",
+    "conds": [
+     {
+      "metric": "solo65",
+      "op": "많음"
+     },
+     {
+      "metric": "v_bus",
+      "op": "이하",
+      "value": 4
+     }
+    ]
+   },
+   "changed_1027": {
+    "why": "얼릴 때(10-26)는 버스 횟수 지표가 없어 '목록 밖 조건'(expect_unknown)과 '혼자 사는 어르신 많은 동 9곳'이 정답이었다. 10-27 마을 단위 지표(v_bus, 마을 경로당 근처 가장 잦은 노선 하루 횟수)가 생겨 '다섯 번도 안' = 4번 이하 마을 조건으로 계산할 수 있다 — 읍면을 먼저 거른 뒤(혼자 사는 어르신 많은 면) 그 안의 버스 4번 이하 마을",
+    "before": {
+     "plan": {
+      "region": "춘천시",
+      "conds": [
+       {
+        "metric": "solo65",
+        "op": "많음"
+       }
+      ]
+     },
+     "expect_unknown": true
+    },
+    "score_before": "api9 엔진 recall False(답은 '모두 맞는 마을 없음'으로 맞음)"
+   }
+  },
+  {
+   "id": "H6",
+   "region": "춘천시",
+   "say": "춘천에서 요양원 같은 입소 시설은 있는데 방문요양 같은 재가 기관은 없고, 80세 이상 주민이 많은 곳",
+   "expect_unknown": false,
+   "plan": {
+    "region": "춘천시",
+    "conds": [
+     {
+      "metric": "ltc_res",
+      "op": "있음"
+     },
+     {
+      "metric": "ltc_home",
+      "op": "없음"
+     },
+     {
+      "metric": "pop80",
+      "op": "많음"
+     }
+    ]
+   }
+  },
+  {
+   "id": "H7",
+   "region": "강남구",
+   "say": "강남에서 위험 구간이 5인 동들을 경로당 적은 순으로 세 곳만",
+   "expect_unknown": false,
+   "plan": {
+    "region": "강남구",
+    "conds": [
+     {
+      "metric": "risk_band",
+      "op": "이상",
+      "value": 5
+     }
+    ],
+    "sort": "halls",
+    "order": "적은 순",
+    "limit": 3
+   }
+  },
+  {
+   "id": "H8",
+   "region": "춘천시",
+   "say": "춘천에서 혼자 사는 어르신이 많고, 계단 집이 많고, 무료급식소가 없고, 의원도 없고, 주민 대비 기초수급자 비율이 높은 곳",
+   "expect_unknown": false,
+   "plan": {
+    "region": "춘천시",
+    "conds": [
+     {
+      "metric": "solo65",
+      "op": "많음"
+     },
+     {
+      "metric": "old_walkup",
+      "op": "많음"
+     },
+     {
+      "metric": "meals",
+      "op": "없음"
+     },
+     {
+      "metric": "clinics",
+      "op": "없음"
+     },
+     {
+      "metric": "livelihood_per100",
+      "op": "많음"
+     }
+    ]
+   }
+  }
+ ]
+}

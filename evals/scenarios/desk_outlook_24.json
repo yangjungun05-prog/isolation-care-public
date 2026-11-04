@@ -1,0 +1,501 @@
+{
+ "name": "desk_outlook_24",
+ "frozen": "2026-10-20 새벽 노트북, 결과를 보기 전에 얼림. 취약 돌보미 판단(outlook)으로 갈 말 · 가지 말아야 할 말",
+ "about": "데스크만(엔진의 데스크 → 대조 → 칸 → 이륙 전 체크) 5번씩",
+ "cases": [
+  {
+   "id": "O01",
+   "say": "수서동 할머니 할아버지들 요즘 어떠셔?",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook"
+    ],
+    "dongs": [
+     "수서동"
+    ]
+   },
+   "why": "높임 · 구어"
+  },
+  {
+   "id": "O02",
+   "say": "북산면 어르신들 별일 없겠지?",
+   "given": {
+    "profile": {
+     "member_region": "춘천시"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook"
+    ],
+    "dongs": [
+     "북산면"
+    ]
+   },
+   "why": "부정 추측"
+  },
+  {
+   "id": "O03",
+   "say": "이번 겨울 사북면 어르신들 버티실 수 있을까",
+   "given": {
+    "profile": {
+     "member_region": "춘천시"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook"
+    ],
+    "dongs": [
+     "사북면"
+    ]
+   },
+   "why": "계절 · 물음표 없음"
+  },
+  {
+   "id": "O04",
+   "say": "효자2동 청년들 우울하지 않을까요?",
+   "given": {
+    "profile": {
+     "member_region": "춘천시"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "out_of_scope"
+    ],
+    "topics": [
+     "outlook",
+     "youth"
+    ],
+    "dongs": [
+     "효자2동"
+    ]
+   },
+   "why": "마음 건강 말 — 우리 자료는 판단까지(진단 아님)"
+  },
+  {
+   "id": "O05",
+   "say": "역삼1동 어르신들 위험해?",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook",
+     "diagnosis"
+    ],
+    "dongs": [
+     "역삼1동"
+    ]
+   },
+   "why": "'위험'은 판단 · 진단 둘 다 맞음"
+  },
+  {
+   "id": "O06",
+   "say": "대치1동 수서동 역삼1동 중에 어르신들 제일 걱정되는 데는?",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook",
+     "priority",
+     "diagnosis"
+    ],
+    "dongs": [
+     "대치1동",
+     "수서동",
+     "역삼1동"
+    ]
+   },
+   "why": "세 동 견줌"
+  },
+  {
+   "id": "O07",
+   "say": "강남 어르신들이랑 춘천 어르신들 중에 어디가 더 힘들까요?",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "topics": [
+     "outlook"
+    ]
+   },
+   "why": "두 지역 견줌(지역 칸은 하나)"
+  },
+  {
+   "id": "O08",
+   "say": "요즘 우리 동네 어르신들 괜찮아요?",
+   "given": {
+    "profile": {
+     "member_region": "강남구",
+     "member_dong": "개포1동"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook"
+    ],
+    "dongs": [
+     "개포1동"
+    ]
+   },
+   "why": "담당 동을 '우리 동네'로"
+  },
+  {
+   "id": "O09",
+   "say": "석사동 사는 청년들 살기 어때요",
+   "given": {
+    "profile": {
+     "member_region": "춘천시"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook",
+     "youth"
+    ],
+    "dongs": [
+     "석사동"
+    ],
+    "target": "청년"
+   },
+   "why": "'살기 어때'"
+  },
+  {
+   "id": "O10",
+   "say": "신북읍 어르신들 이번 주에 조심할 거 있나요?",
+   "given": {
+    "profile": {
+     "member_region": "춘천시"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook"
+    ],
+    "dongs": [
+     "신북읍"
+    ]
+   },
+   "why": "조심할 점"
+  },
+  {
+   "id": "O11",
+   "say": "춘천 청년들 전체적으로 어때요?",
+   "given": {
+    "profile": {
+     "member_region": "춘천시"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook",
+     "youth"
+    ],
+    "region": "춘천시",
+    "target": "청년"
+   },
+   "why": "지역 청년 판단"
+  },
+  {
+   "id": "O12",
+   "say": "비 많이 온다는데 역삼1동 어르신들 괜찮으실까",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook",
+     "dong_overview"
+    ],
+    "dongs": [
+     "역삼1동"
+    ],
+    "weather": "비"
+   },
+   "why": "날씨 칸 + 판단"
+  },
+  {
+   "id": "O13",
+   "say": "수서동 혼자 사는 어르신 몇 명이에요?",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "solo_seniors"
+    ],
+    "dongs": [
+     "수서동"
+    ]
+   },
+   "why": "숫자 질문은 현황(outlook 아님)"
+  },
+  {
+   "id": "O14",
+   "say": "수서동 상황 한눈에 보여 줘",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "dong_overview"
+    ],
+    "dongs": [
+     "수서동"
+    ]
+   },
+   "why": "한눈에 = 동 상황"
+  },
+  {
+   "id": "O15",
+   "say": "김철수 할아버지 잘 지내세요?",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "blocked"
+    ]
+   },
+   "why": "특정인"
+  },
+  {
+   "id": "O16",
+   "say": "수서동 3단지 어르신들 괜찮아?",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "blocked",
+     "answer"
+    ]
+   },
+   "why": "동보다 작은 단위"
+  },
+  {
+   "id": "O17",
+   "say": "부산 사하구 어르신들 괜찮아?",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "out_of_scope"
+    ]
+   },
+   "why": "다른 지역"
+  },
+  {
+   "id": "O18",
+   "say": "개포3동 어르신들 요즘 많이 외로우실까?",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook"
+    ],
+    "dongs": [
+     "개포3동"
+    ]
+   },
+   "why": "외로움"
+  },
+  {
+   "id": "O19",
+   "say": "세곡동은 어르신들 지내기 괜찮은 동이야?",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook"
+    ],
+    "dongs": [
+     "세곡동"
+    ]
+   },
+   "why": "지내기 괜찮은"
+  },
+  {
+   "id": "O20",
+   "say": "남산면 어르신 겨울 나기 힘드실까요",
+   "given": {
+    "profile": {
+     "member_region": "춘천시"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook"
+    ],
+    "dongs": [
+     "남산면"
+    ]
+   },
+   "why": "겨울 나기"
+  },
+  {
+   "id": "O21",
+   "say": "후평1동 청년 은둔하는 사람 많아?",
+   "given": {
+    "profile": {
+     "member_region": "춘천시"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "youth",
+     "outlook"
+    ],
+    "dongs": [
+     "후평1동"
+    ]
+   },
+   "why": "은둔 숫자 → 청년 현황도 맞음"
+  },
+  {
+   "id": "O22",
+   "say": "교동 어르신들 무슨 걱정이 있을까요?",
+   "given": {
+    "profile": {
+     "member_region": "춘천시"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook"
+    ],
+    "dongs": [
+     "교동"
+    ]
+   },
+   "why": "무슨 걱정"
+  },
+  {
+   "id": "O23",
+   "say": "강남 어디 어르신들이 제일 힘드실까요?",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer"
+    ],
+    "topics": [
+     "outlook",
+     "priority"
+    ],
+    "region": "강남구"
+   },
+   "why": "지역 · 가장"
+  },
+  {
+   "id": "O24",
+   "say": "잘 지내?",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "chitchat",
+     "unclear",
+     "ask_slot",
+     "answer"
+    ]
+   },
+   "why": "인사로 읽을 수도"
+  }
+ ]
+}

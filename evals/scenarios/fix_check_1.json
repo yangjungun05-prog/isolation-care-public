@@ -1,0 +1,23 @@
+{
+ "name": "fix_check_1",
+ "frozen": "2026-10-27 새벽, c4 뒤 사북면 일요일 약국 한 턴만 — 정답: 5km 넘는 마을 10곳(모두)",
+ "profile": {
+  "member_region": "춘천시"
+ },
+ "turns": [
+  {
+   "say": "사북면에서 일요일에 약국이 먼 마을은 어디예요?",
+   "qid": "V3",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  }
+ ]
+}

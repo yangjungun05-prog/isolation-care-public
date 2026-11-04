@@ -1,0 +1,20 @@
+{
+ "name": "desk_rather_13",
+ "frozen": "2026-10-26 PC 저녁, '○○보다는 △△' 고침(질문 받는 AI 지시문)을 하기 전에 정답 칸을 적고 커밋함. desk_polarity_22 H03을 보고 고치므로 그 시험지는 참고만 하고, 이 시험지로 따로 잰다",
+ "about": "칸 적용 뒤 동 칸이 정답과 같은지(kind는 답 · 동 되묻기 둘 다 받음). P = 마음이 기운 쪽(걱정 · 급해 · 신경 쓰여 · 먼저)을 말하고 그 동 자료만 물음 → 그 동만, C = 두 동의 자료 값을 견주자는 말 → 두 동 다",
+ "cases": [
+  {"id": "P01", "say": "역삼1동보다는 논현1동이 요즘 더 마음 쓰여. 논현1동 혼자 사는 어르신 몇 분이야?", "given": {"profile": {"member_region": "강남구"}}, "expect": {"kind": ["answer", "ask_slot"], "dongs": ["논현1동"]}, "why": "마음이 기운 쪽 + 그 동만 물음"},
+  {"id": "P02", "say": "동내면보다는 사북면이 급해 보여요, 사북면 경로당 몇 곳이에요?", "given": {"profile": {"member_region": "춘천시"}}, "expect": {"kind": ["answer", "ask_slot"], "dongs": ["사북면"]}, "why": "급해 보임 + 그 동만"},
+  {"id": "P03", "say": "개포2동보다는 수서동 쪽이 신경 쓰이는데 수서동 청년 1인 가구는?", "given": {"profile": {"member_region": "강남구"}}, "expect": {"kind": ["answer", "ask_slot"], "dongs": ["수서동"]}, "why": "신경 쓰임 + 그 동만"},
+  {"id": "P04", "say": "효자1동보다는 퇴계동을 먼저 봐야 할 것 같아요. 퇴계동 약국 몇 곳?", "given": {"profile": {"member_region": "춘천시"}}, "expect": {"kind": ["answer", "ask_slot"], "dongs": ["퇴계동"]}, "why": "먼저 볼 쪽 + 그 동만"},
+  {"id": "P05", "say": "대치1동보다는 일원본동이 걱정이에요 일원본동 반지하 집 얼마나 돼요", "given": {"profile": {"member_region": "강남구"}}, "expect": {"kind": ["answer", "ask_slot"], "dongs": ["일원본동"]}, "why": "걱정 + 그 동만"},
+  {"id": "P06", "say": "세곡동보다는 개포4동이 더 급한 것 같아. 거기 경로당 알려줘", "given": {"profile": {"member_region": "강남구"}}, "expect": {"kind": ["answer", "ask_slot"], "dongs": ["개포4동"]}, "why": "급함 + '거기'"},
+  {"id": "P07", "say": "후평1동보다는 신북읍이 더 마음에 걸려요, 신북읍 혼자 사시는 어르신 수", "given": {"profile": {"member_region": "춘천시"}}, "expect": {"kind": ["answer", "ask_slot"], "dongs": ["신북읍"]}, "why": "마음에 걸림 + 그 동만"},
+  {"id": "C01", "say": "역삼1동보다 논현1동 혼자 사는 어르신이 더 많아?", "given": {"profile": {"member_region": "강남구"}}, "expect": {"kind": ["answer", "ask_slot"], "dongs": ["역삼1동", "논현1동"]}, "why": "자료 값 견줌"},
+  {"id": "C02", "say": "동내면보다는 사북면이 경로당이 더 많지 않나? 두 곳 비교해 줘", "given": {"profile": {"member_region": "춘천시"}}, "expect": {"kind": ["answer", "ask_slot"], "dongs": ["동내면", "사북면"]}, "why": "'보다는'이지만 견줌"},
+  {"id": "C03", "say": "개포2동이랑 수서동 중에 청년 1인 가구 어디가 많아? 개포2동보다는 수서동일 것 같은데", "given": {"profile": {"member_region": "강남구"}}, "expect": {"kind": ["answer", "ask_slot"], "dongs": ["개포2동", "수서동"]}, "why": "견줌 + 짐작"},
+  {"id": "C04", "say": "효자1동보다 퇴계동 약국이 적은지 확인해 줘", "given": {"profile": {"member_region": "춘천시"}}, "expect": {"kind": ["answer", "ask_slot"], "dongs": ["효자1동", "퇴계동"]}, "why": "자료 값 견줌"},
+  {"id": "C05", "say": "대치1동보다는 일원본동이 반지하 집이 많을까? 숫자 나란히 보여 줘", "given": {"profile": {"member_region": "강남구"}}, "expect": {"kind": ["answer", "ask_slot"], "dongs": ["대치1동", "일원본동"]}, "why": "'보다는' + 나란히"},
+  {"id": "C06", "say": "후평1동보다 신북읍 어르신 혼자 사는 비율이 높아?", "given": {"profile": {"member_region": "춘천시"}}, "expect": {"kind": ["answer", "ask_slot"], "dongs": ["후평1동", "신북읍"]}, "why": "자료 값 견줌"}
+ ]
+}

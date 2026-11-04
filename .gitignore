@@ -1,0 +1,38 @@
+# 대회 원자료 — 대회 목적 외 사용 금지 · 종료 후 폐기 (커밋 금지)
+data/raw/*
+!data/raw/.gitkeep
+*빅콘테스트_제공데이터*
+*.zip
+
+# 비밀 값
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# 기타
+.DS_Store
+.idea/
+.vscode/
+
+# AI 비서(src/assistant)
+# 긴 대화 시험의 원문 결과(돈 들여 만든 결과는 깔끔한 버전 저장소에 남김) · 비서가 만든 동 상황 문서 · 자료 자동 받기 결과
+evals/results/
+evals/runs/*.jsonl
+outputs/
+data/public/update_status.json
+
+# 회원(src/auth) — 시험 메일함(MAIL_MODE=dev) · 로그인 쿠키 서명 비밀 글자(AUTH_SECRET 이 비었을 때 자동)
+data/outbox/
+.auth_secret
+
+# 비서 API · CLI 장부(PC마다 한 파일) — 공용 저장소에는 올리지 않는다. 장부는 팀장 저장소(BISU)에 모은다(10-25)
+api_usage/ledger_*.jsonl

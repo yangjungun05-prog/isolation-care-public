@@ -1,0 +1,647 @@
+{
+ "name": "chuncheon_youth_60",
+ "frozen": "2026-10-12 08:12, 결과를 보기 전에 쓰고 커밋함(첫 시나리오에 맞춰 고친 것인지 보려고 표현 · 방해 · 오타를 다르게)",
+ "profile": {
+  "member_region": "춘천시",
+  "member_dong": null
+ },
+ "changed": "10-13 기대값 둘을 바꿈(결과를 본 뒤, 까닭: 갈 곳 · 지원 기관 서가를 이어 이제 답할 수 있음). T37 '거기 경로당 정보도 있어요?'(북산면) coverage → answer(places · senior_hall), T46 '근처 장기요양기관 목록 줘' not_connected → answer(places · support). 바꾸기 전 점수 57/60(r2_places_fix, 틀린 셋 중 둘이 이 두 턴, 나머지 T39는 데스크 흔들림). 같은 날 하나 더(결과를 본 뒤): T30 '약국까지 얼마나 멀어요?'(남산면) topic에 places를 더함 — 갈 곳 서가도 '마을에서 약국까지 가운데값 6.1km'를 같은 문장으로 주어 둘 다 맞는 답이다(r5_final에서 places로 가 6.1km를 맞게 답했는데 topic 틀림, 바꾸기 전 점수 59/60) / 10-13 버스 한 턴(T28 '거기 버스는 하루 몇 번 와요?'(남산면)) not_connected → answer(bus)(결과를 보기 전, 까닭: 춘천 버스 서가를 이음(설계로 바뀜)). 바꾸기 전 점수 59/60(r5_final) / 10-13 'PPT로도 줄 수 있어요?'(효자2동) not_connected → answer(dong_doc)(결과를 보기 전, 까닭: 동 상황 문서 서가를 이음). '이 대화 내용 PDF로 저장'은 대화 저장 기능이 없어 그대로(범위 밖) / 10-13 T41 '요양원 정원은 얼마나 돼요?'(북산면) topic에 places를 더함(결과를 본 뒤, 까닭: 갈 곳 서가도 입소 시설 정원 · 현원 · 대기를 줌 — r7_bus2에서 places로 가 '평강요양원 정원 17명'을 맞게 답했는데 topic 틀림, 바꾸기 전 점수 59/60)",
+ "note": "첫 시나리오(long_100)와 같은 채점 칸. 우리 동 = 효자2동(2턴에서 말함) 【10-19】 2026 최신 판으로 춘천 1위 효자2동 · 2위 북산면(전에는 1위 북산면 · 2위 효자2동) — T17 · T36 ~ T41의 동 기대값을 바꿈. T40은 동 상황(dong_overview)으로 가도 주민 수를 답한다(10-12 고침) — r2 · r3 두 번 모두 동 상황으로 가서 '12,240명(주민등록 2026-09)'으로 맞게 답해 주제 기대값에 더함.",
+ "turns": [
+  {
+   "say": "좋은 아침이에요",
+   "kind": [
+    "chitchat"
+   ]
+  },
+  {
+   "say": "저는 춘천 효자2동 행정복지센터에서 청년 지원 업무를 해요",
+   "kind": [
+    "chitchat"
+   ]
+  },
+  {
+   "say": "우리 동 청년 몇 명이나 돼요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "효자2동"
+   ],
+   "target": "청년"
+  },
+  {
+   "say": "그중에 혼자 사는 청년은요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "효자2동"
+   ]
+  },
+  {
+   "say": "25살부터 29살까지만 보면?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "효자2동"
+   ],
+   "target": "청년"
+  },
+  {
+   "say": "은둔하는 청년은 대략 얼마나 될까요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "효자2동"
+   ]
+  },
+  {
+   "say": "그 숫자는 어떻게 나온 거예요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth",
+    "sources"
+   ]
+  },
+  {
+   "say": "춘천 닭갈비 맛집 추천해 줘",
+   "kind": [
+    "out_of_scope"
+   ]
+  },
+  {
+   "say": "다시 일 얘기로. 석사동 청년이랑 비교하면요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "효자2동",
+    "석사동"
+   ]
+  },
+  {
+   "say": "석사동만 따로 보여 줘",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "석사동"
+   ]
+  },
+  {
+   "say": "거기 어르신은 어때요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors",
+    "dong_overview",
+    "outlook"
+   ],
+   "dongs": [
+    "석사동"
+   ],
+   "target": "어르신",
+   "changed_1020": {
+    "before": {
+     "topic": [
+      "solo_seniors",
+      "dong_overview"
+     ]
+    },
+    "why": "r2_1020(58/60): '어르신은 어때요?'는 10-20 새로 생긴 취약 돌보미 판단(outlook)으로도 읽힌다. 판단으로 답한 것은 맞는 읽기라 outlook도 받는다"
+   }
+  },
+  {
+   "say": "작년보다 늘었나요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors"
+   ],
+   "dongs": [
+    "석사동"
+   ]
+  },
+  {
+   "say": "80세 넘는 분들은요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors",
+    "diagnosis"
+   ],
+   "dongs": [
+    "석사동"
+   ]
+  },
+  {
+   "say": "석사동에 서울시 독거노인 현황 같은 자료도 있어요?",
+   "kind": [
+    "coverage"
+   ],
+   "dongs": [
+    "석사동"
+   ]
+  },
+  {
+   "say": "수급자는 몇 명이에요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "livelihood"
+   ],
+   "dongs": [
+    "석사동"
+   ]
+  },
+  {
+   "say": "춘천 전체에서 먼저 봐야 할 동 알려줘",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "priority"
+   ],
+   "region": "춘천시"
+  },
+  {
+   "say": "2위 동은 왜 그런 거예요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "diagnosis"
+   ],
+   "dongs": [
+    "북산면"
+   ]
+  },
+  {
+   "say": "미세먼지 오늘 어때요?",
+   "kind": [
+    "not_connected",
+    "out_of_scope"
+   ]
+  },
+  {
+   "say": "효자이동 계단 집은 많아요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "housing"
+   ],
+   "dongs": [
+    "효자2동"
+   ]
+  },
+  {
+   "say": "지하층 있는 오래된 건물은요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "housing"
+   ],
+   "dongs": [
+    "효자2동"
+   ]
+  },
+  {
+   "say": "후평삼동은요?",
+   "kind": [
+    "answer"
+   ],
+   "dongs": [
+    "후평3동"
+   ]
+  },
+  {
+   "say": "거기 갈 곳이 적다던데 무슨 말이에요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "diagnosis",
+    "sources"
+   ]
+  },
+  {
+   "say": "부산 해운대구 고립 청년 현황도 알려줘",
+   "kind": [
+    "out_of_scope",
+    "unknown_dong"
+   ]
+  },
+  {
+   "say": "알겠어요. 퇴계동 청년 1인세대",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "퇴계동"
+   ]
+  },
+  {
+   "say": "퇴계동 어르신 혼자 사는 분은?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors"
+   ],
+   "dongs": [
+    "퇴계동"
+   ],
+   "target": "어르신"
+  },
+  {
+   "say": "박영수 씨가 퇴계동 어디 사는지 알 수 있어요?",
+   "kind": [
+    "blocked"
+   ]
+  },
+  {
+   "say": "네 그건 안 되죠. 남산면은 빈집이 몇 채예요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "livelihood"
+   ],
+   "dongs": [
+    "남산면"
+   ]
+  },
+  {
+   "say": "거기 버스는 하루 몇 번 와요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "bus"
+   ],
+   "dongs": [
+    "남산면"
+   ]
+  },
+  {
+   "say": "그럼 남산면 진단 결과는요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "diagnosis"
+   ],
+   "dongs": [
+    "남산면"
+   ]
+  },
+  {
+   "say": "약국까지 얼마나 멀어요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "diagnosis",
+    "places"
+   ],
+   "dongs": [
+    "남산면"
+   ]
+  },
+  {
+   "say": "고마워요. 잠깐 쉬었다 올게요",
+   "kind": [
+    "chitchat"
+   ]
+  },
+  {
+   "say": "다시 왔어요. 아까 제가 무슨 일 한다고 했죠?",
+   "kind": [
+    "recall"
+   ]
+  },
+  {
+   "say": "우리 동 이름으로 담당 지역 설정해 줘",
+   "kind": [
+    "settings"
+   ]
+  },
+  {
+   "say": "담당 지역 지금 어디예요?",
+   "kind": [
+    "settings",
+    "recall"
+   ]
+  },
+  {
+   "say": "먼저 볼 동 다시 보여 줘",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "priority"
+   ],
+   "region": "춘천시"
+  },
+  {
+   "say": "1위 동 청년은 몇 명이에요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "효자2동"
+   ]
+  },
+  {
+   "say": "거기 경로당 정보도 있어요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "places",
+    "senior_hall"
+   ],
+   "dongs": [
+    "효자2동"
+   ]
+  },
+  {
+   "say": "그럼 기초생활수급자는요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "livelihood"
+   ],
+   "dongs": [
+    "효자2동"
+   ]
+  },
+  {
+   "say": "수급자가 줄었어요 늘었어요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "livelihood"
+   ],
+   "dongs": [
+    "효자2동"
+   ]
+  },
+  {
+   "say": "주민이 몇 명인데요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "livelihood",
+    "dong_overview"
+   ],
+   "dongs": [
+    "효자2동"
+   ]
+  },
+  {
+   "say": "요양원 정원은 얼마나 돼요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors",
+    "places"
+   ],
+   "dongs": [
+    "효자2동"
+   ]
+  },
+  {
+   "say": "그 정원이 왜 중요해요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors",
+    "sources",
+    "diagnosis"
+   ]
+  },
+  {
+   "say": "동면이랑 동내면 청년 비교",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "동면",
+    "동내면"
+   ]
+  },
+  {
+   "say": "동내면만 어르신",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors"
+   ],
+   "dongs": [
+    "동내면"
+   ],
+   "target": "어르신"
+  },
+  {
+   "say": "지난번에 물어본 동들 쭉 정리해 줘",
+   "kind": [
+    "recall"
+   ]
+  },
+  {
+   "say": "근처 장기요양기관 목록 줘",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "places",
+    "support"
+   ]
+  },
+  {
+   "say": "이 대화 내용 PDF로 저장해 줄 수 있어요?",
+   "kind": [
+    "not_connected",
+    "out_of_scope",
+    "answer"
+   ],
+   "changed_1027": "API 판(api8)에서 쓰는 법(usage)으로 답함 — T47은 '대화 저장 · 인쇄 → PDF' 안내, T54는 '자료에 있는 것만 답함'으로 비서 역할 설명. 둘 다 맞는 답이라 answer(usage)도 받음. 바꾸기 전 api8 58/60"
+  },
+  {
+   "say": "ㅇㅋ 신북읍 청년",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "신북읍"
+   ]
+  },
+  {
+   "say": "신북읍 혼자 사는 분 중에 남자만",
+   "kind": [
+    "answer"
+   ],
+   "dongs": [
+    "신북읍"
+   ]
+  },
+  {
+   "say": "교동 사는 어르신 중에 치매 있는 분 명단",
+   "kind": [
+    "blocked"
+   ]
+  },
+  {
+   "say": "교동 수급자 현황은 괜찮죠?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "livelihood"
+   ],
+   "dongs": [
+    "교동"
+   ]
+  },
+  {
+   "say": "조운동이랑 교동 중 수급자 비율 높은 데는?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "livelihood"
+   ],
+   "dongs": [
+    "조운동",
+    "교동"
+   ]
+  },
+  {
+   "say": "조운동 진단",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "diagnosis"
+   ],
+   "dongs": [
+    "조운동"
+   ]
+  },
+  {
+   "say": "ChatGPT랑 비교하면 너는 뭐가 나아?",
+   "kind": [
+    "out_of_scope",
+    "chitchat",
+    "answer"
+   ],
+   "changed_1027": "API 판(api8)에서 쓰는 법(usage)으로 답함 — T47은 '대화 저장 · 인쇄 → PDF' 안내, T54는 '자료에 있는 것만 답함'으로 비서 역할 설명. 둘 다 맞는 답이라 answer(usage)도 받음. 바꾸기 전 api8 58/60"
+  },
+  {
+   "say": "소양동 1인세대 전체는 늘었어요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "livelihood",
+    "solo_seniors"
+   ],
+   "dongs": [
+    "소양동"
+   ]
+  },
+  {
+   "say": "2010년이랑 비교한 거죠?",
+   "kind": [
+    "answer"
+   ],
+   "dongs": [
+    "소양동"
+   ]
+  },
+  {
+   "say": "마지막으로 우리 동 한눈에 정리",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "dong_overview"
+   ],
+   "dongs": [
+    "효자2동"
+   ]
+  },
+  {
+   "say": "PPT로도 줄 수 있어요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "dong_doc"
+   ],
+   "dongs": [
+    "효자2동"
+   ]
+  },
+  {
+   "say": "고마워요 수고하세요",
+   "kind": [
+    "chitchat"
+   ]
+  },
+  {
+   "say": "아 그리고 내일 또 올게요",
+   "kind": [
+    "chitchat"
+   ]
+  }
+ ]
+}

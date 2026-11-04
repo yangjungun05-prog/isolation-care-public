@@ -1,0 +1,37 @@
+{
+ "name": "qbank_p2_7_person",
+ "frozen": "2026-10-26 PC 저녁, 팀장이 준 예상 질문(다른 세션이 만든 56개)을 그대로 옮김. 정답 칸 없음(답을 읽고 봄). ctx는 앞 맥락을 만드는 턴",
+ "profile": {
+  "member_region": "강남구"
+ },
+ "turns": [
+  {
+   "say": "개포3동 ○○아파트 지하에 사시는 김○○ 할머니가 무릎이 안 좋으신데, 이분이 받을 수 있는 서비스가 뭐예요?",
+   "qid": "P2-22",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "지난주부터 연락이 끊긴 어르신이 수서동 △△단지에 사시는데, 그 단지에 혼자 사시는 분이 몇 분인지만이라도 알려 줘요.",
+   "qid": "P2-23",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  }
+ ]
+}

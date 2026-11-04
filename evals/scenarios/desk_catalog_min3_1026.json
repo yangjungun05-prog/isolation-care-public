@@ -1,0 +1,9 @@
+{
+  "name": "desk_catalog_min3_1026",
+  "frozen": "2026-10-26 새벽 — 결과 보기 전에 얼림",
+  "about": "멘토 답 2(10-26 공유): 장서 목록의 주제마다 시험 질문이 3개 이상 있어야 한다. 세어 보니 '쓰는 법'(usage)만 2개라 더한 문제. 형식은 desk_only_60과 같다(데스크 한 장 → 코드 대조 → 칸 적용 → 이륙 전 체크)",
+  "cases": [
+    {"id": "U01", "say": "이 비서로 할 수 있는 게 뭐예요?", "given": {}, "expect": {"kind": ["answer"], "topics": ["usage"]}, "why": "쓰는 법"},
+    {"id": "U02", "say": "처음 써 보는데 어떻게 물어보면 돼요?", "given": {"profile": {"member_region": "춘천시"}}, "expect": {"kind": ["answer"], "topics": ["usage"]}, "why": "쓰는 법(물어보는 방법)"}
+  ]
+}

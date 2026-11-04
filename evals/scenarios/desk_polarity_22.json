@@ -1,0 +1,459 @@
+{
+ "name": "desk_polarity_22",
+ "frozen": "2026-10-26 PC 오후, 긍정 · 부정 칸(팀장 '긍정이랑 부정 슬롯을 따로 만들자 … 코드가 그대로 가져오되 대조')을 만들기 전에 정답 칸을 적고 커밋함. N = 부정(아니라 · 말고 · 빼고 · 제외 · 아닌), H = 머뭇(보다는 · 글쎄 · 일지도 — 머뭇거린 동은 칸에 넣지 않음), K = 부정처럼 보이지만 동은 그대로이거나 긍정",
+ "about": "칸 적용 뒤 동 칸이 정답과 같은지(kind는 답 · 동 되묻기 둘 다 받음)",
+ "cases": [
+  {
+   "id": "N01",
+   "say": "삼성동이 아니라 대치4동 혼자 사는 어르신 몇 명?",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "대치4동"
+    ]
+   },
+   "why": "부정: ~이 아니라"
+  },
+  {
+   "id": "N02",
+   "say": "대치4동 말고 대치1동 청년",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "대치1동"
+    ]
+   },
+   "why": "부정: ~ 말고"
+  },
+  {
+   "id": "N03",
+   "say": "수서동은 빼고 세곡동이랑 일원본동 경로당 비교해줘",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "세곡동",
+     "일원본동"
+    ]
+   },
+   "why": "부정: ~은 빼고"
+  },
+  {
+   "id": "N04",
+   "say": "역삼1동 아닌 역삼2동 얘기야",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "역삼1동"
+     ]
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "역삼2동"
+    ]
+   },
+   "why": "부정: ~ 아닌, 앞 칸 바꿈"
+  },
+  {
+   "id": "N05",
+   "say": "개포3동 말고요, 개포4동이요",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "개포4동"
+    ]
+   },
+   "why": "부정: 말고요"
+  },
+  {
+   "id": "N06",
+   "say": "논현1동 제외하고 논현2동만",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "논현2동"
+    ]
+   },
+   "why": "부정: 제외하고"
+  },
+  {
+   "id": "N07",
+   "say": "청담동이 아니고 압구정동 경로당",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "압구정동"
+    ]
+   },
+   "why": "부정: ~이 아니고"
+  },
+  {
+   "id": "N08",
+   "say": "춘천 퇴계동 말고 석사동 청년 1인가구",
+   "given": {
+    "profile": {
+     "member_region": "춘천시"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "석사동"
+    ]
+   },
+   "why": "부정, 춘천"
+  },
+  {
+   "id": "N09",
+   "say": "효자2동 빼고 후평1동이랑 후평2동 혼자 사는 어르신",
+   "given": {
+    "profile": {
+     "member_region": "춘천시"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "후평1동",
+     "후평2동"
+    ]
+   },
+   "why": "부정 + 둘"
+  },
+  {
+   "id": "N10",
+   "say": "역삼1동이 아니라고 했잖아요, 역삼2동",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "역삼1동"
+     ]
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "역삼2동"
+    ]
+   },
+   "why": "부정 + 짜증"
+  },
+  {
+   "id": "N11",
+   "say": "개포3동 맞아? 아니 개포2동 말한 거야",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "개포2동"
+    ]
+   },
+   "why": "고쳐 말하기"
+  },
+  {
+   "id": "N12",
+   "say": "도곡1동인가.. 아니 도곡2동 어르신",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "도곡2동"
+    ]
+   },
+   "why": "머뭇거리다 고침"
+  },
+  {
+   "id": "H01",
+   "say": "대치4동보다는.. 글쎄 역삼1동 어르신 어때?",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "역삼1동"
+    ]
+   },
+   "why": "머뭇: ~보다는 글쎄"
+  },
+  {
+   "id": "H02",
+   "say": "세곡동일지도 모르겠는데 일단 수서동 혼자 사는 어르신부터",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "수서동"
+    ]
+   },
+   "why": "머뭇: ~일지도"
+  },
+  {
+   "id": "H03",
+   "say": "신북읍보다는 북산면이 더 걱정인데 북산면 버스",
+   "given": {
+    "profile": {
+     "member_region": "춘천시"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "북산면"
+    ]
+   },
+   "why": "견줘 머뭇"
+  },
+  {
+   "id": "K01",
+   "say": "수서동 어르신 아니라 청년이요",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "수서동"
+     ],
+     "target": "어르신"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "수서동"
+    ]
+   },
+   "why": "부정이 동이 아니라 대상에 걸림(동은 그대로)"
+  },
+  {
+   "id": "K02",
+   "say": "일원본동은 아까 봤고 일원1동은?",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "일원본동"
+     ]
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "일원1동"
+    ]
+   },
+   "why": "부정 낱말 없음, 새 동만"
+  },
+  {
+   "id": "K03",
+   "say": "수서동이랑 세곡동 둘 다 보여줘",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "수서동",
+     "세곡동"
+    ]
+   },
+   "why": "긍정 둘"
+  },
+  {
+   "id": "K04",
+   "say": "삼성1동 삼성2동 중에 삼성2동만",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "삼성2동"
+    ]
+   },
+   "why": "고르기"
+  },
+  {
+   "id": "K05",
+   "say": "논현2동은 됐고 신사동 청년",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "신사동"
+    ]
+   },
+   "why": "됐고"
+  },
+  {
+   "id": "K06",
+   "say": "대치4동요",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    },
+    "slots": {
+     "region": "강남구",
+     "dongs": [
+      "수서동"
+     ]
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "대치4동"
+    ]
+   },
+   "why": "짧은 긍정"
+  },
+  {
+   "id": "K07",
+   "say": "수서동 말고 다른 동은 어때? 세곡동",
+   "given": {
+    "profile": {
+     "member_region": "강남구"
+    }
+   },
+   "expect": {
+    "kind": [
+     "answer",
+     "ask_slot"
+    ],
+    "dongs": [
+     "세곡동"
+    ]
+   },
+   "why": "말고 + 새 동"
+  }
+ ]
+}

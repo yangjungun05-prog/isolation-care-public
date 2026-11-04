@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>취약 돌보미 · 우리 동네 고립 살핌</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="app.css?v=1027k">
+<link rel="stylesheet" href="auth.css?v=1025b">
+</head>
+<body>
+<!-- 위 메뉴: 스토리보드 v1.3 — 비서 · 대시보드 · 시뮬레이션 (모든 화면 위) -->
+<header class="nav" id="nav" hidden>
+  <a class="logo" href="#/dashboard" aria-label="취약 돌보미 처음으로">
+    <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M4 22 36 6 26 34 19 25Z" fill="#fff"/><path d="M19 25 36 6 15 27Z" fill="#DCE8F7"/><path d="M15 27 19 25 17 33Z" fill="#B9CFEA"/></svg>
+    <span>취약 돌보미<small>우리 동네 고립 살핌</small></span>
+  </a>
+  <nav class="menu" aria-label="메뉴">
+    <a href="#/assistant" data-route="assistant">비서</a>
+    <a href="#/dashboard" data-route="dashboard">대시보드</a>
+    <a href="#/simulation" data-route="simulation">시뮬레이션</a>
+  </nav>
+  <div class="nav-right">
+    <span class="who" id="who"></span>
+    <button class="pill" id="logout"><i class="ti ti-logout" aria-hidden="true"></i>로그아웃</button>
+  </div>
+</header>
+<main id="view" class="view" tabindex="-1"></main>
+<p class="foot" id="dataNote"></p>
+<dialog id="dlg" class="dlg"></dialog>
+<!-- 로그인 · 회원가입 · 찾기(web/auth.js, 10-25) — 길 나누기는 app.js 가 한다 -->
+<script>window.SALPIM_AUTH = { embed: true, home: "dashboard" };</script>
+<script src="auth.js?v=1028a"></script>
+<script src="app.js?v=1102a"></script>
+</body>
+</html>

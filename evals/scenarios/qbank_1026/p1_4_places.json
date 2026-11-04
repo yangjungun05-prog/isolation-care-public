@@ -1,0 +1,80 @@
+{
+ "name": "qbank_p1_4_places",
+ "frozen": "2026-10-26 PC 저녁, 팀장이 준 예상 질문(다른 세션이 만든 56개)을 그대로 옮김. 정답 칸 없음(답을 읽고 봄). ctx는 앞 맥락을 만드는 턴",
+ "profile": {
+  "member_region": "강남구",
+  "member_dong": "수서동"
+ },
+ "turns": [
+  {
+   "say": "우리 동 근처 경로당 이름이랑 주소 알려주세요.",
+   "qid": "P1-15",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "지금 문 연 약국 중에 가까운 데가 있어요?",
+   "qid": "P1-16",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "북산면에서 버스가 하루에 몇 번 와요? 버스가 드문 마을은 어디예요?",
+   "qid": "P1-17",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "응급안전안심서비스는 어디서 신청해요?",
+   "qid": "P1-18",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "독거노인 1,000명당 공공 자원이 적은 동은 어디예요?",
+   "qid": "P1-19",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  }
+ ]
+}

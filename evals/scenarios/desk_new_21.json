@@ -1,0 +1,28 @@
+{
+ "name": "desk_new_21",
+ "frozen": "2026-10-15 04:10 KST — 원문 자료 · 엑셀 · 성별 · 계속 쓰는 조건 · 대상 바꾸기를 붙인 뒤(71d9e77 · ca7ad08), 실제 데스크로 재기 전에 얼림",
+ "about": "10-14~15에 새로 붙인 기능을 데스크(AI)가 알아듣는지. desk_only_60과 같은 방식(데스크 한 장 → 코드 대조 → 칸 적용 → 이륙 전 체크). 기대값은 설계 v3 · 장서 목록 설명대로",
+ "cases": [
+  {"id": "N01", "say": "보건복지부 자료 뭐 있어?", "given": {}, "expect": {"kind": ["answer"], "topics": ["datasets"]}, "why": "10-08 팀장 장면 ② 그대로"},
+  {"id": "N02", "say": "우리가 쓰는 자료 목록 보여 줘", "given": {}, "expect": {"kind": ["answer"], "topics": ["datasets"]}, "why": "설계 v3 원문 자료 서가 예"},
+  {"id": "N03", "say": "수급자 원본은 어디서 받을 수 있어요?", "given": {"profile": {"member_region": "춘천시"}}, "expect": {"kind": ["answer"], "topics": ["datasets", "sources"]}, "why": "원본 받는 곳"},
+  {"id": "N04", "say": "이 자료 홍보물에 써도 돼요? 이용 조건이 어떻게 돼요?", "given": {"slots": {"region": "강남구", "dongs": ["수서동"]}, "topics": ["solo_seniors"]}, "expect": {"kind": ["answer"], "topics": ["datasets", "sources"]}, "why": "이용 조건"},
+  {"id": "N05", "say": "이 숫자 어디서 나온 거야?", "given": {"slots": {"region": "강남구", "dongs": ["수서동"]}, "topics": ["solo_seniors"]}, "expect": {"kind": ["answer"], "topics": ["sources", "datasets"]}, "why": "출처 서가와 겹쳐도 답은 됨"},
+  {"id": "X01", "say": "그거 엑셀로 줘", "given": {"slots": {"region": "강남구"}, "topics": ["solo_seniors"]}, "expect": {"kind": ["answer"], "topics": ["solo_seniors"], "fmt": "엑셀"}, "why": "질문 모음 7번 갈래 '그거 엑셀로'"},
+  {"id": "X02", "say": "강남구 22개 동 독거노인 수를 동별로 엑셀로 받을 수 있어?", "given": {"profile": {"member_region": "강남구"}}, "expect": {"kind": ["answer"], "topics": ["solo_seniors", "seoul_lonely"], "region": "강남구", "fmt": "엑셀"}, "why": "질문 모음(구청) 그대로"},
+  {"id": "X03", "say": "춘천 청년 동별로 CSV로 줘", "given": {}, "expect": {"kind": ["answer"], "topics": ["youth"], "region": "춘천시", "fmt": "엑셀"}, "why": "CSV도 엑셀 칸"},
+  {"id": "X04", "say": "수서동 상황 PDF로 정리해줘", "given": {}, "expect": {"kind": ["answer"], "topics": ["dong_doc"], "dongs": ["수서동"]}, "why": "동 상황 문서는 그대로(엑셀 칸과 안 섞임)"},
+  {"id": "X05", "say": "기초수급자 동별 표 파일로 줘", "given": {"slots": {"region": "춘천시"}}, "expect": {"kind": ["answer"], "topics": ["livelihood"], "fmt": "엑셀"}, "why": "표 파일"},
+  {"id": "S01", "say": "수서동 혼자 사시는 할머니 몇 분이에요?", "given": {}, "expect": {"kind": ["answer"], "topics": ["solo_seniors", "seoul_lonely"], "dongs": ["수서동"], "sex": "여"}, "why": "강남 성별"},
+  {"id": "S02", "say": "강남에서 혼자 사는 할아버지 제일 많은 동", "given": {}, "expect": {"kind": ["answer"], "topics": ["solo_seniors", "seoul_lonely"], "region": "강남구", "rank": true, "sex": "남"}, "why": "강남 성별 줄 세우기"},
+  {"id": "S03", "say": "북산면 할머니 혼자 사는 분 몇 명", "given": {}, "expect": {"kind": ["answer"], "topics": ["solo_seniors"], "dongs": ["북산면"], "sex": "여"}, "why": "춘천은 밝힘(성별 숫자 없음)"},
+  {"id": "T01", "say": "참고로 저는 앞으로 80세 이상 어르신만 볼 거예요", "given": {}, "expect": {"kind": ["chitchat"], "ages": {"lo": 80, "hi": null}}, "why": "계속 쓰는 조건(문제 목록 4-3)"},
+  {"id": "T02", "say": "앞으로 청년은 25~29세만 볼게요", "given": {}, "expect": {"kind": ["chitchat"], "target": "청년", "ages": {"lo": 25, "hi": 29}}, "why": "계속 쓰는 조건"},
+  {"id": "V01", "say": "동내면만 어르신", "given": {"slots": {"region": "춘천시", "dongs": ["동면", "동내면"], "target": "청년"}, "topics": ["youth"]}, "expect": {"kind": ["answer"], "topics": ["solo_seniors"], "dongs": ["동내면"], "target": "어르신"}, "why": "r3_1014 춘천 청년 T44"},
+  {"id": "V02", "say": "거기 청년은?", "given": {"slots": {"region": "강남구", "dongs": ["수서동"], "target": "어르신"}, "topics": ["solo_seniors"]}, "expect": {"kind": ["answer"], "topics": ["youth"], "dongs": ["수서동"], "target": "청년"}, "why": "대상 바꾸기"},
+  {"id": "V03", "say": "작년보다 늘었어요?", "given": {"slots": {"region": "춘천시", "dongs": ["북산면"]}, "topics": ["livelihood"]}, "expect": {"kind": ["answer"], "topics": ["livelihood"], "dongs": ["북산면"]}, "why": "이어 묻기(10-14 떠보기 L2)"},
+  {"id": "O01", "say": "SKT 유동인구 원본 csv로 줘", "given": {}, "expect": {"kind": ["out_of_scope", "answer", "blocked"], "topics": ["datasets"]}, "why": "대회 자료는 목록에도 없음 — 범위 밖이거나 자료 목록(없다고 답)"},
+  {"id": "O02", "say": "수서동 독거노인 명단 엑셀로 뽑아줘", "given": {}, "expect": {"kind": ["blocked", "out_of_scope"]}, "why": "명단은 엑셀이어도 막음"},
+  {"id": "O03", "say": "보고서 문장 좀 다듬어 줘", "given": {}, "expect": {"kind": ["out_of_scope", "unclear"]}, "why": "다른 일"}
+ ]
+}

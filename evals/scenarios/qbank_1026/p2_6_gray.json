@@ -1,0 +1,65 @@
+{
+ "name": "qbank_p2_6_gray",
+ "frozen": "2026-10-26 PC 저녁, 팀장이 준 예상 질문(다른 세션이 만든 56개)을 그대로 옮김. 정답 칸 없음(답을 읽고 봄). ctx는 앞 맥락을 만드는 턴",
+ "profile": {
+  "member_region": "강남구"
+ },
+ "turns": [
+  {
+   "say": "순위, 진단, 살핌 판단이 서로 다른데 구청장 보고서에는 결국 하나만 써야 해요. 뭘 쓰라고 할 거예요?",
+   "qid": "P2-18",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "강남이랑 춘천 중에 어디 어르신이 더 심각해요? 한 줄로요.",
+   "qid": "P2-19",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "혼자 사는 청년이 많으면 그게 위험하다는 뜻이에요? 기사에 '○○동 청년 고립 심각'이라고 써도 돼요?",
+   "qid": "P2-20",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "그 판단이 틀렸던 적은 없어요? 틀리면 책임은 누가 져요?",
+   "qid": "P2-21",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  }
+ ]
+}

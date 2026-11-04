@@ -1,0 +1,95 @@
+{
+ "name": "village_6",
+ "frozen": "2026-10-27 새벽 PC, 결과 보기 전에 얼림. 팀장 '마을 단위 조건 넣기' 확인용 — 정답 칸 없음(답을 읽고 봄). 1 여러 조건(예상 질문 2-2) · 2 이어 묻기 · 3 요일 · 4 읍면 조건과 섞기 · 5 단순 질문(계산 아님) · 6 강남(마을 자료 없음)",
+ "profile": {
+  "member_region": "춘천시"
+ },
+ "turns": [
+  {
+   "say": "춘천 읍면 중에 버스가 하루 5번 이하로 다니고 약국이 먼 마을이 있는 곳을 알려 줘요.",
+   "qid": "V1",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "그중에 슬레이트 지붕 집이 많은 마을은?",
+   "qid": "V2",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "사북면에서 일요일에 약국이 먼 마을은 어디예요?",
+   "qid": "V3",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "혼자 사는 80세 이상이 많은 면 중에 약국이 5km 넘게 먼 마을은?",
+   "qid": "V4",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "북산면 버스 하루 몇 번 와요?",
+   "qid": "V5",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell"
+   ]
+  },
+  {
+   "say": "강남에서 버스가 드문 동은?",
+   "qid": "V6",
+   "kind": [
+    "answer",
+    "ask_slot",
+    "recall",
+    "chitchat",
+    "out_of_scope",
+    "unclear",
+    "blocked",
+    "farewell",
+    "coverage"
+   ],
+   "changed_1027": "f406daf(10-27)가 '지역에 없는 자료' 안내를 새 종류 coverage로 냈다. 얼릴 때는 없던 종류라 더함(api1027b · c 모두 coverage로 답함, 내용은 맞음)"
+  }
+ ]
+}

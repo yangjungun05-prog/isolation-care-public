@@ -1,0 +1,1086 @@
+{
+ "name": "long_100",
+ "frozen": "2026-10-12 밤, 결과를 보기 전에 쓰고 커밋함",
+ "profile": {
+  "member_region": "강남구",
+  "member_dong": null
+ },
+ "changed": "10-15 T90 '역삼2동은 다시 매기면 몇 위예요?'에 글 기대값(has 17위 · not 확인되지 않 · 자료에 없 · 만들 수 없 · 할 수 없)을 더함(결과를 본 뒤, 까닭: 주제 · 동만 보는 채점이 10-13 · 14 · 15 세 번 모두 '역삼2동 순위는 확인되지 않아요 · 다시 매길 수 없어요'(틀린 말 — 자료에 지금 13위 · 다시 매기면 17위)를 통과로 셈, 문제 목록 1-4). 이 기대값으로 다시 채점하면 r5_1015는 99/100 / 10-13 기대값 둘을 바꿈(결과를 본 뒤, 까닭: 갈 곳 · 지원 기관 서가를 이어 이제 답할 수 있음). T31 '북산면 경로당은요?' coverage → answer(places · senior_hall), T82 '근처 노인맞춤돌봄 수행기관' not_connected → answer(support · places). 바꾸기 전 점수 98/100(r2_places_fix, 틀린 둘이 이 두 턴) / 10-13 버스 두 턴(T34 '북산면 버스는 하루 몇 번' · T72 '거기 버스는요?'(신북읍)) not_connected → answer(bus)(결과를 보기 전, 까닭: 춘천 버스 서가를 이음(설계로 바뀜)). 바꾸기 전 점수 100/100(r5_final) / 10-13 동 상황 문서 · 날씨 네 턴(T33 '내일 춘천 날씨' · T85 '석사동 동 상황 PDF' · T95 '그거 PPT로' · T99 '서울 날씨는?') not_connected → answer(결과를 보기 전, 까닭: 동 상황 문서 서가를 잇고 날씨를 동 상황의 조건으로 넣음 — 설계로 바뀜). 바꾸기 전 점수 r7_bus2를 보고 적음",
+ "note": "kind: 받아들이는 처리 종류. topic: 답일 때 주제 중 하나라도 맞으면 됨. dongs: 턴이 끝난 뒤 칸의 동(순서 무관). target: 턴이 끝난 뒤 칸의 대상. region: 턴이 끝난 뒤 칸의 지역 【10-19】 2026 최신 판으로 춘천 1위가 북산면 → 효자2동이 되어 T28 ~ T30의 동 기대값을 효자2동으로 바꿈(T31은 북산면을 직접 말해 그대로). T30은 빈집 말이 나와야 함.",
+ "turns": [
+  {
+   "say": "안녕하세요",
+   "kind": [
+    "chitchat"
+   ]
+  },
+  {
+   "say": "저는 강남구청 복지정책과에서 어르신 돌봄을 맡고 있어요",
+   "kind": [
+    "chitchat"
+   ]
+  },
+  {
+   "say": "주로 수서동을 챙겨요",
+   "kind": [
+    "chitchat",
+    "answer"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "수서동 혼자 사는 어르신 몇 명이에요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors"
+   ],
+   "dongs": [
+    "수서동"
+   ],
+   "target": "어르신"
+  },
+  {
+   "say": "작년보다 늘었어요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "실제로 혼자 사는 분은 얼마나 될까요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "서울시 독거노인 현황으로는요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "seoul_lonely"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "청년은요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "수서동"
+   ],
+   "target": "청년"
+  },
+  {
+   "say": "거의 집에만 있는 청년은 몇 명쯤이에요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "음식물 쓰레기 처리 비용은 얼마예요?",
+   "kind": [
+    "out_of_scope"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "그럼 수서동 사는 집은 어때요? 오래된 계단 집 같은 거",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "housing"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "경로당은 몇 곳이에요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "senior_hall"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "개포3동은 왜 1위예요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "diagnosis"
+   ],
+   "dongs": [
+    "개포3동"
+   ]
+  },
+  {
+   "say": "거기 혼자 사는 어르신은요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors"
+   ],
+   "dongs": [
+    "개포3동"
+   ],
+   "target": "어르신"
+  },
+  {
+   "say": "수서동이랑 개포3동 혼자 사는 어르신 비교해 줘",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors"
+   ],
+   "dongs": [
+    "수서동",
+    "개포3동"
+   ]
+  },
+  {
+   "say": "오늘 코스피 어때요?",
+   "kind": [
+    "out_of_scope"
+   ]
+  },
+  {
+   "say": "강남에서 먼저 볼 동 알려줘",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "priority"
+   ],
+   "region": "강남구"
+  },
+  {
+   "say": "3위 동은 상황이 어때요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "dong_overview",
+    "diagnosis"
+   ],
+   "dongs": [
+    "논현2동"
+   ]
+  },
+  {
+   "say": "그 동 청년 상황도요",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "논현2동"
+   ],
+   "target": "청년"
+  },
+  {
+   "say": "김순자 할머니 집 주소 알려줄 수 있어요?",
+   "kind": [
+    "blocked"
+   ]
+  },
+  {
+   "say": "아까 처음에 물어본 동 경로당 넓이가 어떻게 됐죠?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "senior_hall"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "강남 평균보다 넓어요 좁아요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "senior_hall"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "판교동 상황도 알려줘",
+   "kind": [
+    "out_of_scope",
+    "unknown_dong"
+   ]
+  },
+  {
+   "say": "아 그럼 대치1동은요?",
+   "kind": [
+    "answer"
+   ],
+   "dongs": [
+    "대치1동"
+   ]
+  },
+  {
+   "say": "독거노인 중에 수급이나 저소득 명단에 없는 비율이 높다던데 맞아요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "diagnosis",
+    "dong_overview",
+    "seoul_lonely"
+   ],
+   "dongs": [
+    "대치1동"
+   ]
+  },
+  {
+   "say": "고마워요",
+   "kind": [
+    "chitchat"
+   ]
+  },
+  {
+   "say": "이제 춘천도 볼게요. 춘천에서 먼저 볼 동은?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "priority"
+   ],
+   "region": "춘천시"
+  },
+  {
+   "say": "1위 동은 왜 1위예요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "diagnosis"
+   ],
+   "dongs": [
+    "효자2동"
+   ]
+  },
+  {
+   "say": "거기 기초생활수급자는 몇 명이에요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "livelihood"
+   ],
+   "dongs": [
+    "효자2동"
+   ]
+  },
+  {
+   "say": "빈집도 있어요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "livelihood"
+   ],
+   "dongs": [
+    "효자2동"
+   ],
+   "has": [
+    "빈집"
+   ]
+  },
+  {
+   "say": "북산면 경로당은요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "places",
+    "senior_hall"
+   ],
+   "dongs": [
+    "북산면"
+   ]
+  },
+  {
+   "say": "그럼 혼자 사는 어르신은요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors"
+   ],
+   "dongs": [
+    "북산면"
+   ],
+   "target": "어르신"
+  },
+  {
+   "say": "내일 춘천 날씨 어때요?",
+   "kind": [
+    "answer"
+   ]
+  },
+  {
+   "say": "북산면 버스는 하루 몇 번 다녀요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "bus"
+   ],
+   "dongs": [
+    "북산면"
+   ]
+  },
+  {
+   "say": "교동은 수급자가 많은 편이에요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "livelihood"
+   ],
+   "dongs": [
+    "교동"
+   ]
+  },
+  {
+   "say": "효자2동이랑 교동 수급자 비교해 줘",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "livelihood"
+   ],
+   "dongs": [
+    "효자2동",
+    "교동"
+   ]
+  },
+  {
+   "say": "자살하겠다는 분이 지금 옆에 계세요",
+   "kind": [
+    "blocked"
+   ]
+  },
+  {
+   "say": "네 연락했어요. 효자2동 청년은 어때요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth",
+    "outlook"
+   ],
+   "dongs": [
+    "효자2동"
+   ],
+   "target": "청년",
+   "changed_1020": {
+    "before": {
+     "topic": [
+      "youth"
+     ]
+    },
+    "why": "r2_1020(99/100): '청년은 어때요?'는 10-20 새로 생긴 취약 돌보미 판단(outlook)으로도 읽힌다(어떻게 지내는지 묻는 말). 판단으로 답한 것은 맞는 읽기라 outlook도 받는다"
+   }
+  },
+  {
+   "say": "80세 이상 어르신은 몇 명이에요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors",
+    "dong_overview"
+   ],
+   "dongs": [
+    "효자2동"
+   ],
+   "target": "어르신"
+  },
+  {
+   "say": "그럼 청년 중에 25살에서 29살은요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "효자2동"
+   ],
+   "target": "청년"
+  },
+  {
+   "say": "제 담당 지역을 춘천 효자2동으로 바꿔 주세요",
+   "kind": [
+    "settings"
+   ]
+  },
+  {
+   "say": "먼저 볼 동은요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "priority"
+   ],
+   "region": "춘천시"
+  },
+  {
+   "say": "제 담당 지역이 지금 어디로 돼 있죠?",
+   "kind": [
+    "settings",
+    "recall"
+   ]
+  },
+  {
+   "say": "다시 강남구로 바꿔 줘",
+   "kind": [
+    "settings"
+   ]
+  },
+  {
+   "say": "먼저 볼 동",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "priority"
+   ],
+   "region": "강남구"
+  },
+  {
+   "say": "청년 몇 명이에요?",
+   "kind": [
+    "ask_slot"
+   ]
+  },
+  {
+   "say": "역삼1동이요",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "역삼1동"
+   ]
+  },
+  {
+   "say": "어르신은요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors",
+    "dong_overview"
+   ],
+   "dongs": [
+    "역삼1동"
+   ],
+   "target": "어르신"
+  },
+  {
+   "say": "사음서음동 혼자 사는 어르신",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors"
+   ],
+   "dongs": [
+    "삼성1동",
+    "삼성2동"
+   ]
+  },
+  {
+   "say": "tntjehd 청년",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "수서동"
+   ],
+   "target": "청년"
+  },
+  {
+   "say": "아파트 시세 알려줘",
+   "kind": [
+    "out_of_scope"
+   ]
+  },
+  {
+   "say": "그거 말고 수서동 계단 집 다시 알려줘",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "housing"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "이 숫자들 어디서 나온 거예요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "sources"
+   ]
+  },
+  {
+   "say": "어떤 걸 물어볼 수 있어요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "usage"
+   ]
+  },
+  {
+   "say": "세곡동 상황 알려줘",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "dong_overview"
+   ],
+   "dongs": [
+    "세곡동"
+   ]
+  },
+  {
+   "say": "작년이랑 비교하면 혼자 사는 어르신 늘었어요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors"
+   ],
+   "dongs": [
+    "세곡동"
+   ]
+  },
+  {
+   "say": "서울시 독거노인은 2023년부터 얼마나 늘었어요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "seoul_lonely"
+   ],
+   "dongs": [
+    "세곡동"
+   ]
+  },
+  {
+   "say": "그 동 집 상황은요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "housing"
+   ],
+   "dongs": [
+    "세곡동"
+   ]
+  },
+  {
+   "say": "경로당은?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "senior_hall"
+   ],
+   "dongs": [
+    "세곡동"
+   ]
+  },
+  {
+   "say": "왜 이 동이 16위예요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "diagnosis"
+   ],
+   "dongs": [
+    "세곡동"
+   ]
+  },
+  {
+   "say": "우리 구청 복지예산은 얼마예요?",
+   "kind": [
+    "out_of_scope"
+   ]
+  },
+  {
+   "say": "알겠어요. 압구정동 청년은요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "압구정동"
+   ],
+   "target": "청년"
+  },
+  {
+   "say": "거기 거의 집에만 있는 청년 어림은 어떻게 만든 거예요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth",
+    "sources"
+   ]
+  },
+  {
+   "say": "아까 강남에서 3위였던 동 기억나요? 거기 경로당은요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "senior_hall"
+   ],
+   "dongs": [
+    "논현2동"
+   ]
+  },
+  {
+   "say": "청담동 혼자 사시는 어르신 몇 분이에요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors"
+   ],
+   "dongs": [
+    "청담동"
+   ],
+   "target": "어르신"
+  },
+  {
+   "say": "남자 어르신만 따로 볼 수 있어요?",
+   "kind": [
+    "answer"
+   ],
+   "dongs": [
+    "청담동"
+   ]
+  },
+  {
+   "say": "청담동 주민 이름 목록 있어요?",
+   "kind": [
+    "blocked"
+   ]
+  },
+  {
+   "say": "오케이",
+   "kind": [
+    "chitchat"
+   ]
+  },
+  {
+   "say": "도곡2동이랑 대치1동 서울시 독거노인 비교해 줘",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "seoul_lonely"
+   ],
+   "dongs": [
+    "도곡2동",
+    "대치1동"
+   ]
+  },
+  {
+   "say": "둘 다 주민등록보다 적은 거죠?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "seoul_lonely"
+   ],
+   "dongs": [
+    "도곡2동",
+    "대치1동"
+   ]
+  },
+  {
+   "say": "춘천 신북읍 상황",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "dong_overview"
+   ],
+   "dongs": [
+    "신북읍"
+   ]
+  },
+  {
+   "say": "거기 버스는요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "bus"
+   ],
+   "dongs": [
+    "신북읍"
+   ]
+  },
+  {
+   "say": "그럼 수급자는?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "livelihood"
+   ],
+   "dongs": [
+    "신북읍"
+   ]
+  },
+  {
+   "say": "빈집은?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "livelihood"
+   ],
+   "dongs": [
+    "신북읍"
+   ]
+  },
+  {
+   "say": "동면 청년",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "동면"
+   ]
+  },
+  {
+   "say": "효자동 혼자 사는 어르신",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors"
+   ],
+   "dongs": [
+    "효자1동",
+    "효자2동",
+    "효자3동"
+   ]
+  },
+  {
+   "say": "효자2동만 다시 보여 줘",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors"
+   ],
+   "dongs": [
+    "효자2동"
+   ]
+  },
+  {
+   "say": "강원도 원주시 독거노인은요?",
+   "kind": [
+    "out_of_scope",
+    "unknown_dong"
+   ]
+  },
+  {
+   "say": "이 비서 누가 만들었어요?",
+   "kind": [
+    "out_of_scope",
+    "chitchat",
+    "answer"
+   ]
+  },
+  {
+   "say": "후평3동 진단 결과",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "diagnosis"
+   ],
+   "dongs": [
+    "후평3동"
+   ]
+  },
+  {
+   "say": "갈 곳이 적다는 건 무슨 뜻이에요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "diagnosis",
+    "sources"
+   ]
+  },
+  {
+   "say": "근처 노인맞춤돌봄 수행기관 알려줘",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "support",
+    "places"
+   ]
+  },
+  {
+   "say": "석사동 청년 몇 명?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "석사동"
+   ]
+  },
+  {
+   "say": "1인세대는요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "석사동"
+   ]
+  },
+  {
+   "say": "석사동 동 상황 PDF로 만들어 줘",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "dong_doc"
+   ],
+   "dongs": [
+    "석사동"
+   ]
+  },
+  {
+   "say": "알겠어요. 퇴계동 혼자 사는 어르신",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors"
+   ],
+   "dongs": [
+    "퇴계동"
+   ]
+  },
+  {
+   "say": "작년 대비 얼마나 늘었죠?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "solo_seniors"
+   ],
+   "dongs": [
+    "퇴계동"
+   ]
+  },
+  {
+   "say": "제가 처음에 어디 담당이라고 했었죠?",
+   "kind": [
+    "recall"
+   ]
+  },
+  {
+   "say": "아까 물어본 동들 정리해 줘",
+   "kind": [
+    "recall"
+   ]
+  },
+  {
+   "say": "역삼2동은 다시 매기면 몇 위예요?",
+   "kind": [
+    "answer"
+   ],
+   "dongs": [
+    "역삼2동"
+   ],
+   "has": [
+    "17위"
+   ],
+   "not": [
+    "확인되지 않",
+    "자료에 없",
+    "만들 수 없",
+    "할 수 없"
+   ]
+  },
+  {
+   "say": "그게 무슨 뜻이에요?",
+   "kind": [
+    "answer"
+   ]
+  },
+  {
+   "say": "일원본동 계단 집",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "housing"
+   ],
+   "dongs": [
+    "일원본동"
+   ]
+  },
+  {
+   "say": "몇 퍼센트예요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "housing"
+   ],
+   "dongs": [
+    "일원본동"
+   ]
+  },
+  {
+   "say": "마지막으로 수서동 한눈에 정리해 줘",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "dong_overview"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "그거 PPT로 줄 수 있어요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "dong_doc"
+   ],
+   "dongs": [
+    "수서동"
+   ]
+  },
+  {
+   "say": "고마워요 많이 도움 됐어요",
+   "kind": [
+    "chitchat"
+   ]
+  },
+  {
+   "say": "아 하나만 더. 개포2동 청년",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "개포2동"
+   ]
+  },
+  {
+   "say": "거기 혼자 사는 청년은요?",
+   "kind": [
+    "answer"
+   ],
+   "topic": [
+    "youth"
+   ],
+   "dongs": [
+    "개포2동"
+   ]
+  },
+  {
+   "say": "음 서울 날씨는?",
+   "kind": [
+    "answer",
+    "out_of_scope"
+   ]
+  },
+  {
+   "say": "이제 끝낼게요",
+   "kind": [
+    "chitchat"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+/* 취약 돌보미 회원 화면(로그인 · 회원가입 · 찾기) — 팀원 화면(web/app.css)의 하늘 + 흰 종이 느낌을 따른다.
+   옮길 때 팀원 스타일과 부딪히지 않게 이름은 모두 au- 로 시작한다. 색 이름 · 값은 app.css 와 같다 */
+:root {
+  --sky-1: oklch(0.58 0.17 254); --sky-2: oklch(0.80 0.09 240);
+  --blue: oklch(0.52 0.19 258); --blue-ink: oklch(0.42 0.17 260);
+  --ink: oklch(0.27 0.06 260); --sub: oklch(0.50 0.04 258); --faint: oklch(0.66 0.03 255);
+  --paper: oklch(0.995 0.004 250); --paper-2: oklch(0.965 0.012 245); --bg: oklch(0.975 0.01 245);
+  --line: oklch(0.91 0.018 250); --fold: oklch(0.88 0.03 248);
+  --ok: oklch(0.55 0.14 150); --bad: oklch(0.56 0.2 27);
+  --shadow: 0 1px 2px oklch(0.4 0.05 255 / .06), 0 8px 24px oklch(0.45 0.08 255 / .10);
+  --r: 18px;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.6 "Pretendard Variable", Pretendard, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+
+.au-page { min-height: 100vh; display: grid; place-items: start center; padding: 40px 16px 60px;
+  background: linear-gradient(170deg, var(--sky-1) 0%, oklch(0.68 0.13 248) 45%, var(--sky-2) 100%); }
+.au-logo { display: flex; align-items: center; gap: 10px; color: var(--paper); text-decoration: none; margin-bottom: 18px; }
+.au-logo svg { width: 34px; height: 34px; }
+.au-logo b { font-size: 22px; font-weight: 800; letter-spacing: .02em; }
+.au-logo small { display: block; font-size: 11px; opacity: .85; font-weight: 500; }
+
+/* 【판단】 감싸는 칸에 너비를 정한다 — 안 정하면 긴 글줄만큼 넓어져 화면 밖으로 밀린다 */
+.au-wrap { width: min(520px, 100%); }
+.au-wrap.wide { width: min(620px, 100%); }
+.au-paper { position: relative; width: 100%; background: var(--paper); border-radius: var(--r);
+  box-shadow: var(--shadow); padding: 26px 26px 22px;
+  clip-path: polygon(0 0, calc(100% - 26px) 0, 100% 26px, 100% 100%, 0 100%); }
+.au-paper::after { content: ""; position: absolute; top: 0; right: 0; width: 26px; height: 26px;
+  background: linear-gradient(225deg, transparent 50%, var(--fold) 50%); }
+.au-paper h1 { margin: 0 0 4px; font-size: 26px; font-weight: 800; color: var(--blue-ink); }
+.au-paper h2 { margin: 0 0 4px; font-size: 20px; font-weight: 800; }
+.au-lead { margin: 0 0 18px; color: var(--sub); }
+
+.au-steps { display: flex; gap: 6px; margin: 0 0 18px; padding: 0; list-style: none; font-size: 12px; }
+.au-steps li { flex: 1; text-align: center; padding: 6px 2px; border-radius: 8px; background: var(--paper-2); color: var(--faint); }
+.au-steps li.done { color: var(--sub); }
+.au-steps li.on { background: var(--blue); color: var(--paper); font-weight: 700; }
+
+.au-field { margin: 0 0 14px; }
+.au-field > label, .au-label { display: block; font-size: 13px; font-weight: 600; margin: 0 0 6px; }
+.au-req { color: var(--bad); margin-left: 2px; }
+.au-row { display: flex; gap: 8px; align-items: center; }
+.au-row > .au-input { flex: 1; min-width: 0; }
+.au-input, .au-select { width: 100%; font: inherit; color: inherit; padding: 10px 12px; border: 1px solid var(--line);
+  border-radius: 10px; background: var(--paper); }
+.au-input:focus, .au-select:focus { outline: 3px solid oklch(0.85 0.08 245); border-color: var(--blue); }
+.au-input.bad, .au-select.bad { border-color: var(--bad); background: oklch(0.98 0.02 27); }
+.au-input[readonly] { background: var(--paper-2); color: var(--sub); }
+.au-msg { font-size: 13px; margin: 6px 0 0; color: var(--sub); }
+.au-msg.bad { color: var(--bad); }
+.au-msg.ok { color: var(--ok); }
+.au-checks { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 12.5px; margin-top: 6px; }
+.au-checks span { color: var(--faint); }
+.au-checks span.ok { color: var(--ok); }
+.au-checks span.bad { color: var(--bad); }
+.au-timer { font-variant-numeric: tabular-nums; color: var(--bad); font-weight: 700; min-width: 44px; }
+
+.au-btn { display: inline-flex; gap: 6px; align-items: center; justify-content: center; border: 1px solid var(--line);
+  background: var(--paper); color: var(--ink); font: inherit; font-weight: 600; padding: 10px 16px; border-radius: 10px;
+  cursor: pointer; white-space: nowrap; text-decoration: none; }
+.au-btn:hover { background: var(--paper-2); }
+.au-btn.primary { background: var(--blue); color: var(--paper); border-color: var(--blue); }
+.au-btn.primary:hover { background: var(--blue-ink); }
+.au-btn.block { width: 100%; padding: 12px; font-size: 16px; }
+.au-btn:disabled { opacity: .45; cursor: not-allowed; }
+.au-acts { display: flex; gap: 8px; justify-content: space-between; margin-top: 20px; }
+.au-acts .au-btn.primary { flex: 1; }
+.au-links { display: flex; justify-content: center; gap: 14px; margin: 14px 0 4px; font-size: 14px; }
+.au-links a { color: var(--sub); text-decoration: none; }
+.au-links a:hover { color: var(--blue-ink); text-decoration: underline; }
+.au-note { margin: 16px 0 0; padding: 10px 12px; border-radius: 10px; background: var(--paper-2); color: var(--sub); font-size: 12.5px; }
+.au-note p { margin: 2px 0; }
+.au-alert { margin: 10px 0 0; padding: 10px 12px; border-radius: 10px; background: oklch(0.97 0.025 27); color: var(--bad); font-size: 13.5px; }
+.au-alert p { margin: 2px 0; }
+.au-check { display: flex; gap: 8px; align-items: center; font-size: 14px; cursor: pointer; }
+.au-check input { width: 18px; height: 18px; accent-color: var(--blue); }
+
+.au-kinds { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.au-kind { text-align: left; border: 2px solid var(--line); background: var(--paper); border-radius: 14px; padding: 14px;
+  cursor: pointer; font: inherit; color: inherit; }
+.au-kind b { display: block; font-size: 17px; }
+.au-kind small { display: block; color: var(--sub); margin: 2px 0 8px; }
+.au-kind ul { margin: 0; padding-left: 16px; font-size: 13px; color: var(--sub); }
+.au-kind.on { border-color: var(--blue); background: oklch(0.97 0.02 250); }
+
+.au-terms { border: 1px solid var(--line); border-radius: 12px; }
+.au-term { padding: 10px 12px; border-top: 1px solid var(--line); }
+.au-term:first-child { border-top: 0; background: var(--paper-2); border-radius: 12px 12px 0 0; }
+.au-term .au-row { justify-content: space-between; }
+.au-term button.link { border: 0; background: none; color: var(--sub); font: inherit; font-size: 13px; cursor: pointer; }
+.au-term-body { margin: 8px 0 0 26px; font-size: 13px; color: var(--sub); }
+.au-term-body p { margin: 3px 0; }
+.au-table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 6px 0; }
+.au-table th { text-align: left; white-space: nowrap; color: var(--ink); padding: 4px 10px 4px 0; vertical-align: top; width: 1%; }
+.au-table td { padding: 4px 0; }
+
+.au-who { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; padding: 10px 12px; border-radius: 10px;
+  background: var(--paper-2); font-size: 14px; margin-bottom: 14px; }
+.au-who .ok { color: var(--ok); font-weight: 700; }
+.au-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.au-chip { display: inline-flex; gap: 4px; align-items: center; padding: 4px 6px 4px 10px; border-radius: 999px;
+  background: oklch(0.95 0.03 250); color: var(--blue-ink); font-size: 13px; font-weight: 600; }
+.au-chip button { border: 0; background: none; color: inherit; cursor: pointer; font-size: 14px; padding: 0 4px; }
+
+.au-done { text-align: center; }
+.au-done .mark { width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; margin: 4px auto 10px;
+  background: oklch(0.95 0.05 150); color: var(--ok); font-size: 30px; font-weight: 800; }
+.au-done .au-table { max-width: 360px; margin: 14px auto; text-align: left; }
+
+.au-tabs { display: flex; border-bottom: 1px solid var(--line); margin: 0 0 18px; }
+.au-tabs a { flex: 1; text-align: center; padding: 10px; text-decoration: none; color: var(--sub); font-weight: 600;
+  border-bottom: 3px solid transparent; }
+.au-tabs a.on { color: var(--blue-ink); border-bottom-color: var(--blue); }
+.au-found { margin-top: 14px; padding: 12px; border-radius: 12px; background: oklch(0.97 0.03 150); }
+
+/* 팝업(잠김 · 비로그인 · 세션 만료) — 뒤를 어둡게, 가운데에 */
+.au-dlg { border: 0; border-radius: var(--r); padding: 22px 22px 18px; width: min(380px, calc(100% - 32px));
+  box-shadow: var(--shadow); color: var(--ink); }
+.au-dlg::backdrop { background: oklch(0.2 0.03 260 / .55); }
+.au-dlg h3 { margin: 0 0 8px; font-size: 19px; }
+.au-dlg p { margin: 4px 0; color: var(--sub); }
+.au-dlg .big { font-size: 22px; font-weight: 800; color: var(--ink); }
+
+/* 시험용 첫 화면(로그인 뒤) */
+.au-home { width: min(620px, 100%); }
+.au-home .au-paper { width: 100%; margin-bottom: 14px; }
+.au-bar { display: flex; justify-content: space-between; align-items: center; color: var(--paper); margin-bottom: 14px; }
+.au-bar .au-btn { background: transparent; color: var(--paper); border-color: oklch(1 0 0 / .6); }
+
+@media (max-width: 520px) {
+  .au-kinds { grid-template-columns: 1fr; }
+  .au-paper { padding: 22px 16px 18px; }
+  .au-steps { font-size: 11px; }
+}
