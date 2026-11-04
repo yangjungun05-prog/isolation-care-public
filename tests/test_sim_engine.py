@@ -36,8 +36,8 @@ def test_probability_match_notebook():
     fa, fb = a["gap"][:, 36], b["gap"][:, 36]
     assert round(float(np.median(fa)), 1) == 3.0
     assert np.percentile(fa, [10, 90]).round(1).tolist() == [2.0, 5.5]
-    assert round(float(np.median(fb)), 1) == 1.7
-    assert round(float((fb > fa).mean()), 2) == 0.19
+    assert round(float(np.median(fb)), 1) == 2.0
+    assert round(float((fb > fa).mean()), 2) == 0.22
 
 
 def test_effect_needs_money_and_effect():

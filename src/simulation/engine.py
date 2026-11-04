@@ -102,7 +102,8 @@ def reached(
     # 【판단】 점수 높은 순 k 명(노트북 27단계) — 모델 위험 순은 p, 고립자 먼저는 고립(0/1) + p
     score = r["p"] if order == "모델 위험 순" else r["risk"] + r["p"]
     k = int(round(len(idx) * reach))
-    top = idx[np.argsort(-score[idx])[:k]]
+    # 【판단】 합계표 주민은 칸마다 점수가 같다 → 동점 순서가 컴퓨터마다 달라지지 않게 stable 로 정렬
+    top = idx[np.argsort(-score[idx], kind="stable")[:k]]
     one = np.zeros(n, dtype=bool)
     one[top] = True
     # 【문법】 np.tile(배열, (seeds, 1)) = 같은 줄을 seeds 번 쌓는다 — 점수 순은 주사위와 상관없다

@@ -94,4 +94,4 @@ def test_same_as_before():
     )
     assert out["plan"]["finals"] == a["finals"] and out["compare"]["finals"] == b["finals"]
     assert out["safe"] == safe["final"] and out["tornado"] == torn
-    assert out["plan"]["final"]["median"] == 10.75 and out["compare"]["final"]["median"] == 17.5
+    assert out["plan"]["final"]["median"] == 10.75 and out["compare"]["final"]["median"] == 18.0
